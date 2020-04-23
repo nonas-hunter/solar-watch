@@ -50,14 +50,14 @@ $EndComp
 $Comp
 L luke:Regulator_LP2980-ADJ U?
 U 1 1 5EA1F2AF
-P 6250 2050
-F 0 "U?" H 6250 2417 50  0000 C CNN
-F 1 "Regulator_LP2980-ADJ" H 6250 2326 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-5" H 6250 2550 50  0001 L CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lp2980-adj.pdf" H 6250 2350 50  0001 L CNN
-F 4 "https://www.digikey.com/product-detail/en/texas-instruments/LP2980IM5-ADJ-NOPB/LP2980IM5-ADJ-NOPBCT-ND/483134" H 6250 2650 50  0001 L CNN "Purchasing Link"
-F 5 "LP2980IM5-ADJ/NOPBCT-ND " H 6250 2750 50  0001 L CNN "Digi-Key_PN"
-	1    6250 2050
+P 5900 1450
+F 0 "U?" H 5900 1817 50  0000 C CNN
+F 1 "Regulator_LP2980-ADJ" H 5900 1726 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 5900 1950 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lp2980-adj.pdf" H 5900 1750 50  0001 L CNN
+F 4 "https://www.digikey.com/product-detail/en/texas-instruments/LP2980IM5-ADJ-NOPB/LP2980IM5-ADJ-NOPBCT-ND/483134" H 5900 2050 50  0001 L CNN "Purchasing Link"
+F 5 "LP2980IM5-ADJ/NOPBCT-ND " H 5900 2150 50  0001 L CNN "Digi-Key_PN"
+	1    5900 1450
 	1    0    0    -1  
 $EndComp
 $Comp
