@@ -1,6 +1,28 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# luke_BAT_ML2020
+#
+DEF luke_BAT_ML2020 BT 0 0 N N 1 F N
+F0 "BT" 100 100 50 H V L CNN
+F1 "luke_BAT_ML2020" 100 0 50 H V L CNN
+F2 "" 0 60 50 V I C CNN
+F3 "" 0 60 50 V I C CNN
+F4 "https://www.digikey.com/product-detail/en/panasonic-bsg/ML-2020-F1AN/P664-ND/2404069" 0 -400 50 H I C CNN "Purchasing Link"
+F5 "P664-ND " 0 -500 50 H I C CNN "Digi-Key_PN"
+F6 "https://industrial.panasonic.com/cdbs/www-data/pdf/AAF4000/AAF4000COL8.pdf" 0 -600 50 H I C CNN "Charging Datasheet"
+DRAW
+S -90 70 90 60 0 1 0 F
+S -62 47 58 27 0 1 0 F
+P 2 0 1 0 0 30 0 0 N
+P 2 0 1 0 0 70 0 100 N
+P 2 0 1 10 20 135 60 135 N
+P 2 0 1 10 40 155 40 115 N
+X + 1 0 200 100 D 50 50 1 1 P
+X - 2 0 -100 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # luke_C_1uF
 #
 DEF luke_C_1uF C 0 10 N Y 1 F N
@@ -101,6 +123,27 @@ X OUTB 6 300 -200 100 L 50 50 1 1 O
 ENDDRAW
 ENDDEF
 #
+# luke_D-Schotkey_BAT54HT1G
+#
+DEF luke_D-Schotkey_BAT54HT1G D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "luke_D-Schotkey_BAT54HT1G" 0 -100 50 H V C CNN
+F2 "Diode_SMD:D_SOD-323" 0 -175 50 H I C CNN
+F3 "" 450 200 50 H I C CNN
+F4 "BAT54HT1GOSCT-ND" 0 -300 50 H I C CNN "Digi-Key_PN"
+F5 "https://www.digikey.com/product-detail/en/on-semiconductor/BAT54HT1G/BAT54HT1GOSCT-ND/917809" 0 -400 50 H I C CNN "Purchasing Link"
+$FPLIST
+ D*DO?35*
+$ENDFPLIST
+DRAW
+P 2 0 1 8 -50 50 -50 -50 N
+P 2 0 1 0 50 0 -50 0 N
+P 4 0 1 8 50 50 50 -50 -50 0 50 50 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # luke_MCU_STM32L051K8Tx
 #
 DEF luke_MCU_STM32L051K8Tx U 0 20 Y Y 1 F N
@@ -147,6 +190,46 @@ X PA0 6 500 700 100 L 50 50 1 1 B
 X PA1 7 500 600 100 L 50 50 1 1 B
 X PA2 8 500 500 100 L 50 50 1 1 B
 X PA3 9 500 400 100 L 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# luke_R_160
+#
+DEF luke_R_160 R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "luke_R_160" -100 0 50 V V C CNN
+F2 "Resistor_SMD:R_0805_2012Metric" -1100 300 50 H I L CNN
+F3 "" -1100 400 50 H I L CNN
+F4 "311-160ARCT-ND" -1100 200 60 H I L CNN "Digi-Key_PN"
+F5 "https://www.digikey.com/product-detail/en/yageo/RC0805JR-07160RL/311-160ARCT-ND/731206" -1100 500 60 H I L CNN "Purchasing Link"
+$FPLIST
+ R_*
+ Resistor_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# luke_R_2.21M
+#
+DEF luke_R_2.21M R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "luke_R_2.21M" -100 0 50 V V C CNN
+F2 "Resistor_SMD:R_0805_2012Metric" -1100 300 50 H I L CNN
+F3 "" -1100 400 50 H I L CNN
+F4 "541-2.21MCCT-ND " -1100 200 60 H I L CNN "Digi-Key_PN"
+F5 "https://www.digikey.com/product-detail/en/vishay-dale/CRCW08052M21FKEA/541-2-21MCCT-ND/1181164" -1100 500 60 H I L CNN "Purchasing Link"
+$FPLIST
+ R_*
+ Resistor_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -212,6 +295,37 @@ X VOUT 5 400 100 100 L 50 50 1 1 w
 ENDDRAW
 ENDDEF
 #
+# luke_Solar-Cells_KXOB25-02X8F
+#
+DEF luke_Solar-Cells_KXOB25-02X8F SC 0 0 N N 1 F N
+F0 "SC" 100 100 50 H V L CNN
+F1 "luke_Solar-Cells_KXOB25-02X8F" 100 0 50 H V L CNN
+F2 "" 0 60 50 V I C CNN
+F3 "" 0 60 50 V I L CNN
+F4 "KXOB25-02X8F-ND" 100 -100 50 H I L CNN "Digi-Key_PN"
+F5 "https://www.digikey.com/product-detail/en/ixys/KXOB25-02X8F-TR/KXOB25-02X8FCT-ND/9990480" 100 -200 50 H I L CNN "Purchasing Link"
+DRAW
+S -80 -55 80 -65 0 1 0 F
+S -80 70 80 60 0 1 0 F
+S -52 -78 50 -98 0 1 0 F
+S -52 47 50 27 0 1 0 F
+P 2 0 1 0 -100 10 -160 70 N
+P 2 0 1 0 -100 90 -160 150 N
+P 2 0 1 0 0 -60 0 -50 N
+P 2 0 1 0 0 -40 0 -30 N
+P 2 0 1 0 0 -20 0 -10 N
+P 2 0 1 0 0 0 0 10 N
+P 2 0 1 0 0 20 0 30 N
+P 2 0 1 0 0 70 0 100 N
+P 2 0 1 10 10 105 50 105 N
+P 2 0 1 10 30 125 30 85 N
+P 3 0 1 0 -100 40 -100 10 -130 10 N
+P 3 0 1 0 -100 120 -100 90 -130 90 N
+X + 1 0 200 100 D 50 50 1 1 P
+X - 2 0 -200 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # luke_Transistor_MMBT3904-TP
 #
 DEF luke_Transistor_MMBT3904-TP Q 0 0 Y N 1 F N
@@ -246,6 +360,20 @@ F3 "" 0 0 50 H I C CNN
 DRAW
 P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
 X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_VCC
+#
+DEF power_VCC #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_VCC" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 75 25 0 1 0 N
+P 2 0 1 0 0 0 0 50 N
+X VCC 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
