@@ -50,27 +50,53 @@ $EndComp
 $Comp
 L luke:Regulator_LP2980-ADJ U?
 U 1 1 5EA1F2AF
-P 6250 2050
-F 0 "U?" H 6250 2417 50  0000 C CNN
-F 1 "Regulator_LP2980-ADJ" H 6250 2326 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-5" H 6250 2550 50  0001 L CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lp2980-adj.pdf" H 6250 2350 50  0001 L CNN
-F 4 "https://www.digikey.com/product-detail/en/texas-instruments/LP2980IM5-ADJ-NOPB/LP2980IM5-ADJ-NOPBCT-ND/483134" H 6250 2650 50  0001 L CNN "Purchasing Link"
-F 5 "LP2980IM5-ADJ/NOPBCT-ND " H 6250 2750 50  0001 L CNN "Digi-Key_PN"
-	1    6250 2050
+P 5900 1450
+F 0 "U?" H 5900 1817 50  0000 C CNN
+F 1 "Regulator_LP2980-ADJ" H 5900 1726 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 5900 1950 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lp2980-adj.pdf" H 5900 1750 50  0001 L CNN
+F 4 "https://www.digikey.com/product-detail/en/texas-instruments/LP2980IM5-ADJ-NOPB/LP2980IM5-ADJ-NOPBCT-ND/483134" H 5900 2050 50  0001 L CNN "Purchasing Link"
+F 5 "LP2980IM5-ADJ/NOPBCT-ND " H 5900 2150 50  0001 L CNN "Digi-Key_PN"
+	1    5900 1450
 	1    0    0    -1  
 $EndComp
 $Comp
-L luke:Transistor-BJT_MMBT3904-TP Q?
-U 1 1 5EA1FA57
-P 5250 4500
-F 0 "Q?" H 5440 4546 50  0000 L CNN
-F 1 "Transistor-BJT_MMBT3904-TP" H 5440 4455 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 5450 4425 50  0001 L CIN
-F 3 "https://www.mccsemi.com/pdf/Products/MMBT3904(SOT-23).pdf" H 5250 4500 50  0001 L CNN
-F 4 "https://www.digikey.com/product-detail/en/micro-commercial-co/MMBT3904-TP/MMBT3904TPMSCT-ND/717395" H 5250 4500 50  0001 L CNN "Purchasing Link"
-F 5 "MMBT3904TPMSCT-ND " H 5250 4500 50  0001 L CNN "Digi-Key_PN"
-	1    5250 4500
+L luke:Transistor_MMBT3904-TP Q?
+U 1 1 5EA32A90
+P 5350 4400
+F 0 "Q?" H 5540 4446 50  0000 L CNN
+F 1 "Transistor_MMBT3904-TP" H 5540 4355 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5550 4300 50  0001 L CIN
+F 3 "https://www.mccsemi.com/pdf/Products/MMBT3904(SOT-23).pdf" H 5350 4400 50  0001 L CNN
+F 4 "https://www.digikey.com/product-detail/en/micro-commercial-co/MMBT3904-TP/MMBT3904TPMSCT-ND/717395" H 5550 4200 50  0001 L CNN "Purchasing Link"
+F 5 "MMBT3904TPMSCT-ND " H 5550 4100 50  0001 L CNN "Digi-Key_PN"
+	1    5350 4400
 	1    0    0    -1  
 $EndComp
+$Comp
+L luke:C_4.7uF C?
+U 1 1 5EA337B8
+P 6850 1600
+F 0 "C?" H 6965 1646 50  0000 L CNN
+F 1 "C_4.7uF" H 6965 1555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 6850 950 50  0001 C CNN
+F 3 "http://datasheets.avx.com/TAJ.pdf" H 6875 1700 50  0001 C CNN
+F 4 "478-3868-2-ND " H 6850 1050 60  0001 C CNN "Digi-Key_PN"
+F 5 "https://www.digikey.com/product-detail/en/avx-corporation/TAJA475K016RNJ/478-3868-2-ND/1126796" H 6850 850 60  0001 C CNN "Purchasing Link"
+	1    6850 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5EA36173
+P 6850 1900
+F 0 "#PWR?" H 6850 1650 50  0001 C CNN
+F 1 "GND" H 6855 1727 50  0000 C CNN
+F 2 "" H 6850 1900 50  0001 C CNN
+F 3 "" H 6850 1900 50  0001 C CNN
+	1    6850 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6850 1750 6850 1900
 $EndSCHEMATC
