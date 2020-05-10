@@ -193,6 +193,46 @@ X PA3 9 500 400 100 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
+# luke_R_1.2M
+#
+DEF luke_R_1.2M R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "luke_R_1.2M" -100 0 50 V V C CNN
+F2 "Resistor_SMD:R_0805_2012Metric" -1100 300 50 H I L CNN
+F3 "" -1100 400 50 H I L CNN
+F4 "311-1.20MCRCT-ND " -1100 200 60 H I L CNN "Digi-Key_PN"
+F5 "https://www.digikey.com/product-detail/en/yageo/RC0805FR-071M2L/311-1-20MCRCT-ND/730414" -1100 500 60 H I L CNN "Purchasing Link"
+$FPLIST
+ R_*
+ Resistor_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# luke_R_100K
+#
+DEF luke_R_100K R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "luke_R_100K" -100 0 50 V V C CNN
+F2 "Resistor_SMD:R_0805_2012Metric" -1100 300 50 H I L CNN
+F3 "" -1100 400 50 H I L CNN
+F4 "311-100KCRCT-ND" -1100 200 60 H I L CNN "Digi-Key_PN"
+F5 "https://www.digikey.com/product-detail/en/yageo/RC0805FR-07100KL/311-100KCRCT-ND/730491" -1100 500 60 H I L CNN "Purchasing Link"
+$FPLIST
+ R_*
+ Resistor_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # luke_R_160
 #
 DEF luke_R_160 R 0 0 N Y 1 F N
@@ -213,15 +253,35 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# luke_R_2.21M
+# luke_R_200K
 #
-DEF luke_R_2.21M R 0 0 N Y 1 F N
+DEF luke_R_200K R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "luke_R_2.21M" -100 0 50 V V C CNN
+F1 "luke_R_200K" -100 0 50 V V C CNN
 F2 "Resistor_SMD:R_0805_2012Metric" -1100 300 50 H I L CNN
 F3 "" -1100 400 50 H I L CNN
-F4 "541-2.21MCCT-ND " -1100 200 60 H I L CNN "Digi-Key_PN"
-F5 "https://www.digikey.com/product-detail/en/vishay-dale/CRCW08052M21FKEA/541-2-21MCCT-ND/1181164" -1100 500 60 H I L CNN "Purchasing Link"
+F4 "YAG3357CT-ND" -1100 200 60 H I L CNN "Digi-Key_PN"
+F5 "https://www.digikey.com/product-detail/en/yageo/RT0805BRD07200KL/YAG3357CT-ND/5418062" -1100 500 60 H I L CNN "Purchasing Link"
+$FPLIST
+ R_*
+ Resistor_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# luke_R_49.9K
+#
+DEF luke_R_49.9K R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "luke_R_49.9K" -100 0 50 V V C CNN
+F2 "Resistor_SMD:R_0805_2012Metric" -1100 300 50 H I L CNN
+F3 "" -1100 400 50 H I L CNN
+F4 "311-49.9KCRCT-ND" -1100 200 60 H I L CNN "Digi-Key_PN"
+F5 "https://www.digikey.com/product-detail/en/yageo/RC0805FR-0749K9L/311-49-9KCRCT-ND/730932" -1100 500 60 H I L CNN "Purchasing Link"
 $FPLIST
  R_*
  Resistor_*
@@ -326,27 +386,24 @@ X - 2 0 -200 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# luke_Transistor_MMBT3904-TP
+# luke_Transistor_FZT796ATA
 #
-DEF luke_Transistor_MMBT3904-TP Q 0 0 Y N 1 F N
-F0 "Q" 200 75 50 H V L CNN
-F1 "luke_Transistor_MMBT3904-TP" 200 0 50 H V L CNN
-F2 "Package_TO_SOT_SMD:SOT-23" 200 -100 50 H I L CIN
+DEF luke_Transistor_FZT796ATA Q 0 0 Y N 1 F N
+F0 "Q" 200 50 50 H V L CNN
+F1 "luke_Transistor_FZT796ATA" 200 -50 50 H V L CNN
+F2 "Package_TO_SOT_SMD:SOT-223" 200 -150 50 H I L CNN
 F3 "" 0 0 50 H I L CNN
-F4 "https://www.digikey.com/product-detail/en/micro-commercial-co/MMBT3904-TP/MMBT3904TPMSCT-ND/717395" 200 -200 50 H I L CNN "Purchasing Link"
-F5 "MMBT3904TPMSCT-ND " 200 -300 50 H I L CNN "Digi-Key_PN"
-$FPLIST
- SOT?23*
-$ENDFPLIST
+F4 "FZT796ACT-ND" 200 -250 50 H I L CNN "Digi-Key_PN"
+F5 "https://www.digikey.com/product-detail/en/diodes-incorporated/FZT796ATA/FZT796ACT-ND/190896" 200 -350 50 H I L CNN "Purchasing Link"
 DRAW
 C 50 0 111 0 1 10 N
 P 2 0 1 0 25 25 100 100 N
 P 3 0 1 0 25 -25 100 -100 100 -100 N
 P 3 0 1 20 25 75 25 -75 25 -75 N
-P 5 0 1 0 50 -70 70 -50 90 -90 50 -70 50 -70 F
+P 5 0 1 0 90 -70 70 -90 50 -50 90 -70 90 -70 F
 X B 1 -200 0 225 R 50 50 1 1 I
-X E 2 100 -200 100 U 50 50 1 1 P
-X C 3 100 200 100 D 50 50 1 1 P
+X C 2 100 200 100 D 50 50 1 1 P
+X E 3 100 -200 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #

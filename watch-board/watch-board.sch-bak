@@ -14,27 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L luke:Comparitor_TPS3700DDCR U?
-U 1 1 5EA1DA1C
-P 8550 3300
-F 0 "U?" H 8650 3600 60  0000 C CNN
-F 1 "Comparitor_TPS3700DDCR" H 9150 3500 60  0000 C CNN
-F 2 "digikey-footprints:SOT-23-6" H 8750 3500 60  0001 L CNN
-F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftps3700" H 8750 3600 60  0001 L CNN
-F 4 "296-30395-1-ND" H 8750 3700 60  0001 L CNN "Digi-Key_PN"
-F 5 "TPS3700DDCR" H 8750 3800 60  0001 L CNN "MPN"
-F 6 "Integrated Circuits (ICs)" H 8750 3900 60  0001 L CNN "Category"
-F 7 "Linear - Comparators" H 8750 4000 60  0001 L CNN "Family"
-F 8 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftps3700" H 8750 4100 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/texas-instruments/TPS3700DDCR/296-30395-1-ND/3250123" H 8750 4200 60  0001 L CNN "DK_Detail_Page"
-F 10 "IC COMP WINDOW W/REF 6SOT" H 8750 4300 60  0001 L CNN "Description"
-F 11 "Texas Instruments" H 8750 4400 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 8750 4500 60  0001 L CNN "Status"
-F 13 "https://www.digikey.com/product-detail/en/texas-instruments/TPS3700DDCR/296-30395-1-ND/3250123" H 8750 3600 50  0001 L CNN "Purchasing Link"
-	1    8550 3300
-	1    0    0    -1  
-$EndComp
-$Comp
 L luke:MCU_STM32L051K8Tx U?
 U 1 1 5EA1E829
 P 3600 2900
@@ -58,19 +37,6 @@ F 3 "http://www.ti.com/lit/ds/symlink/lp2980-adj.pdf" H 7550 1900 50  0001 L CNN
 F 4 "https://www.digikey.com/product-detail/en/texas-instruments/LP2980IM5-ADJ-NOPB/LP2980IM5-ADJ-NOPBCT-ND/483134" H 7550 2200 50  0001 L CNN "Purchasing Link"
 F 5 "LP2980IM5-ADJ/NOPBCT-ND " H 7550 2300 50  0001 L CNN "Digi-Key_PN"
 	1    7550 1600
-	1    0    0    -1  
-$EndComp
-$Comp
-L luke:Transistor_MMBT3904-TP Q?
-U 1 1 5EA32A90
-P 5350 4400
-F 0 "Q?" H 5540 4446 50  0000 L CNN
-F 1 "Transistor_MMBT3904-TP" H 5540 4355 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 5550 4300 50  0001 L CIN
-F 3 "https://www.mccsemi.com/pdf/Products/MMBT3904(SOT-23).pdf" H 5350 4400 50  0001 L CNN
-F 4 "https://www.digikey.com/product-detail/en/micro-commercial-co/MMBT3904-TP/MMBT3904TPMSCT-ND/717395" H 5550 4200 50  0001 L CNN "Purchasing Link"
-F 5 "MMBT3904TPMSCT-ND " H 5550 4100 50  0001 L CNN "Digi-Key_PN"
-	1    5350 4400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -192,29 +158,29 @@ $EndComp
 $Comp
 L luke:C_1uF C?
 U 1 1 5EA86DAA
-P 6550 1750
-F 0 "C?" H 6665 1846 50  0000 L CNN
-F 1 "C_1uF" H 6665 1755 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 6588 2350 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_Y5V_6.3V-to-50V_9.pdf" H 6575 2600 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/yageo/CC0805ZKY5V9BB105/311-1909-1-ND/5195811#images" H 6975 2250 60  0001 C CNN "Purchasing Link"
-F 5 "311-1909-1-ND " H 6550 2450 50  0001 C CNN "Digi-Key_PN"
-	1    6550 1750
+P 6850 1750
+F 0 "C?" H 6965 1846 50  0000 L CNN
+F 1 "C_1uF" H 6965 1755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6888 2350 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_Y5V_6.3V-to-50V_9.pdf" H 6875 2600 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/yageo/CC0805ZKY5V9BB105/311-1909-1-ND/5195811#images" H 7275 2250 60  0001 C CNN "Purchasing Link"
+F 5 "311-1909-1-ND " H 6850 2450 50  0001 C CNN "Digi-Key_PN"
+	1    6850 1750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7150 1500 6550 1500
+	7150 1500 7050 1500
 Wire Wire Line
 	6550 1500 6550 1550
 $Comp
 L power:GND #PWR?
 U 1 1 5EA88D89
-P 6550 1850
-F 0 "#PWR?" H 6550 1600 50  0001 C CNN
-F 1 "GND" H 6555 1677 50  0000 C CNN
-F 2 "" H 6550 1850 50  0001 C CNN
-F 3 "" H 6550 1850 50  0001 C CNN
-	1    6550 1850
+P 6850 1850
+F 0 "#PWR?" H 6850 1600 50  0001 C CNN
+F 1 "GND" H 6855 1677 50  0000 C CNN
+F 2 "" H 6850 1850 50  0001 C CNN
+F 3 "" H 6850 1850 50  0001 C CNN
+	1    6850 1850
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -269,107 +235,266 @@ $EndComp
 $Comp
 L luke:Solar-Cells_KXOB25-02X8F SC?
 U 1 1 5EA9B4E8
-P 6250 1750
-F 0 "SC?" H 6050 1750 50  0000 R CNN
-F 1 "Solar-Cells_KXOB25-02X8F" H 6050 1650 50  0000 R CNN
-F 2 "" V 6250 1810 50  0001 C CNN
-F 3 "https://ixapps.ixys.com/DataSheet/IXOLAR_PRESENTATION_2019.pdf" V 6250 1810 50  0001 L CNN
-F 4 "KXOB25-02X8F-ND" H 6350 1650 50  0001 L CNN "Digi-Key_PN"
-F 5 "https://www.digikey.com/product-detail/en/ixys/KXOB25-02X8F-TR/KXOB25-02X8FCT-ND/9990480" H 6350 1550 50  0001 L CNN "Purchasing Link"
-	1    6250 1750
+P 6550 1750
+F 0 "SC?" H 6350 1750 50  0000 R CNN
+F 1 "Solar-Cells_KXOB25-02X8F" H 6350 1650 50  0000 R CNN
+F 2 "" V 6550 1810 50  0001 C CNN
+F 3 "https://ixapps.ixys.com/DataSheet/IXOLAR_PRESENTATION_2019.pdf" V 6550 1810 50  0001 L CNN
+F 4 "KXOB25-02X8F-ND" H 6650 1650 50  0001 L CNN "Digi-Key_PN"
+F 5 "https://www.digikey.com/product-detail/en/ixys/KXOB25-02X8F-TR/KXOB25-02X8FCT-ND/9990480" H 6650 1550 50  0001 L CNN "Purchasing Link"
+	1    6550 1750
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5EAA0C42
-P 6250 1950
-F 0 "#PWR?" H 6250 1700 50  0001 C CNN
-F 1 "GND" H 6255 1777 50  0000 C CNN
-F 2 "" H 6250 1950 50  0001 C CNN
-F 3 "" H 6250 1950 50  0001 C CNN
-	1    6250 1950
+P 6550 1950
+F 0 "#PWR?" H 6550 1700 50  0001 C CNN
+F 1 "GND" H 6555 1777 50  0000 C CNN
+F 2 "" H 6550 1950 50  0001 C CNN
+F 3 "" H 6550 1950 50  0001 C CNN
+	1    6550 1950
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6550 1500 6250 1500
-Wire Wire Line
-	6250 1500 6250 1550
-Connection ~ 6550 1500
 $Comp
 L luke:BAT_ML2020 BT?
 U 1 1 5EABD008
-P 6700 3350
-F 0 "BT?" H 6818 3446 50  0000 L CNN
-F 1 "BAT_ML2020" H 6818 3355 50  0000 L CNN
-F 2 "" V 6700 3410 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Panasonic%20Inustrial/ML_Serie.pdf" V 6700 3410 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/panasonic-bsg/ML-2020-F1AN/P664-ND/2404069" H 6700 2950 50  0001 C CNN "Purchasing Link"
-F 5 "P664-ND " H 6700 2850 50  0001 C CNN "Digi-Key_PN"
-F 6 "https://industrial.panasonic.com/cdbs/www-data/pdf/AAF4000/AAF4000COL8.pdf" H 6700 2750 50  0001 C CNN "Charging Datasheet"
-	1    6700 3350
+P 9250 5850
+F 0 "BT?" H 9368 5946 50  0000 L CNN
+F 1 "BAT_ML2020" H 9368 5855 50  0000 L CNN
+F 2 "" V 9250 5910 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Panasonic%20Inustrial/ML_Serie.pdf" V 9250 5910 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/panasonic-bsg/ML-2020-F1AN/P664-ND/2404069" H 9250 5450 50  0001 C CNN "Purchasing Link"
+F 5 "P664-ND " H 9250 5350 50  0001 C CNN "Digi-Key_PN"
+F 6 "https://industrial.panasonic.com/cdbs/www-data/pdf/AAF4000/AAF4000COL8.pdf" H 9250 5250 50  0001 C CNN "Charging Datasheet"
+	1    9250 5850
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5EABF4A7
-P 6700 3450
-F 0 "#PWR?" H 6700 3200 50  0001 C CNN
-F 1 "GND" H 6705 3277 50  0000 C CNN
-F 2 "" H 6700 3450 50  0001 C CNN
-F 3 "" H 6700 3450 50  0001 C CNN
-	1    6700 3450
+P 9250 5950
+F 0 "#PWR?" H 9250 5700 50  0001 C CNN
+F 1 "GND" H 9255 5777 50  0000 C CNN
+F 2 "" H 9250 5950 50  0001 C CNN
+F 3 "" H 9250 5950 50  0001 C CNN
+	1    9250 5950
 	1    0    0    -1  
 $EndComp
 $Comp
 L luke:R_160 R?
 U 1 1 5EAC0639
-P 6700 2900
-F 0 "R?" H 6770 2946 50  0000 L CNN
-F 1 "R_160" H 6770 2855 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 5600 3200 50  0001 L CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 5600 3300 50  0001 L CNN
-F 4 "311-160ARCT-ND" H 5600 3100 60  0001 L CNN "Digi-Key_PN"
-F 5 "https://www.digikey.com/product-detail/en/yageo/RC0805JR-07160RL/311-160ARCT-ND/731206" H 5600 3400 60  0001 L CNN "Purchasing Link"
-	1    6700 2900
+P 9250 5400
+F 0 "R?" H 9320 5446 50  0000 L CNN
+F 1 "R_160" H 9320 5355 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 8150 5700 50  0001 L CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 8150 5800 50  0001 L CNN
+F 4 "311-160ARCT-ND" H 8150 5600 60  0001 L CNN "Digi-Key_PN"
+F 5 "https://www.digikey.com/product-detail/en/yageo/RC0805JR-07160RL/311-160ARCT-ND/731206" H 8150 5900 60  0001 L CNN "Purchasing Link"
+	1    9250 5400
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	9250 5550 9250 5600
+Text Notes 7450 6650 0    50   ~ 0
+Calcular ESR is 886Ohms\n160Ohm resistor used for current limiting durring charging
+Text Label 7450 2850 0    50   ~ 0
+V_BAT
+Wire Wire Line
+	9250 5600 9350 5600
+Connection ~ 9250 5600
+Wire Wire Line
+	9250 5600 9250 5650
+Text Label 9350 5600 0    50   ~ 0
+V_BAT
+Wire Wire Line
+	7450 2900 7450 2850
+Wire Wire Line
+	7150 1600 7050 1600
+Wire Wire Line
+	7050 1600 7050 1500
+Connection ~ 7050 1500
+Wire Wire Line
+	7050 1500 6850 1500
+Wire Wire Line
+	6850 1550 6850 1500
+Connection ~ 6850 1500
+Wire Wire Line
+	6850 1500 6550 1500
+$Comp
+L luke:D-Schotkey_BAT54HT1G D?
+U 1 1 5EB26078
+P 9250 5000
+F 0 "D?" V 9204 5079 50  0000 L CNN
+F 1 "D-Schotkey_BAT54HT1G" V 9295 5079 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-323" H 9250 4825 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Fairchild%20PDFs/BAT54HT1G_Rev_1.2.pdf" H 9700 5200 50  0001 C CNN
+F 4 "BAT54HT1GOSCT-ND" H 9250 4700 50  0001 C CNN "Digi-Key_PN"
+F 5 "https://www.digikey.com/product-detail/en/on-semiconductor/BAT54HT1G/BAT54HT1GOSCT-ND/917809" H 9250 4600 50  0001 C CNN "Purchasing Link"
+	1    9250 5000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9250 5250 9250 5200
 $Comp
 L power:VCC #PWR?
-U 1 1 5EAC2FCB
-P 6700 2750
-F 0 "#PWR?" H 6700 2600 50  0001 C CNN
-F 1 "VCC" H 6717 2923 50  0000 C CNN
-F 2 "" H 6700 2750 50  0001 C CNN
-F 3 "" H 6700 2750 50  0001 C CNN
-	1    6700 2750
+U 1 1 5EB30111
+P 9250 4850
+F 0 "#PWR?" H 9250 4700 50  0001 C CNN
+F 1 "VCC" H 9267 5023 50  0000 C CNN
+F 2 "" H 9250 4850 50  0001 C CNN
+F 3 "" H 9250 4850 50  0001 C CNN
+	1    9250 4850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6700 3050 6700 3100
+	9150 5200 9250 5200
+Connection ~ 9250 5200
+Wire Wire Line
+	9250 5200 9250 5150
+Text Label 9500 1500 0    50   ~ 0
+V_Charge
+Wire Wire Line
+	9350 1500 9500 1500
+Text Label 9150 5200 2    50   ~ 0
+V_Charge
 $Comp
-L luke:R_2.21M R?
-U 1 1 5EADBF65
-P 7750 3150
-F 0 "R?" H 7680 3104 50  0000 R CNN
-F 1 "R_2.21M" H 7680 3195 50  0000 R CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 6650 3450 50  0001 L CNN
-F 3 "https://www.vishay.com/docs/20035/dcrcwe3.pdf" H 6650 3550 50  0001 L CNN
-F 4 "541-2.21MCCT-ND " H 6650 3350 60  0001 L CNN "Digi-Key_PN"
-F 5 "https://www.digikey.com/product-detail/en/vishay-dale/CRCW08052M21FKEA/541-2-21MCCT-ND/1181164" H 6650 3650 60  0001 L CNN "Purchasing Link"
-	1    7750 3150
+L luke:R_1.2M R?
+U 1 1 5EB7CE59
+P 7450 3050
+F 0 "R?" H 7520 3096 50  0000 L CNN
+F 1 "R_1.2M" H 7520 3005 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 6350 3350 50  0001 L CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 6350 3450 50  0001 L CNN
+F 4 "311-1.20MCRCT-ND " H 6350 3250 60  0001 L CNN "Digi-Key_PN"
+F 5 "https://www.digikey.com/product-detail/en/yageo/RC0805FR-071M2L/311-1-20MCRCT-ND/730414" H 6350 3550 60  0001 L CNN "Purchasing Link"
+	1    7450 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L luke:R_100K R?
+U 1 1 5EB6FEEF
+P 7450 3450
+F 0 "R?" H 7520 3496 50  0000 L CNN
+F 1 "R_100K" H 7520 3405 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 6350 3750 50  0001 L CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 6350 3850 50  0001 L CNN
+F 4 "311-100KCRCT-ND" H 6350 3650 60  0001 L CNN "Digi-Key_PN"
+F 5 "https://www.digikey.com/product-detail/en/yageo/RC0805FR-07100KL/311-100KCRCT-ND/730491" H 6350 3950 60  0001 L CNN "Purchasing Link"
+	1    7450 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L luke:R_200K R?
+U 1 1 5EB70753
+P 7450 3850
+F 0 "R?" H 7520 3896 50  0000 L CNN
+F 1 "R_200K" H 7520 3805 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 6350 4150 50  0001 L CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RT_1-to-0.01_RoHS_L_11.pdf" H 6350 4250 50  0001 L CNN
+F 4 "YAG3357CT-ND" H 6350 4050 60  0001 L CNN "Digi-Key_PN"
+F 5 "https://www.digikey.com/product-detail/en/yageo/RT0805BRD07200KL/YAG3357CT-ND/5418062" H 6350 4350 60  0001 L CNN "Purchasing Link"
+	1    7450 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7450 3200 7450 3250
+Wire Wire Line
+	7450 3600 7450 3650
+Wire Wire Line
+	8150 3500 8000 3500
+Wire Wire Line
+	8000 3500 8000 3650
+Wire Wire Line
+	8000 3650 7450 3650
+Connection ~ 7450 3650
+Wire Wire Line
+	7450 3650 7450 3700
+Wire Wire Line
+	8150 3400 8000 3400
+Wire Wire Line
+	8000 3400 8000 3250
+Wire Wire Line
+	8000 3250 7450 3250
+Connection ~ 7450 3250
+Wire Wire Line
+	7450 3250 7450 3300
+$Comp
+L power:GND #PWR?
+U 1 1 5EB7C064
+P 7450 4000
+F 0 "#PWR?" H 7450 3750 50  0001 C CNN
+F 1 "GND" H 7455 3827 50  0000 C CNN
+F 2 "" H 7450 4000 50  0001 C CNN
+F 3 "" H 7450 4000 50  0001 C CNN
+	1    7450 4000
+	1    0    0    -1  
+$EndComp
+Text Notes 5400 3450 0    50   ~ 0
+Rt = 1500000 (high value for low current draw)\nR3 = (Rt/Vo)*Vi\nR2 = ((Rt/Vu)*(Vi-Vhys))-R3\nR1 = Rt - R2 - R3\nVi = 0.4V\nVo = 3V\nVu = 2V\nVhys = 5.5mV [(Vi+) - (Vi-)]\n\nR2 =95875 (rounding up to 100K for convience)\nR3 = 200K
+$Comp
+L luke:Transistor_FZT796ATA Q?
+U 1 1 5EBA9338
+P 8350 5850
+F 0 "Q?" H 8541 5804 50  0000 L CNN
+F 1 "Transistor_FZT796ATA" H 8541 5895 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-223" H 8550 5700 50  0001 L CNN
+F 3 "https://www.diodes.com/assets/Datasheets/FZT796A.pdf" H 8350 5850 50  0001 L CNN
+F 4 "FZT796ACT-ND" H 8550 5600 50  0001 L CNN "Digi-Key_PN"
+F 5 "https://www.digikey.com/product-detail/en/diodes-incorporated/FZT796ATA/FZT796ACT-ND/190896" H 8550 5500 50  0001 L CNN "Purchasing Link"
+	1    8350 5850
 	-1   0    0    1   
 $EndComp
-Text Notes 4900 3800 0    50   ~ 0
-Calcular ESR is 886Ohms\n160Ohm resistor used for current limiting durring charging
-Text Label 7750 2950 0    50   ~ 0
-V_BAT
 Wire Wire Line
-	6700 3100 6800 3100
-Connection ~ 6700 3100
+	8250 5600 8250 5650
+$Comp
+L power:GND #PWR?
+U 1 1 5EBB8E15
+P 8250 6050
+F 0 "#PWR?" H 8250 5800 50  0001 C CNN
+F 1 "GND" H 8255 5877 50  0000 C CNN
+F 2 "" H 8250 6050 50  0001 C CNN
+F 3 "" H 8250 6050 50  0001 C CNN
+	1    8250 6050
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	6700 3100 6700 3150
-Text Label 6800 3100 0    50   ~ 0
-V_BAT
+	8900 3400 8900 3500
+Connection ~ 8900 3400
 Wire Wire Line
-	7750 3000 7750 2950
+	8850 3400 8900 3400
+Wire Wire Line
+	8900 3500 8850 3500
+Wire Wire Line
+	8900 3350 8900 3400
+$Comp
+L luke:Comparitor_TPS3700DDCR U?
+U 1 1 5EA1DA1C
+P 8550 3300
+F 0 "U?" H 8650 2800 60  0000 C CNN
+F 1 "Comparitor_TPS3700DDCR" H 9150 2700 60  0000 C CNN
+F 2 "digikey-footprints:SOT-23-6" H 8750 3500 60  0001 L CNN
+F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftps3700" H 8750 3600 60  0001 L CNN
+F 4 "296-30395-1-ND" H 8750 3700 60  0001 L CNN "Digi-Key_PN"
+F 5 "TPS3700DDCR" H 8750 3800 60  0001 L CNN "MPN"
+F 6 "Integrated Circuits (ICs)" H 8750 3900 60  0001 L CNN "Category"
+F 7 "Linear - Comparators" H 8750 4000 60  0001 L CNN "Family"
+F 8 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftps3700" H 8750 4100 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/texas-instruments/TPS3700DDCR/296-30395-1-ND/3250123" H 8750 4200 60  0001 L CNN "DK_Detail_Page"
+F 10 "IC COMP WINDOW W/REF 6SOT" H 8750 4300 60  0001 L CNN "Description"
+F 11 "Texas Instruments" H 8750 4400 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 8750 4500 60  0001 L CNN "Status"
+F 13 "https://www.digikey.com/product-detail/en/texas-instruments/TPS3700DDCR/296-30395-1-ND/3250123" H 8750 3600 50  0001 L CNN "Purchasing Link"
+	1    8550 3300
+	1    0    0    -1  
+$EndComp
+Text Label 8550 5850 0    50   ~ 0
+V_Charge_ON
+Wire Wire Line
+	8250 5600 9250 5600
+Text Label 8950 3500 0    50   ~ 0
+V_Charge_ON
+Wire Wire Line
+	8900 3500 8950 3500
+Connection ~ 8900 3500
 $EndSCHEMATC
