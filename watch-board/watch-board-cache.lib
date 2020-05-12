@@ -23,6 +23,54 @@ X - 2 0 -100 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# luke_C_0.1uF
+#
+DEF luke_C_0.1uF C 0 10 N Y 1 F N
+F0 "C" 25 150 50 H V L CNN
+F1 "luke_C_0.1uF" 25 -50 50 H V L CNN
+F2 "Capacitor_SMD:C_0805_2012Metric" 38 600 50 H I C CNN
+F3 "" 25 850 50 H I C CNN
+F4 "https://www.digikey.com/product-detail/en/kemet/C0805C104Z5VACTU/399-1177-1-ND/411452" 425 500 60 H I C CNN "Purchasing Link"
+F5 "399-1177-1-ND" 0 700 50 H I C CNN "Digi-Key_PN"
+$FPLIST
+ C?
+ C_????_*
+ C_????
+ SMD*_c
+ Capacitor*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 20 80 20 N
+P 2 0 1 20 -80 80 80 80 N
+X ~ 1 0 200 110 D 50 50 1 1 P
+X ~ 2 0 -100 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# luke_C_10uF
+#
+DEF luke_C_10uF C 0 10 N Y 1 F N
+F0 "C" 25 150 50 H V L CNN
+F1 "luke_C_10uF" 25 -50 50 H V L CNN
+F2 "Capacitor_SMD:C_0805_2012Metric" 38 600 50 H I C CNN
+F3 "" 25 850 50 H I C CNN
+F4 "https://www.digikey.com/product-detail/en/kemet/C0805C106K8PACTU/399-4925-1-ND/1090920" 425 500 60 H I C CNN "Purchasing Link"
+F5 "399-4925-1-ND" 0 700 50 H I C CNN "Digi-Key_PN"
+$FPLIST
+ C?
+ C_????_*
+ C_????
+ SMD*_c
+ Capacitor*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 20 80 20 N
+P 2 0 1 20 -80 80 80 80 N
+X ~ 1 0 200 110 D 50 50 1 1 P
+X ~ 2 0 -100 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # luke_C_1uF
 #
 DEF luke_C_1uF C 0 10 N Y 1 F N

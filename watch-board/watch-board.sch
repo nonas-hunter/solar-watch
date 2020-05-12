@@ -16,14 +16,14 @@ $EndDescr
 $Comp
 L luke:MCU_STM32L051K8Tx U?
 U 1 1 5EA1E829
-P 2250 3150
-F 0 "U?" H 2200 2061 50  0000 C CNN
-F 1 "MCU_STM32L051K8Tx" H 2200 1970 50  0000 C CNN
-F 2 "Package_QFP:LQFP-32_7x7mm_P0.8mm" H 1750 2250 50  0001 R CNN
-F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00108219.pdf" H 2250 3150 50  0001 R CNN
-F 4 "https://www.digikey.com/product-detail/en/stmicroelectronics/STM32L051K8T6/497-14901-ND/4935250" H 1750 2150 50  0001 R CNN "Purchasing Link"
-F 5 "497-14901-ND" H 1750 2050 50  0001 R CNN "Digi-Key_PN"
-	1    2250 3150
+P 3300 3700
+F 0 "U?" H 3950 2700 50  0000 C CNN
+F 1 "MCU_STM32L051K8Tx" H 4000 2600 50  0000 C CNN
+F 2 "Package_QFP:LQFP-32_7x7mm_P0.8mm" H 2800 2800 50  0001 R CNN
+F 3 "https://www.st.com/content/ccc/resource/technical/document/datasheet/9a/75/bd/16/0f/fd/49/19/DM00108219.pdf/files/DM00108219.pdf/jcr:content/translations/en.DM00108219.pdf" H 3300 3700 50  0001 R CNN
+F 4 "https://www.digikey.com/product-detail/en/stmicroelectronics/STM32L051K8T6/497-14901-ND/4935250" H 2800 2700 50  0001 R CNN "Purchasing Link"
+F 5 "497-14901-ND" H 2800 2600 50  0001 R CNN "Digi-Key_PN"
+	1    3300 3700
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -213,12 +213,12 @@ $EndComp
 $Comp
 L power:VCC #PWR?
 U 1 1 5EA7EC64
-P 9100 3400
-F 0 "#PWR?" H 9100 3250 50  0001 C CNN
-F 1 "VCC" H 9100 3600 50  0000 C CNN
-F 2 "" H 9100 3400 50  0001 C CNN
-F 3 "" H 9100 3400 50  0001 C CNN
-	1    9100 3400
+P 9100 2850
+F 0 "#PWR?" H 9100 2700 50  0001 C CNN
+F 1 "VCC" H 9100 3050 50  0000 C CNN
+F 2 "" H 9100 2850 50  0001 C CNN
+F 3 "" H 9100 2850 50  0001 C CNN
+	1    9100 2850
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -492,10 +492,10 @@ Text Label 8700 5850 0    50   ~ 0
 V_Charge_ON
 Wire Wire Line
 	8400 5600 9400 5600
-Text Label 9600 3800 0    50   ~ 0
+Text Label 9700 3800 0    50   ~ 0
 V_Charge_ON
 Wire Wire Line
-	9550 3800 9600 3800
+	9550 3800 9700 3800
 Connection ~ 9550 3800
 $Comp
 L luke:R_49.9K R?
@@ -533,5 +533,248 @@ F 4 "BAT54HT1GOSCT-ND" H 8800 4900 50  0001 C CNN "Digi-Key_PN"
 F 5 "https://www.digikey.com/product-detail/en/on-semiconductor/BAT54HT1G/BAT54HT1GOSCT-ND/917809" H 8800 4800 50  0001 C CNN "Purchasing Link"
 	1    8800 5200
 	-1   0    0    1   
+$EndComp
+$Comp
+L luke:C_0.1uF C?
+U 1 1 5EB98F6B
+P 8600 3100
+F 0 "C?" H 8485 3104 50  0000 R CNN
+F 1 "C_0.1uF" H 8485 3195 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 8638 3700 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1005_Y5V_SMD.pdf" H 8625 3950 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/kemet/C0805C104Z5VACTU/399-1177-1-ND/411452" H 9025 3600 60  0001 C CNN "Purchasing Link"
+F 5 "399-1177-1-ND" H 8600 3800 50  0001 C CNN "Digi-Key_PN"
+	1    8600 3100
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5EB9E71F
+P 8600 3300
+F 0 "#PWR?" H 8600 3050 50  0001 C CNN
+F 1 "GND" H 8605 3127 50  0000 C CNN
+F 2 "" H 8600 3300 50  0001 C CNN
+F 3 "" H 8600 3300 50  0001 C CNN
+	1    8600 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9100 2850 9100 2950
+Wire Wire Line
+	8600 3000 8600 2950
+Wire Wire Line
+	8600 2950 9100 2950
+$Comp
+L power:GND #PWR?
+U 1 1 5EBC8B3A
+P 3250 4800
+F 0 "#PWR?" H 3250 4550 50  0001 C CNN
+F 1 "GND" H 3255 4627 50  0000 C CNN
+F 2 "" H 3250 4800 50  0001 C CNN
+F 3 "" H 3250 4800 50  0001 C CNN
+	1    3250 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 4700 3200 4750
+Wire Wire Line
+	3200 4750 3250 4750
+Wire Wire Line
+	3300 4750 3300 4700
+Wire Wire Line
+	3250 4800 3250 4750
+Connection ~ 3250 4750
+Wire Wire Line
+	3250 4750 3300 4750
+$Comp
+L power:VCC #PWR?
+U 1 1 5EBCDD67
+P 3300 2650
+F 0 "#PWR?" H 3300 2500 50  0001 C CNN
+F 1 "VCC" H 3317 2823 50  0000 C CNN
+F 2 "" H 3300 2650 50  0001 C CNN
+F 3 "" H 3300 2650 50  0001 C CNN
+	1    3300 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 2800 3400 2750
+Wire Wire Line
+	3400 2750 3300 2750
+Wire Wire Line
+	3300 2750 3300 2800
+Wire Wire Line
+	3200 2800 3200 2750
+Wire Wire Line
+	3200 2750 3300 2750
+Connection ~ 3300 2750
+Wire Wire Line
+	3300 2750 3300 2650
+Wire Wire Line
+	9100 2950 9100 3400
+Connection ~ 9100 2950
+$Comp
+L luke:C_0.1uF C?
+U 1 1 5EBAF210
+P 1600 3750
+F 0 "C?" V 1450 3800 50  0000 C CNN
+F 1 "C_0.1uF" V 1750 3800 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 1638 4350 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1005_Y5V_SMD.pdf" H 1625 4600 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/kemet/C0805C104Z5VACTU/399-1177-1-ND/411452" H 2025 4250 60  0001 C CNN "Purchasing Link"
+F 5 "399-1177-1-ND" H 1600 4450 50  0001 C CNN "Digi-Key_PN"
+	1    1600 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L luke:C_0.1uF C?
+U 1 1 5EBB1CD4
+P 1600 2850
+F 0 "C?" V 1450 2900 50  0000 C CNN
+F 1 "C_0.1uF" V 1750 2900 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 1638 3450 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1005_Y5V_SMD.pdf" H 1625 3700 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/kemet/C0805C104Z5VACTU/399-1177-1-ND/411452" H 2025 3350 60  0001 C CNN "Purchasing Link"
+F 5 "399-1177-1-ND" H 1600 3550 50  0001 C CNN "Digi-Key_PN"
+	1    1600 2850
+	0    1    1    0   
+$EndComp
+$Comp
+L luke:C_1uF C?
+U 1 1 5EBB44E5
+P 1600 4150
+F 0 "C?" V 1450 4200 50  0000 C CNN
+F 1 "C_1uF" V 1750 4200 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 1638 4750 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_Y5V_6.3V-to-50V_9.pdf" H 1625 5000 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/yageo/CC0805ZKY5V9BB105/311-1909-1-ND/5195811#images" H 2025 4650 60  0001 C CNN "Purchasing Link"
+F 5 "311-1909-1-ND " H 1600 4850 50  0001 C CNN "Digi-Key_PN"
+	1    1600 4150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1500 2850 1450 2850
+Wire Wire Line
+	1450 2850 1450 3250
+Wire Wire Line
+	1450 3250 1500 3250
+Wire Wire Line
+	1450 3250 1450 3750
+Wire Wire Line
+	1450 3750 1500 3750
+Connection ~ 1450 3250
+Wire Wire Line
+	1800 2850 1850 2850
+Wire Wire Line
+	1850 2850 1850 3250
+Wire Wire Line
+	1850 3250 1800 3250
+Wire Wire Line
+	1850 3250 1850 3750
+Connection ~ 1850 3250
+Wire Wire Line
+	1850 3750 1800 3750
+$Comp
+L power:VCC #PWR?
+U 1 1 5EC5D605
+P 1450 2650
+F 0 "#PWR?" H 1450 2500 50  0001 C CNN
+F 1 "VCC" H 1467 2823 50  0000 C CNN
+F 2 "" H 1450 2650 50  0001 C CNN
+F 3 "" H 1450 2650 50  0001 C CNN
+	1    1450 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1450 2650 1450 2850
+Connection ~ 1450 2850
+Connection ~ 1850 5050
+Wire Wire Line
+	1850 5250 1850 5050
+$Comp
+L power:GND #PWR?
+U 1 1 5EC5CFD6
+P 1850 5250
+F 0 "#PWR?" H 1850 5000 50  0001 C CNN
+F 1 "GND" H 1855 5077 50  0000 C CNN
+F 2 "" H 1850 5250 50  0001 C CNN
+F 3 "" H 1850 5250 50  0001 C CNN
+	1    1850 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 4650 1850 5050
+Wire Wire Line
+	1800 4650 1850 4650
+Wire Wire Line
+	1850 5050 1800 5050
+Wire Wire Line
+	1450 5050 1500 5050
+Wire Wire Line
+	1450 4650 1450 5050
+Wire Wire Line
+	1450 4650 1500 4650
+$Comp
+L luke:C_10uF C?
+U 1 1 5EBB722F
+P 1600 5050
+F 0 "C?" V 1450 5100 50  0000 C CNN
+F 1 "C_10uF" V 1750 5100 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 1638 5650 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1006_X5R_SMD.pdf" H 1625 5900 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/kemet/C0805C106K8PACTU/399-4925-1-ND/1090920" H 2025 5550 60  0001 C CNN "Purchasing Link"
+F 5 "399-4925-1-ND" H 1600 5750 50  0001 C CNN "Digi-Key_PN"
+	1    1600 5050
+	0    1    1    0   
+$EndComp
+$Comp
+L luke:C_0.1uF C?
+U 1 1 5EBAFDA0
+P 1600 4650
+F 0 "C?" V 1450 4700 50  0000 C CNN
+F 1 "C_0.1uF" V 1750 4700 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 1638 5250 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1005_Y5V_SMD.pdf" H 1625 5500 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/kemet/C0805C104Z5VACTU/399-1177-1-ND/411452" H 2025 5150 60  0001 C CNN "Purchasing Link"
+F 5 "399-1177-1-ND" H 1600 5350 50  0001 C CNN "Digi-Key_PN"
+	1    1600 4650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1450 4650 1450 4150
+Connection ~ 1450 4650
+Connection ~ 1450 3750
+Wire Wire Line
+	1850 3750 1850 4150
+Connection ~ 1850 3750
+Connection ~ 1850 4650
+Wire Wire Line
+	1800 4150 1850 4150
+Connection ~ 1850 4150
+Wire Wire Line
+	1850 4150 1850 4650
+Wire Wire Line
+	1500 4150 1450 4150
+Connection ~ 1450 4150
+Wire Wire Line
+	1450 4150 1450 3750
+Text Notes 700  4000 0    50   ~ 0
+VDDA\nPlace near Pin 5\nDatasheet Page 47
+Text Notes 700  3100 0    50   ~ 0
+VDD\nPlace near Pin 17\nDatasheet Page 47
+Text Notes 700  4900 0    50   ~ 0
+VDD\nPlace near Pin 1\nDatasheet Page 47
+$Comp
+L luke:C_1uF C?
+U 1 1 5ECAA11E
+P 1600 3250
+F 0 "C?" V 1450 3300 50  0000 C CNN
+F 1 "C_1uF" V 1750 3300 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 1638 3850 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_Y5V_6.3V-to-50V_9.pdf" H 1625 4100 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/yageo/CC0805ZKY5V9BB105/311-1909-1-ND/5195811#images" H 2025 3750 60  0001 C CNN "Purchasing Link"
+F 5 "311-1909-1-ND " H 1600 3950 50  0001 C CNN "Digi-Key_PN"
+	1    1600 3250
+	0    1    1    0   
 $EndComp
 $EndSCHEMATC
