@@ -861,5 +861,5 @@ F 3 "" H 9450 1100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 5500 5450 0    50   ~ 0
-Add SPI Pins
+TODO: Add SPI Pins
 $EndSCHEMATC
