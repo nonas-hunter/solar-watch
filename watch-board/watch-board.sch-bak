@@ -861,5 +861,18 @@ F 3 "" H 9450 1100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 5500 5450 0    50   ~ 0
-Add SPI Pins
+TODO: Add SPI Pins
+$Comp
+L luke:Regulator_BQ25504 U?
+U 1 1 5EBCB825
+P -3450 1700
+F 0 "U?" H -2806 1746 50  0000 L CNN
+F 1 "Regulator_BQ25504" H -2806 1655 50  0000 L CNN
+F 2 "Package_DFN_QFN:QFN-16-1EP_3x3mm_P0.5mm_EP1.8x1.8mm" H -3450 400 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/bq25504.pdf" H -3750 2500 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/texas-instruments/BQ25504RGTT/296-29741-1-ND/2766003" H -3450 300 50  0001 C CNN "Purchasing Link"
+F 5 "296-29741-1-ND" H -3450 200 50  0001 C CNN "Digi-Key_PN"
+	1    -3450 1700
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

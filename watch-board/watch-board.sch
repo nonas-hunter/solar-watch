@@ -862,4 +862,93 @@ F 3 "" H 9450 1100 50  0001 C CNN
 $EndComp
 Text Notes 5500 5450 0    50   ~ 0
 TODO: Add SPI Pins
+$Comp
+L luke:Regulator_LTC3105 U?
+U 1 1 5EBDFA52
+P -3600 2050
+F 0 "U?" H -3600 2575 50  0000 C CNN
+F 1 "Regulator_LTC3105" H -3600 2484 50  0000 C CNN
+F 2 "Digikey-footprints:MSOP-12-1EP_W3mm" H -3600 1150 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/3105fb.pdf" H -3600 2900 50  0001 C CNN
+F 4 "LTC3105EMS#PBF-ND" H -3600 1350 50  0001 C CNN "Digi-Key_PN"
+F 5 "https://www.digikey.com/product-detail/en/LTC3105EMS%23PBF/LTC3105EMS%23PBF-ND/2601181" H -3600 1250 50  0001 C CNN "Purchasing Link"
+	1    -3600 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L luke:Solar-Cells_KXOB25-05X3F SC?
+U 1 1 5EBE50EA
+P -5550 2000
+F 0 "SC?" H -5442 2046 50  0000 L CNN
+F 1 "Solar-Cells_KXOB25-05X3F" H -5442 1955 50  0000 L CNN
+F 2 "" V -5550 2060 50  0001 C CNN
+F 3 "https://ixapps.ixys.com/DataSheet/KXOB25_05X3F.pdf" V -5550 2060 50  0001 L CNN
+F 4 "KXOB25-05X3FCT-ND" H -5450 1900 50  0001 L CNN "Digi-Key_PN"
+F 5 "https://www.digikey.com/product-detail/en/ixys/KXOB25-05X3F-TR/KXOB25-05X3FCT-ND/9990481" H -5450 1800 50  0001 L CNN "Purchasing Link"
+	1    -5550 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L luke:R_2K R?
+U 1 1 5EBE7BEB
+P -4600 2500
+F 0 "R?" H -4530 2546 50  0000 L CNN
+F 1 "R_2K" H -4530 2455 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H -5700 2800 50  0001 L CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H -5700 2900 50  0001 L CNN
+F 4 "311-2.00KCRCT-ND" H -5700 2700 60  0001 L CNN "Digi-Key_PN"
+F 5 "https://www.digikey.com/product-detail/en/yageo/RC0805FR-072KL/311-2-00KCRCT-ND/730611" H -5700 3000 60  0001 L CNN "Purchasing Link"
+	1    -4600 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L luke:R_165K R?
+U 1 1 5EBE80D7
+P -4600 2800
+F 0 "R?" H -4530 2846 50  0000 L CNN
+F 1 "R_165K" H -4530 2755 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H -5700 3100 50  0001 L CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H -5700 3200 50  0001 L CNN
+F 4 "311-165KCRCT-ND" H -5700 3000 60  0001 L CNN "Digi-Key_PN"
+F 5 "https://www.digikey.com/product-detail/en/yageo/RC0805FR-07165KL/311-165KCRCT-ND/730579" H -5700 3300 60  0001 L CNN "Purchasing Link"
+	1    -4600 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5EBE95AC
+P -4600 2950
+F 0 "#PWR?" H -4600 2700 50  0001 C CNN
+F 1 "GND" H -4595 2777 50  0000 C CNN
+F 2 "" H -4600 2950 50  0001 C CNN
+F 3 "" H -4600 2950 50  0001 C CNN
+	1    -4600 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-4100 2150 -4600 2150
+Wire Wire Line
+	-4600 2150 -4600 2350
+$Comp
+L power:GND #PWR?
+U 1 1 5EBEE5DA
+P -3600 2600
+F 0 "#PWR?" H -3600 2350 50  0001 C CNN
+F 1 "GND" H -3595 2427 50  0000 C CNN
+F 2 "" H -3600 2600 50  0001 C CNN
+F 3 "" H -3600 2600 50  0001 C CNN
+	1    -3600 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-3550 2500 -3550 2550
+Wire Wire Line
+	-3550 2550 -3600 2550
+Wire Wire Line
+	-3650 2550 -3650 2500
+Wire Wire Line
+	-3600 2550 -3600 2600
+Connection ~ -3600 2550
+Wire Wire Line
+	-3600 2550 -3650 2550
 $EndSCHEMATC
