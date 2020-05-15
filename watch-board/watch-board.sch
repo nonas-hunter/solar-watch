@@ -878,57 +878,55 @@ $EndComp
 $Comp
 L luke:Solar-Cells_KXOB25-05X3F SC?
 U 1 1 5EBE50EA
-P -5550 2000
-F 0 "SC?" H -5442 2046 50  0000 L CNN
-F 1 "Solar-Cells_KXOB25-05X3F" H -5442 1955 50  0000 L CNN
-F 2 "" V -5550 2060 50  0001 C CNN
-F 3 "https://ixapps.ixys.com/DataSheet/KXOB25_05X3F.pdf" V -5550 2060 50  0001 L CNN
-F 4 "KXOB25-05X3FCT-ND" H -5450 1900 50  0001 L CNN "Digi-Key_PN"
-F 5 "https://www.digikey.com/product-detail/en/ixys/KXOB25-05X3F-TR/KXOB25-05X3FCT-ND/9990481" H -5450 1800 50  0001 L CNN "Purchasing Link"
-	1    -5550 2000
+P -5300 2000
+F 0 "SC?" H -5500 2050 50  0000 R CNN
+F 1 "Solar-Cells_KXOB25-05X3F" H -5500 1950 50  0000 R CNN
+F 2 "" V -5300 2060 50  0001 C CNN
+F 3 "https://ixapps.ixys.com/DataSheet/KXOB25_05X3F.pdf" V -5300 2060 50  0001 L CNN
+F 4 "KXOB25-05X3FCT-ND" H -5200 1900 50  0001 L CNN "Digi-Key_PN"
+F 5 "https://www.digikey.com/product-detail/en/ixys/KXOB25-05X3F-TR/KXOB25-05X3FCT-ND/9990481" H -5200 1800 50  0001 L CNN "Purchasing Link"
+	1    -5300 2000
 	1    0    0    -1  
 $EndComp
 $Comp
 L luke:R_2K R?
 U 1 1 5EBE7BEB
-P -4600 2500
-F 0 "R?" H -4530 2546 50  0000 L CNN
-F 1 "R_2K" H -4530 2455 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H -5700 2800 50  0001 L CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H -5700 2900 50  0001 L CNN
-F 4 "311-2.00KCRCT-ND" H -5700 2700 60  0001 L CNN "Digi-Key_PN"
-F 5 "https://www.digikey.com/product-detail/en/yageo/RC0805FR-072KL/311-2-00KCRCT-ND/730611" H -5700 3000 60  0001 L CNN "Purchasing Link"
-	1    -4600 2500
+P -4750 2500
+F 0 "R?" H -4680 2546 50  0000 L CNN
+F 1 "R_2K" H -4680 2455 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H -5850 2800 50  0001 L CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H -5850 2900 50  0001 L CNN
+F 4 "311-2.00KCRCT-ND" H -5850 2700 60  0001 L CNN "Digi-Key_PN"
+F 5 "https://www.digikey.com/product-detail/en/yageo/RC0805FR-072KL/311-2-00KCRCT-ND/730611" H -5850 3000 60  0001 L CNN "Purchasing Link"
+	1    -4750 2500
 	1    0    0    -1  
 $EndComp
 $Comp
 L luke:R_165K R?
 U 1 1 5EBE80D7
-P -4600 2800
-F 0 "R?" H -4530 2846 50  0000 L CNN
-F 1 "R_165K" H -4530 2755 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H -5700 3100 50  0001 L CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H -5700 3200 50  0001 L CNN
-F 4 "311-165KCRCT-ND" H -5700 3000 60  0001 L CNN "Digi-Key_PN"
-F 5 "https://www.digikey.com/product-detail/en/yageo/RC0805FR-07165KL/311-165KCRCT-ND/730579" H -5700 3300 60  0001 L CNN "Purchasing Link"
-	1    -4600 2800
+P -4750 2800
+F 0 "R?" H -4680 2846 50  0000 L CNN
+F 1 "R_165K" H -4680 2755 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H -5850 3100 50  0001 L CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H -5850 3200 50  0001 L CNN
+F 4 "311-165KCRCT-ND" H -5850 3000 60  0001 L CNN "Digi-Key_PN"
+F 5 "https://www.digikey.com/product-detail/en/yageo/RC0805FR-07165KL/311-165KCRCT-ND/730579" H -5850 3300 60  0001 L CNN "Purchasing Link"
+	1    -4750 2800
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5EBE95AC
-P -4600 2950
-F 0 "#PWR?" H -4600 2700 50  0001 C CNN
-F 1 "GND" H -4595 2777 50  0000 C CNN
-F 2 "" H -4600 2950 50  0001 C CNN
-F 3 "" H -4600 2950 50  0001 C CNN
-	1    -4600 2950
+P -4750 2950
+F 0 "#PWR?" H -4750 2700 50  0001 C CNN
+F 1 "GND" H -4745 2777 50  0000 C CNN
+F 2 "" H -4750 2950 50  0001 C CNN
+F 3 "" H -4750 2950 50  0001 C CNN
+	1    -4750 2950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	-4100 2150 -4600 2150
-Wire Wire Line
-	-4600 2150 -4600 2350
+	-4750 2150 -4750 2350
 $Comp
 L power:GND #PWR?
 U 1 1 5EBEE5DA
@@ -951,4 +949,241 @@ Wire Wire Line
 Connection ~ -3600 2550
 Wire Wire Line
 	-3600 2550 -3650 2550
+$Comp
+L luke:R_1M R?
+U 1 1 5EBE1EAA
+P -2550 2050
+F 0 "R?" H -2480 2096 50  0000 L CNN
+F 1 "R_1M" H -2480 2005 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H -3650 2350 50  0001 L CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H -3650 2450 50  0001 L CNN
+F 4 "311-1.00MCRCT-ND" H -3650 2250 60  0001 L CNN "Digi-Key_PN"
+F 5 "https://www.digikey.com/product-detail/en/yageo/RC0805FR-071ML/311-1-00MCRCT-ND/730392" H -3650 2550 60  0001 L CNN "Purchasing Link"
+	1    -2550 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L luke:R_475K R?
+U 1 1 5EBE498E
+P -2550 2450
+F 0 "R?" H -2480 2496 50  0000 L CNN
+F 1 "R_475K" H -2480 2405 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H -3650 2750 50  0001 L CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H -3650 2850 50  0001 L CNN
+F 4 "311-475KCRCT-ND" H -3650 2650 60  0001 L CNN "Digi-Key_PN"
+F 5 "https://www.digikey.com/product-detail/en/yageo/RC0805FR-07475KL/311-475KCRCT-ND/730926" H -3650 2950 60  0001 L CNN "Purchasing Link"
+	1    -2550 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5EBEB6C3
+P -2550 2600
+F 0 "#PWR?" H -2550 2350 50  0001 C CNN
+F 1 "GND" H -2545 2427 50  0000 C CNN
+F 2 "" H -2550 2600 50  0001 C CNN
+F 3 "" H -2550 2600 50  0001 C CNN
+	1    -2550 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5EBF78EA
+P -5300 2200
+F 0 "#PWR?" H -5300 1950 50  0001 C CNN
+F 1 "GND" H -5295 2027 50  0000 C CNN
+F 2 "" H -5300 2200 50  0001 C CNN
+F 3 "" H -5300 2200 50  0001 C CNN
+	1    -5300 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-5300 1750 -5300 1800
+Wire Wire Line
+	-2550 2200 -2550 2250
+$Comp
+L luke:R_1M R?
+U 1 1 5EC15149
+P -2900 2450
+F 0 "R?" H -2830 2496 50  0000 L CNN
+F 1 "R_1M" H -2830 2405 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H -4000 2750 50  0001 L CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H -4000 2850 50  0001 L CNN
+F 4 "311-1.00MCRCT-ND" H -4000 2650 60  0001 L CNN "Digi-Key_PN"
+F 5 "https://www.digikey.com/product-detail/en/yageo/RC0805FR-071ML/311-1-00MCRCT-ND/730392" H -4000 2950 60  0001 L CNN "Purchasing Link"
+	1    -2900 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L luke:R_499K R?
+U 1 1 5EC16AF7
+P -2900 2850
+F 0 "R?" H -2830 2896 50  0000 L CNN
+F 1 "R_499K" H -2830 2805 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H -4000 3150 50  0001 L CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H -4000 3250 50  0001 L CNN
+F 4 "P499KCCT-ND" H -4000 3050 60  0001 L CNN "Digi-Key_PN"
+F 5 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-6ENF4993V/P499KCCT-ND/119752" H -4000 3350 60  0001 L CNN "Purchasing Link"
+	1    -2900 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-2900 2600 -2900 2650
+Wire Wire Line
+	-2900 2300 -2900 2250
+Wire Wire Line
+	-2900 2250 -3100 2250
+Wire Wire Line
+	-3100 2350 -3050 2350
+Wire Wire Line
+	-3050 2350 -3050 2650
+Wire Wire Line
+	-3050 2650 -2900 2650
+Connection ~ -2900 2650
+Wire Wire Line
+	-2900 2650 -2900 2700
+Wire Wire Line
+	-3100 1850 -2550 1850
+Wire Wire Line
+	-2550 1850 -2550 1900
+Wire Wire Line
+	-2550 2250 -2650 2250
+Wire Wire Line
+	-2650 2250 -2650 2050
+Wire Wire Line
+	-2650 2050 -3100 2050
+Connection ~ -2550 2250
+Wire Wire Line
+	-2550 2250 -2550 2300
+$Comp
+L luke:C_10uF C?
+U 1 1 5EC42AB2
+P -5050 2000
+F 0 "C?" H -4935 2096 50  0000 L CNN
+F 1 "C_10uF" H -4935 2005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H -5012 2600 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1006_X5R_SMD.pdf" H -5025 2850 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/kemet/C0805C106K8PACTU/399-4925-1-ND/1090920" H -4625 2500 60  0001 C CNN "Purchasing Link"
+F 5 "399-4925-1-ND" H -5050 2700 50  0001 C CNN "Digi-Key_PN"
+	1    -5050 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5EC43507
+P -5050 2100
+F 0 "#PWR?" H -5050 1850 50  0001 C CNN
+F 1 "GND" H -5045 1927 50  0000 C CNN
+F 2 "" H -5050 2100 50  0001 C CNN
+F 3 "" H -5050 2100 50  0001 C CNN
+	1    -5050 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-5050 1750 -5050 1800
+Connection ~ -5050 1750
+Wire Wire Line
+	-5050 1750 -5300 1750
+$Comp
+L formula:C_1uF C?
+U 1 1 5EC4FF6D
+P -4200 2650
+F 0 "C?" H -4085 2746 50  0000 L CNN
+F 1 "C_1uF" H -4085 2655 50  0000 L CNN
+F 2 "footprints:C_0805_OEM" H -4162 3250 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_Y5V_6.3V-to-50V_9.pdf" H -4175 3500 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/yageo/CC0805ZKY5V9BB105/311-1909-1-ND/5195811#images" H -3775 3150 60  0001 C CNN "PurchasingLink"
+	1    -4200 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-4750 2150 -4100 2150
+Wire Wire Line
+	-4100 2350 -4200 2350
+Wire Wire Line
+	-4200 2350 -4200 2450
+$Comp
+L power:GND #PWR?
+U 1 1 5EC6AFF6
+P -4200 2750
+F 0 "#PWR?" H -4200 2500 50  0001 C CNN
+F 1 "GND" H -4195 2577 50  0000 C CNN
+F 2 "" H -4200 2750 50  0001 C CNN
+F 3 "" H -4200 2750 50  0001 C CNN
+	1    -4200 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-5050 1750 -4100 1750
+$Comp
+L formula:C_1uF C?
+U 1 1 5EC71856
+P -2100 2100
+F 0 "C?" H -1985 2196 50  0000 L CNN
+F 1 "C_1uF" H -1985 2105 50  0000 L CNN
+F 2 "footprints:C_0805_OEM" H -2062 2700 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_Y5V_6.3V-to-50V_9.pdf" H -2075 2950 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/yageo/CC0805ZKY5V9BB105/311-1909-1-ND/5195811#images" H -1675 2600 60  0001 C CNN "PurchasingLink"
+	1    -2100 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-2550 1850 -2100 1850
+Wire Wire Line
+	-2100 1850 -2100 1900
+Connection ~ -2550 1850
+$Comp
+L power:GND #PWR?
+U 1 1 5EC77461
+P -2100 2200
+F 0 "#PWR?" H -2100 1950 50  0001 C CNN
+F 1 "GND" H -2095 2027 50  0000 C CNN
+F 2 "" H -2100 2200 50  0001 C CNN
+F 3 "" H -2100 2200 50  0001 C CNN
+	1    -2100 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L luke:BAT_ML2020 BT?
+U 1 1 5EC7895B
+P -1600 2400
+F 0 "BT?" H -1482 2496 50  0000 L CNN
+F 1 "BAT_ML2020" H -1482 2405 50  0000 L CNN
+F 2 "" V -1600 2460 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Panasonic%20Inustrial/ML_Serie.pdf" V -1600 2460 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/panasonic-bsg/ML-2020-F1AN/P664-ND/2404069" H -1600 2000 50  0001 C CNN "Purchasing Link"
+F 5 "P664-ND " H -1600 1900 50  0001 C CNN "Digi-Key_PN"
+F 6 "https://industrial.panasonic.com/cdbs/www-data/pdf/AAF4000/AAF4000COL8.pdf" H -1600 1800 50  0001 C CNN "Charging Datasheet"
+	1    -1600 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L luke:R_160 R?
+U 1 1 5EC7B222
+P -1600 2050
+F 0 "R?" H -1530 2096 50  0000 L CNN
+F 1 "R_160" H -1530 2005 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H -2700 2350 50  0001 L CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H -2700 2450 50  0001 L CNN
+F 4 "311-160ARCT-ND" H -2700 2250 60  0001 L CNN "Digi-Key_PN"
+F 5 "https://www.digikey.com/product-detail/en/yageo/RC0805JR-07160RL/311-160ARCT-ND/731206" H -2700 2550 60  0001 L CNN "Purchasing Link"
+	1    -1600 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5EC7E7D8
+P -1600 2500
+F 0 "#PWR?" H -1600 2250 50  0001 C CNN
+F 1 "GND" H -1595 2327 50  0000 C CNN
+F 2 "" H -1600 2500 50  0001 C CNN
+F 3 "" H -1600 2500 50  0001 C CNN
+	1    -1600 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-2100 1850 -1600 1850
+Wire Wire Line
+	-1600 1850 -1600 1900
+Connection ~ -2100 1850
 $EndSCHEMATC
