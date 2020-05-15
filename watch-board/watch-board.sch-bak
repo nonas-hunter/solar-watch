@@ -863,92 +863,161 @@ $EndComp
 Text Notes 5500 5450 0    50   ~ 0
 TODO: Add SPI Pins
 $Comp
-L luke:Regulator_LTC3105 U?
-U 1 1 5EBDFA52
-P -3600 2050
-F 0 "U?" H -3600 2575 50  0000 C CNN
-F 1 "Regulator_LTC3105" H -3600 2484 50  0000 C CNN
-F 2 "Digikey-footprints:MSOP-12-1EP_W3mm" H -3600 1150 50  0001 C CNN
-F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/3105fb.pdf" H -3600 2900 50  0001 C CNN
-F 4 "LTC3105EMS#PBF-ND" H -3600 1350 50  0001 C CNN "Digi-Key_PN"
-F 5 "https://www.digikey.com/product-detail/en/LTC3105EMS%23PBF/LTC3105EMS%23PBF-ND/2601181" H -3600 1250 50  0001 C CNN "Purchasing Link"
-	1    -3600 2050
+L luke:Regulator_BQ25504 U?
+U 1 1 5EBF4ED2
+P -3450 4700
+F 0 "U?" H -2806 4746 50  0000 L CNN
+F 1 "Regulator_BQ25504" H -2806 4655 50  0000 L CNN
+F 2 "Package_DFN_QFN:QFN-16-1EP_3x3mm_P0.5mm_EP1.8x1.8mm" H -3450 3400 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/bq25504.pdf" H -3750 5500 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/texas-instruments/BQ25504RGTT/296-29741-1-ND/2766003" H -3450 3300 50  0001 C CNN "Purchasing Link"
+F 5 "296-29741-1-ND" H -3450 3200 50  0001 C CNN "Digi-Key_PN"
+	1    -3450 4700
 	1    0    0    -1  
 $EndComp
 $Comp
 L luke:Solar-Cells_KXOB25-05X3F SC?
-U 1 1 5EBE50EA
-P -5550 2000
-F 0 "SC?" H -5442 2046 50  0000 L CNN
-F 1 "Solar-Cells_KXOB25-05X3F" H -5442 1955 50  0000 L CNN
-F 2 "" V -5550 2060 50  0001 C CNN
-F 3 "https://ixapps.ixys.com/DataSheet/KXOB25_05X3F.pdf" V -5550 2060 50  0001 L CNN
-F 4 "KXOB25-05X3FCT-ND" H -5450 1900 50  0001 L CNN "Digi-Key_PN"
-F 5 "https://www.digikey.com/product-detail/en/ixys/KXOB25-05X3F-TR/KXOB25-05X3FCT-ND/9990481" H -5450 1800 50  0001 L CNN "Purchasing Link"
-	1    -5550 2000
+U 1 1 5EC26EF0
+P -5650 4000
+F 0 "SC?" H -5542 4046 50  0000 L CNN
+F 1 "Solar-Cells_KXOB25-05X3F" H -5542 3955 50  0000 L CNN
+F 2 "" V -5650 4060 50  0001 C CNN
+F 3 "https://ixapps.ixys.com/DataSheet/KXOB25_05X3F.pdf" V -5650 4060 50  0001 L CNN
+F 4 "KXOB25-05X3FCT-ND" H -5550 3900 50  0001 L CNN "Digi-Key_PN"
+F 5 "https://www.digikey.com/product-detail/en/ixys/KXOB25-05X3F-TR/KXOB25-05X3FCT-ND/9990481" H -5550 3800 50  0001 L CNN "Purchasing Link"
+	1    -5650 4000
 	1    0    0    -1  
 $EndComp
 $Comp
-L luke:R_2K R?
-U 1 1 5EBE7BEB
-P -4600 2500
-F 0 "R?" H -4530 2546 50  0000 L CNN
-F 1 "R_2K" H -4530 2455 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H -5700 2800 50  0001 L CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H -5700 2900 50  0001 L CNN
-F 4 "311-2.00KCRCT-ND" H -5700 2700 60  0001 L CNN "Digi-Key_PN"
-F 5 "https://www.digikey.com/product-detail/en/yageo/RC0805FR-072KL/311-2-00KCRCT-ND/730611" H -5700 3000 60  0001 L CNN "Purchasing Link"
-	1    -4600 2500
+L luke:Regulator_LTC3531-3 U?
+U 1 1 5EC3061F
+P -1050 3000
+F 0 "U?" H -1050 3515 50  0000 C CNN
+F 1 "Regulator_LTC3531-3" H -1050 3424 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:TSOT-23-6" H -1050 1800 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/3531fb.pdf" H -1050 1850 50  0001 C CNN
+F 4 "LTC3531ES6-3#TRMPBFCT-ND" H -1050 1950 50  0001 C CNN "Digi-Key_PN"
+F 5 "https://www.digikey.com/product-detail/en/linear-technology-analog-devices/LTC3531ES6-3-TRMPBF/LTC3531ES6-3-TRMPBFCT-ND/10130018" H -1050 1700 50  0001 C CNN "Purchasing Link"
+	1    -1050 3000
 	1    0    0    -1  
 $EndComp
 $Comp
-L luke:R_165K R?
-U 1 1 5EBE80D7
-P -4600 2800
-F 0 "R?" H -4530 2846 50  0000 L CNN
-F 1 "R_165K" H -4530 2755 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H -5700 3100 50  0001 L CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H -5700 3200 50  0001 L CNN
-F 4 "311-165KCRCT-ND" H -5700 3000 60  0001 L CNN "Digi-Key_PN"
-F 5 "https://www.digikey.com/product-detail/en/yageo/RC0805FR-07165KL/311-165KCRCT-ND/730579" H -5700 3300 60  0001 L CNN "Purchasing Link"
-	1    -4600 2800
+L luke:L_22uH L?
+U 1 1 5EC38BDA
+P -5650 4600
+F 0 "L?" H -5650 4785 50  0000 C CNN
+F 1 "L_22uH" H -5650 4694 50  0000 C CNN
+F 2 "Inductor_SMD:L_Wuerth_WE-TPC-3816" H -5750 4400 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/744031220.pdf" H -5750 4450 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/744031220/732-1012-1-ND/1639073" H -5350 4800 50  0001 C CNN "PurchasingLink"
+F 5 "732-1012-1-ND" H -5650 4300 50  0001 C CNN "Digi-Key_PN"
+	1    -5650 4600
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
-U 1 1 5EBE95AC
-P -4600 2950
-F 0 "#PWR?" H -4600 2700 50  0001 C CNN
-F 1 "GND" H -4595 2777 50  0000 C CNN
-F 2 "" H -4600 2950 50  0001 C CNN
-F 3 "" H -4600 2950 50  0001 C CNN
-	1    -4600 2950
+L luke:L_10uH L?
+U 1 1 5EC3DCE3
+P -1050 2400
+F 0 "L?" H -1050 2585 50  0000 C CNN
+F 1 "L_10uH" H -1050 2494 50  0000 C CNN
+F 2 "Inductor_SMD:L_1812_4532Metric" H -1150 2200 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/P02/JELF243A-0042.pdf" H -1150 2250 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/murata-electronics/LQH43CN100K03L/490-2519-1-ND/599992" H -750 2600 50  0001 C CNN "PurchasingLink"
+F 5 " 490-2519-1-ND" H -1050 2100 50  0001 C CNN "Digi-Key_PN"
+	1    -1050 2400
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	-4100 2150 -4600 2150
-Wire Wire Line
-	-4600 2150 -4600 2350
 $Comp
 L power:GND #PWR?
-U 1 1 5EBEE5DA
-P -3600 2600
-F 0 "#PWR?" H -3600 2350 50  0001 C CNN
-F 1 "GND" H -3595 2427 50  0000 C CNN
-F 2 "" H -3600 2600 50  0001 C CNN
-F 3 "" H -3600 2600 50  0001 C CNN
-	1    -3600 2600
+U 1 1 5EC3E89D
+P -900 3450
+F 0 "#PWR?" H -900 3200 50  0001 C CNN
+F 1 "GND" H -895 3277 50  0000 C CNN
+F 2 "" H -900 3450 50  0001 C CNN
+F 3 "" H -900 3450 50  0001 C CNN
+	1    -900 3450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	-3550 2500 -3550 2550
+	-1150 2400 -1500 2400
 Wire Wire Line
-	-3550 2550 -3600 2550
+	-1500 2400 -1500 2750
 Wire Wire Line
-	-3650 2550 -3650 2500
+	-1500 2750 -1450 2750
 Wire Wire Line
-	-3600 2550 -3600 2600
-Connection ~ -3600 2550
+	-650 2750 -600 2750
 Wire Wire Line
-	-3600 2550 -3650 2550
+	-600 2750 -600 2400
+Wire Wire Line
+	-600 2400 -950 2400
+$Comp
+L power:GND #PWR?
+U 1 1 5EC50857
+P -450 3300
+F 0 "#PWR?" H -450 3050 50  0001 C CNN
+F 1 "GND" H -445 3127 50  0000 C CNN
+F 2 "" H -450 3300 50  0001 C CNN
+F 3 "" H -450 3300 50  0001 C CNN
+	1    -450 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VDD #PWR?
+U 1 1 5EC52FD0
+P -450 2900
+F 0 "#PWR?" H -450 2750 50  0001 C CNN
+F 1 "VDD" H -433 3073 50  0000 C CNN
+F 2 "" H -450 2900 50  0001 C CNN
+F 3 "" H -450 2900 50  0001 C CNN
+	1    -450 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L luke:C_10uF C?
+U 1 1 5EC4CAEF
+P -450 3200
+F 0 "C?" H -335 3296 50  0000 L CNN
+F 1 "C_10uF" H -335 3205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H -412 3800 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1006_X5R_SMD.pdf" H -425 4050 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/kemet/C0805C106K8PACTU/399-4925-1-ND/1090920" H -25 3700 60  0001 C CNN "Purchasing Link"
+F 5 "399-4925-1-ND" H -450 3900 50  0001 C CNN "Digi-Key_PN"
+	1    -450 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-650 2950 -450 2950
+Wire Wire Line
+	-450 2950 -450 2900
+Wire Wire Line
+	-450 3000 -450 2950
+Connection ~ -450 2950
+$Comp
+L luke:C_2.2uF C?
+U 1 1 5EC67329
+P -1800 3200
+F 0 "C?" H -1685 3296 50  0000 L CNN
+F 1 "C_2.2uF" H -1685 3205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H -1762 3800 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X5R_4V-to-50V_25.pdf" H -1775 4050 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/yageo/CC0805MRX5R6BB225/311-3438-1-ND/7164459" H -1375 3700 60  0001 C CNN "Purchasing Link"
+F 5 "311-3438-1-ND" H -1800 3900 50  0001 C CNN "Digi-Key_PN"
+	1    -1800 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-1450 2950 -1800 2950
+Wire Wire Line
+	-1800 2950 -1800 3000
+$Comp
+L power:GND #PWR?
+U 1 1 5EC795AF
+P -1800 3300
+F 0 "#PWR?" H -1800 3050 50  0001 C CNN
+F 1 "GND" H -1795 3127 50  0000 C CNN
+F 2 "" H -1800 3300 50  0001 C CNN
+F 3 "" H -1800 3300 50  0001 C CNN
+	1    -1800 3300
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
