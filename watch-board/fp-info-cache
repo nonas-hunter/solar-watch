@@ -1,4 +1,4 @@
-19434193117667959
+19445349412075959
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -85575,6 +85575,41 @@ tp_1.6mm
 1
 1
 luke-footprints
+BAT_ML1220-F1A
+
+
+0
+2
+2
+luke-footprints
+Connector_Female-B2B-10
+
+
+0
+12
+11
+luke-footprints
+Connector_Female-B2B-20
+
+
+0
+22
+21
+luke-footprints
+Connector_Male-B2B-10
+
+
+0
+12
+11
+luke-footprints
+Connector_Male-B2B-20
+
+
+0
+22
+21
+luke-footprints
 Connector_Molex-5014610891
 
 
@@ -85589,7 +85624,21 @@ Connector_TI-KEYBOARD
 18
 18
 luke-footprints
+LCD_OD-204
+
+
+0
+16
+16
+luke-footprints
 LCD_OD-371
+
+
+0
+19
+19
+luke-footprints
+Sensor_VCNL4010
 
 
 0

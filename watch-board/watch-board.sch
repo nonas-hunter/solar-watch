@@ -1,9 +1,9 @@
 EESchema Schematic File Version 4
 EELAYER 30 0
 EELAYER END
-$Descr USLetter 11000 8500
+$Descr USLegal 14000 8500
 encoding utf-8
-Sheet 4 4
+Sheet 1 1
 Title "Solar Powered Watch"
 Date ""
 Rev "V1.0"
@@ -14,1442 +14,1722 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L luke:MCU_STM32L051K8Tx U9
-U 1 1 5EA1E829
-P 4600 6000
-F 0 "U9" H 5250 5000 50  0000 C CNN
-F 1 "MCU_STM32L051K8Tx" H 5300 4900 50  0000 C CNN
-F 2 "Package_QFP:LQFP-32_7x7mm_P0.8mm" H 4100 5100 50  0001 R CNN
-F 3 "https://www.st.com/content/ccc/resource/technical/document/datasheet/9a/75/bd/16/0f/fd/49/19/DM00108219.pdf/files/DM00108219.pdf/jcr:content/translations/en.DM00108219.pdf" H 4600 6000 50  0001 R CNN
-F 4 "https://www.digikey.com/product-detail/en/stmicroelectronics/STM32L051K8T6/497-14901-ND/4935250" H 4100 5000 50  0001 R CNN "Purchasing Link"
-F 5 "497-14901-ND" H 4100 4900 50  0001 R CNN "Digi-Key_PN"
-	1    4600 6000
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR054
+L power:GND #PWR08
 U 1 1 5EBC8B3A
-P 4550 7100
-F 0 "#PWR054" H 4550 6850 50  0001 C CNN
-F 1 "GND" H 4555 6927 50  0000 C CNN
-F 2 "" H 4550 7100 50  0001 C CNN
-F 3 "" H 4550 7100 50  0001 C CNN
-	1    4550 7100
+P 4300 7350
+F 0 "#PWR08" H 4300 7100 50  0001 C CNN
+F 1 "GND" H 4305 7177 50  0000 C CNN
+F 2 "" H 4300 7350 50  0001 C CNN
+F 3 "" H 4300 7350 50  0001 C CNN
+	1    4300 7350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4500 7000 4500 7050
+	4250 7250 4250 7300
 Wire Wire Line
-	4500 7050 4550 7050
+	4250 7300 4300 7300
 Wire Wire Line
-	4600 7050 4600 7000
+	4350 7300 4350 7250
 Wire Wire Line
-	4550 7100 4550 7050
-Connection ~ 4550 7050
+	4300 7350 4300 7300
+Connection ~ 4300 7300
 Wire Wire Line
-	4550 7050 4600 7050
+	4300 7300 4350 7300
 Wire Wire Line
-	4700 5100 4700 5050
+	4450 5350 4450 5300
 Wire Wire Line
-	4700 5050 4600 5050
+	4450 5300 4350 5300
 Wire Wire Line
-	4600 5050 4600 5100
+	4350 5300 4350 5350
 Wire Wire Line
-	4500 5050 4600 5050
-Connection ~ 4600 5050
+	4250 5300 4350 5300
+Connection ~ 4350 5300
 Wire Wire Line
-	4600 5050 4600 4950
+	4350 5300 4350 5200
 $Comp
-L luke:C_0.1uF C21
+L luke:C_0.1uF C3
 U 1 1 5EBAF210
-P 1750 6050
-F 0 "C21" V 1600 6100 50  0000 C CNN
-F 1 "C_0.1uF" V 1900 6100 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 1788 6650 50  0001 C CNN
-F 3 "https://api.kemet.com/component-edge/download/datasheet/C0805C104M3RACTU.pdf" H 1775 6900 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/kemet/C0805C104M3RACTU/399-8000-1-ND/3471723" H 2175 6550 60  0001 C CNN "Purchasing Link"
-F 5 "399-8000-1-ND" H 1750 6750 50  0001 C CNN "Digi-Key_PN"
-	1    1750 6050
+P 1550 6150
+F 0 "C3" V 1400 6200 50  0000 C CNN
+F 1 "C_0.1uF" V 1700 6200 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 1588 6750 50  0001 C CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C0805C104M3RACTU.pdf" H 1575 7000 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/kemet/C0805C104M3RACTU/399-8000-1-ND/3471723" H 1975 6650 60  0001 C CNN "Purchasing Link"
+F 5 "399-8000-1-ND" H 1550 6850 50  0001 C CNN "Digi-Key_PN"
+	1    1550 6150
 	0    1    1    0   
 $EndComp
 $Comp
-L luke:C_0.1uF C19
+L luke:C_0.1uF C1
 U 1 1 5EBB1CD4
-P 1750 5150
-F 0 "C19" V 1600 5200 50  0000 C CNN
-F 1 "C_0.1uF" V 1900 5200 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 1788 5750 50  0001 C CNN
-F 3 "https://api.kemet.com/component-edge/download/datasheet/C0805C104M3RACTU.pdf" H 1775 6000 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/kemet/C0805C104M3RACTU/399-8000-1-ND/3471723" H 2175 5650 60  0001 C CNN "Purchasing Link"
-F 5 "399-8000-1-ND" H 1750 5850 50  0001 C CNN "Digi-Key_PN"
-	1    1750 5150
+P 1550 5250
+F 0 "C1" V 1400 5300 50  0000 C CNN
+F 1 "C_0.1uF" V 1700 5300 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 1588 5850 50  0001 C CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C0805C104M3RACTU.pdf" H 1575 6100 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/kemet/C0805C104M3RACTU/399-8000-1-ND/3471723" H 1975 5750 60  0001 C CNN "Purchasing Link"
+F 5 "399-8000-1-ND" H 1550 5950 50  0001 C CNN "Digi-Key_PN"
+	1    1550 5250
 	0    1    1    0   
 $EndComp
 $Comp
-L luke:C_1uF C22
+L luke:C_1uF C4
 U 1 1 5EBB44E5
-P 1750 6450
-F 0 "C22" V 1600 6500 50  0000 C CNN
-F 1 "C_1uF" V 1900 6500 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 1788 7050 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_Y5V_6.3V-to-50V_9.pdf" H 1775 7300 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/yageo/CC0805ZKY5V9BB105/311-1909-1-ND/5195811#images" H 2175 6950 60  0001 C CNN "Purchasing Link"
-F 5 "311-1909-1-ND " H 1750 7150 50  0001 C CNN "Digi-Key_PN"
-	1    1750 6450
+P 1550 6550
+F 0 "C4" V 1400 6600 50  0000 C CNN
+F 1 "C_1uF" V 1700 6600 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 1588 7150 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_Y5V_6.3V-to-50V_9.pdf" H 1575 7400 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/yageo/CC0805ZKY5V9BB105/311-1909-1-ND/5195811#images" H 1975 7050 60  0001 C CNN "Purchasing Link"
+F 5 "311-1909-1-ND " H 1550 7250 50  0001 C CNN "Digi-Key_PN"
+	1    1550 6550
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1650 5150 1600 5150
+	1450 5250 1400 5250
 Wire Wire Line
-	1600 5150 1600 5550
+	1400 5250 1400 5650
 Wire Wire Line
-	1600 5550 1650 5550
+	1400 5650 1450 5650
 Wire Wire Line
-	1600 5550 1600 6050
+	1400 5650 1400 6150
 Wire Wire Line
-	1600 6050 1650 6050
-Connection ~ 1600 5550
+	1400 6150 1450 6150
+Connection ~ 1400 5650
 Wire Wire Line
-	1950 5150 2000 5150
+	1750 5250 1800 5250
 Wire Wire Line
-	2000 5150 2000 5550
+	1800 5250 1800 5650
 Wire Wire Line
-	2000 5550 1950 5550
+	1800 5650 1750 5650
 Wire Wire Line
-	2000 5550 2000 6050
-Connection ~ 2000 5550
+	1800 5650 1800 6150
+Connection ~ 1800 5650
 Wire Wire Line
-	2000 6050 1950 6050
+	1800 6150 1750 6150
 Wire Wire Line
-	1600 4950 1600 5150
-Connection ~ 1600 5150
-Connection ~ 2000 7350
+	1400 5050 1400 5250
+Connection ~ 1400 5250
+Connection ~ 1800 7450
 Wire Wire Line
-	2000 7550 2000 7350
+	1800 7650 1800 7450
 $Comp
-L power:GND #PWR042
+L power:GND #PWR02
 U 1 1 5EC5CFD6
-P 2000 7550
-F 0 "#PWR042" H 2000 7300 50  0001 C CNN
-F 1 "GND" H 2005 7377 50  0000 C CNN
-F 2 "" H 2000 7550 50  0001 C CNN
-F 3 "" H 2000 7550 50  0001 C CNN
-	1    2000 7550
+P 1800 7650
+F 0 "#PWR02" H 1800 7400 50  0001 C CNN
+F 1 "GND" H 1805 7477 50  0000 C CNN
+F 2 "" H 1800 7650 50  0001 C CNN
+F 3 "" H 1800 7650 50  0001 C CNN
+	1    1800 7650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2000 6950 2000 7350
+	1800 7050 1800 7450
 Wire Wire Line
-	1950 6950 2000 6950
+	1750 7050 1800 7050
 Wire Wire Line
-	2000 7350 1950 7350
+	1800 7450 1750 7450
 Wire Wire Line
-	1600 7350 1650 7350
+	1400 7450 1450 7450
 Wire Wire Line
-	1600 6950 1600 7350
+	1400 7050 1400 7450
 Wire Wire Line
-	1600 6950 1650 6950
+	1400 7050 1450 7050
 $Comp
-L luke:C_10uF C24
+L luke:C_10uF C6
 U 1 1 5EBB722F
-P 1750 7350
-F 0 "C24" V 1600 7400 50  0000 C CNN
-F 1 "C_10uF" V 1900 7400 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 1788 7950 50  0001 C CNN
-F 3 "https://content.kemet.com/datasheets/KEM_C1006_X5R_SMD.pdf" H 1775 8200 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/kemet/C0805C106K8PACTU/399-4925-1-ND/1090920" H 2175 7850 60  0001 C CNN "Purchasing Link"
-F 5 "399-4925-1-ND" H 1750 8050 50  0001 C CNN "Digi-Key_PN"
-	1    1750 7350
+P 1550 7450
+F 0 "C6" V 1400 7500 50  0000 C CNN
+F 1 "C_10uF" V 1700 7500 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 1588 8050 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1006_X5R_SMD.pdf" H 1575 8300 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/kemet/C0805C106K8PACTU/399-4925-1-ND/1090920" H 1975 7950 60  0001 C CNN "Purchasing Link"
+F 5 "399-4925-1-ND" H 1550 8150 50  0001 C CNN "Digi-Key_PN"
+	1    1550 7450
 	0    1    1    0   
 $EndComp
 $Comp
-L luke:C_0.1uF C23
+L luke:C_0.1uF C5
 U 1 1 5EBAFDA0
-P 1750 6950
-F 0 "C23" V 1600 7000 50  0000 C CNN
-F 1 "C_0.1uF" V 1900 7000 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 1788 7550 50  0001 C CNN
-F 3 "https://api.kemet.com/component-edge/download/datasheet/C0805C104M3RACTU.pdf" H 1775 7800 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/kemet/C0805C104M3RACTU/399-8000-1-ND/3471723" H 2175 7450 60  0001 C CNN "Purchasing Link"
-F 5 "399-8000-1-ND" H 1750 7650 50  0001 C CNN "Digi-Key_PN"
-	1    1750 6950
+P 1550 7050
+F 0 "C5" V 1400 7100 50  0000 C CNN
+F 1 "C_0.1uF" V 1700 7100 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 1588 7650 50  0001 C CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C0805C104M3RACTU.pdf" H 1575 7900 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/kemet/C0805C104M3RACTU/399-8000-1-ND/3471723" H 1975 7550 60  0001 C CNN "Purchasing Link"
+F 5 "399-8000-1-ND" H 1550 7750 50  0001 C CNN "Digi-Key_PN"
+	1    1550 7050
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1600 6950 1600 6450
-Connection ~ 1600 6950
-Connection ~ 1600 6050
+	1400 7050 1400 6550
+Connection ~ 1400 7050
+Connection ~ 1400 6150
 Wire Wire Line
-	2000 6050 2000 6450
-Connection ~ 2000 6050
-Connection ~ 2000 6950
+	1800 6150 1800 6550
+Connection ~ 1800 6150
+Connection ~ 1800 7050
 Wire Wire Line
-	1950 6450 2000 6450
-Connection ~ 2000 6450
+	1750 6550 1800 6550
+Connection ~ 1800 6550
 Wire Wire Line
-	2000 6450 2000 6950
+	1800 6550 1800 7050
 Wire Wire Line
-	1650 6450 1600 6450
-Connection ~ 1600 6450
+	1450 6550 1400 6550
+Connection ~ 1400 6550
 Wire Wire Line
-	1600 6450 1600 6050
-Text Notes 850  6300 0    50   ~ 0
+	1400 6550 1400 6150
+Text Notes 650  6400 0    50   ~ 0
 VDDA\nPlace near Pin 5\nDatasheet Page 47
-Text Notes 850  5400 0    50   ~ 0
+Text Notes 650  5500 0    50   ~ 0
 VDD\nPlace near Pin 17\nDatasheet Page 47
-Text Notes 850  7200 0    50   ~ 0
+Text Notes 650  7300 0    50   ~ 0
 VDD\nPlace near Pin 1\nDatasheet Page 47
 $Comp
-L luke:C_1uF C20
+L luke:C_1uF C2
 U 1 1 5ECAA11E
-P 1750 5550
-F 0 "C20" V 1600 5600 50  0000 C CNN
-F 1 "C_1uF" V 1900 5600 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 1788 6150 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_Y5V_6.3V-to-50V_9.pdf" H 1775 6400 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/yageo/CC0805ZKY5V9BB105/311-1909-1-ND/5195811#images" H 2175 6050 60  0001 C CNN "Purchasing Link"
-F 5 "311-1909-1-ND " H 1750 6250 50  0001 C CNN "Digi-Key_PN"
-	1    1750 5550
+P 1550 5650
+F 0 "C2" V 1400 5700 50  0000 C CNN
+F 1 "C_1uF" V 1700 5700 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 1588 6250 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_Y5V_6.3V-to-50V_9.pdf" H 1575 6500 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/yageo/CC0805ZKY5V9BB105/311-1909-1-ND/5195811#images" H 1975 6150 60  0001 C CNN "Purchasing Link"
+F 5 "311-1909-1-ND " H 1550 6350 50  0001 C CNN "Digi-Key_PN"
+	1    1550 5650
 	0    1    1    0   
 $EndComp
 $Comp
-L power:VDD #PWR055
+L power:VDD #PWR09
 U 1 1 5ECD6303
-P 4600 4950
-F 0 "#PWR055" H 4600 4800 50  0001 C CNN
-F 1 "VDD" H 4617 5123 50  0000 C CNN
-F 2 "" H 4600 4950 50  0001 C CNN
-F 3 "" H 4600 4950 50  0001 C CNN
-	1    4600 4950
+P 4350 5200
+F 0 "#PWR09" H 4350 5050 50  0001 C CNN
+F 1 "VDD" H 4367 5373 50  0000 C CNN
+F 2 "" H 4350 5200 50  0001 C CNN
+F 3 "" H 4350 5200 50  0001 C CNN
+	1    4350 5200
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VDD #PWR040
+L power:VDD #PWR01
 U 1 1 5ECD953F
-P 1600 4950
-F 0 "#PWR040" H 1600 4800 50  0001 C CNN
-F 1 "VDD" H 1617 5123 50  0000 C CNN
-F 2 "" H 1600 4950 50  0001 C CNN
-F 3 "" H 1600 4950 50  0001 C CNN
-	1    1600 4950
+P 1400 5050
+F 0 "#PWR01" H 1400 4900 50  0001 C CNN
+F 1 "VDD" H 1417 5223 50  0000 C CNN
+F 2 "" H 1400 5050 50  0001 C CNN
+F 3 "" H 1400 5050 50  0001 C CNN
+	1    1400 5050
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR051
+L power:GND #PWR07
 U 1 1 5ED3B9B6
-P 3950 5550
-F 0 "#PWR051" H 3950 5300 50  0001 C CNN
-F 1 "GND" H 3955 5377 50  0000 C CNN
-F 2 "" H 3950 5550 50  0001 C CNN
-F 3 "" H 3950 5550 50  0001 C CNN
-	1    3950 5550
+P 3700 5800
+F 0 "#PWR07" H 3700 5550 50  0001 C CNN
+F 1 "GND" H 3705 5627 50  0000 C CNN
+F 2 "" H 3700 5800 50  0001 C CNN
+F 3 "" H 3700 5800 50  0001 C CNN
+	1    3700 5800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4000 5500 3950 5500
+	3750 5750 3700 5750
 Wire Wire Line
-	3950 5500 3950 5550
-Text Label 5100 6600 0    50   ~ 0
+	3700 5750 3700 5800
+Text Label 4850 6850 0    50   ~ 0
 SWDIO
-Text Label 5100 6700 0    50   ~ 0
+Text Label 4850 6950 0    50   ~ 0
 SWCLK
 $Comp
-L luke:Conn_01x05_Male J2
+L luke:Conn_01x05_Male J1
 U 1 1 5ED7C4B6
-P 1050 1450
-F 0 "J2" H 1150 1900 50  0000 C CNN
-F 1 "Conn_01x05_Male" H 1150 1800 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 1050 1050 50  0001 C CNN
-F 3 "~" H 1050 1450 50  0001 C CNN
-	1    1050 1450
+P 5800 7550
+F 0 "J1" H 5900 8000 50  0000 C CNN
+F 1 "Conn_01x05_Male" H 5900 7900 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 5800 7150 50  0001 C CNN
+F 3 "~" H 5800 7550 50  0001 C CNN
+	1    5800 7550
 	1    0    0    -1  
 $EndComp
-Text Label 4000 5300 2    50   ~ 0
+Text Label 3750 5550 2    50   ~ 0
 RST
 $Comp
-L luke:C_0.1uF C26
+L luke:C_0.1uF C8
 U 1 1 5EDC3510
-P 3450 5550
-F 0 "C26" H 3565 5646 50  0000 L CNN
-F 1 "C_0.1uF" H 3565 5555 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 3488 6150 50  0001 C CNN
-F 3 "https://api.kemet.com/component-edge/download/datasheet/C0805C104M3RACTU.pdf" H 3475 6400 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/kemet/C0805C104M3RACTU/399-8000-1-ND/3471723" H 3875 6050 60  0001 C CNN "Purchasing Link"
-F 5 "399-8000-1-ND" H 3450 6250 50  0001 C CNN "Digi-Key_PN"
-	1    3450 5550
+P 2950 5800
+F 0 "C8" H 3065 5896 50  0000 L CNN
+F 1 "C_0.1uF" H 3065 5805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2988 6400 50  0001 C CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C0805C104M3RACTU.pdf" H 2975 6650 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/kemet/C0805C104M3RACTU/399-8000-1-ND/3471723" H 3375 6300 60  0001 C CNN "Purchasing Link"
+F 5 "399-8000-1-ND" H 2950 6500 50  0001 C CNN "Digi-Key_PN"
+	1    2950 5800
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR047
+L power:GND #PWR04
 U 1 1 5EDC8CCB
-P 3450 5650
-F 0 "#PWR047" H 3450 5400 50  0001 C CNN
-F 1 "GND" H 3455 5477 50  0000 C CNN
-F 2 "" H 3450 5650 50  0001 C CNN
-F 3 "" H 3450 5650 50  0001 C CNN
-	1    3450 5650
+P 2950 5900
+F 0 "#PWR04" H 2950 5650 50  0001 C CNN
+F 1 "GND" H 2955 5727 50  0000 C CNN
+F 2 "" H 2950 5900 50  0001 C CNN
+F 3 "" H 2950 5900 50  0001 C CNN
+	1    2950 5900
 	1    0    0    -1  
 $EndComp
 $Comp
-L luke:Regulator_BQ25504 U11
-U 1 1 5F1738D3
-P 8650 2650
-F 0 "U11" H 9294 2696 50  0000 L CNN
-F 1 "Regulator_BQ25504" H 9294 2605 50  0000 L CNN
-F 2 "Package_DFN_QFN:VQFN-16-1EP_3x3mm_P0.5mm_EP1.8x1.8mm_ThermalVias" H 8650 1350 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/bq25504.pdf" H 8350 3450 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/texas-instruments/BQ25504RGTT/296-29741-1-ND/2766003" H 8650 1250 50  0001 C CNN "Purchasing Link"
-F 5 "296-29741-1-ND" H 8650 1150 50  0001 C CNN "Digi-Key_PN"
-	1    8650 2650
-	1    0    0    -1  
-$EndComp
-$Comp
-L luke:Solar-Cells_KXOB25-05X3F SC2
-U 1 1 5EC26EF0
-P 7450 1150
-F 0 "SC2" H 7250 1200 50  0000 R CNN
-F 1 "Solar-Cells_KXOB25-05X3F" H 7250 1100 50  0000 R CNN
-F 2 "luke-footprints:Solar-Cells_KXOB25" V 7450 1210 50  0001 C CNN
-F 3 "https://ixapps.ixys.com/DataSheet/KXOB25_05X3F.pdf" V 7450 1210 50  0001 L CNN
-F 4 "KXOB25-05X3FCT-ND" H 7550 1050 50  0001 L CNN "Digi-Key_PN"
-F 5 "https://www.digikey.com/product-detail/en/ixys/KXOB25-05X3F-TR/KXOB25-05X3FCT-ND/9990481" H 7550 950 50  0001 L CNN "Purchasing Link"
-	1    7450 1150
-	1    0    0    -1  
-$EndComp
-$Comp
-L luke:Regulator_LTC3531-3 U10
+L luke:Regulator_LTC3531-3 U6
 U 1 1 5EC3061F
-P 8250 5500
-F 0 "U10" H 8250 6015 50  0000 C CNN
-F 1 "Regulator_LTC3531-3" H 8250 5924 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:TSOT-23-6" H 8250 4300 50  0001 C CNN
-F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/3531fb.pdf" H 8250 4350 50  0001 C CNN
-F 4 "LTC3531ES6-3#TRMPBFCT-ND" H 8250 4450 50  0001 C CNN "Digi-Key_PN"
-F 5 "https://www.digikey.com/product-detail/en/linear-technology-analog-devices/LTC3531ES6-3-TRMPBF/LTC3531ES6-3-TRMPBFCT-ND/10130018" H 8250 4200 50  0001 C CNN "Purchasing Link"
-	1    8250 5500
+P 11650 5600
+F 0 "U6" H 11650 6115 50  0000 C CNN
+F 1 "Regulator_LTC3531-3" H 11650 6024 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:TSOT-23-6" H 11650 4400 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/3531fb.pdf" H 11650 4450 50  0001 C CNN
+F 4 "LTC3531ES6-3#TRMPBFCT-ND" H 11650 4550 50  0001 C CNN "Digi-Key_PN"
+F 5 "https://www.digikey.com/product-detail/en/linear-technology-analog-devices/LTC3531ES6-3-TRMPBF/LTC3531ES6-3-TRMPBFCT-ND/10130018" H 11650 4300 50  0001 C CNN "Purchasing Link"
+	1    11650 5600
 	1    0    0    -1  
 $EndComp
 $Comp
-L luke:L_22uH L4
-U 1 1 5EC38BDA
-P 8500 1700
-F 0 "L4" H 8500 1885 50  0000 C CNN
-F 1 "L_22uH" H 8500 1794 50  0000 C CNN
-F 2 "Inductor_SMD:L_Wuerth_WE-TPC-3816" H 8400 1500 50  0001 C CNN
-F 3 "https://www.we-online.de/katalog/datasheet/744031220.pdf" H 8400 1550 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/744031220/732-1012-1-ND/1639073" H 8800 1900 50  0001 C CNN "Purchasing Link"
-F 5 "732-1012-1-ND" H 8500 1400 50  0001 C CNN "Digi-Key_PN"
-	1    8500 1700
-	1    0    0    -1  
-$EndComp
-$Comp
-L luke:L_10uH L3
+L luke:L_10uH L2
 U 1 1 5F1738DB
-P 8250 4900
-F 0 "L3" H 8250 5085 50  0000 C CNN
-F 1 "L_10uH" H 8250 4994 50  0000 C CNN
-F 2 "Inductor_SMD:L_1812_4532Metric" H 8150 4700 50  0001 C CNN
-F 3 "https://search.murata.co.jp/Ceramy/image/img/P02/JELF243A-0042.pdf" H 8150 4750 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/murata-electronics/LQH43CN100K03L/490-2519-1-ND/599992" H 8550 5100 50  0001 C CNN "PurchasingLink"
-F 5 " 490-2519-1-ND" H 8250 4600 50  0001 C CNN "Digi-Key_PN"
-F 6 "https://www.digikey.com/product-detail/en/murata-electronics/LQH43CN100K03L/490-2519-1-ND/599992" H 0   0   50  0001 C CNN "Purchasing Link"
-	1    8250 4900
+P 11650 5000
+F 0 "L2" H 11650 5185 50  0000 C CNN
+F 1 "L_10uH" H 11650 5094 50  0000 C CNN
+F 2 "Inductor_SMD:L_1812_4532Metric" H 11550 4800 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/P02/JELF243A-0042.pdf" H 11550 4850 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/murata-electronics/LQH43CN100K03L/490-2519-1-ND/599992" H 11950 5200 50  0001 C CNN "PurchasingLink"
+F 5 " 490-2519-1-ND" H 11650 4700 50  0001 C CNN "Digi-Key_PN"
+F 6 "https://www.digikey.com/product-detail/en/murata-electronics/LQH43CN100K03L/490-2519-1-ND/599992" H 3400 100 50  0001 C CNN "Purchasing Link"
+	1    11650 5000
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR064
+L power:GND #PWR031
 U 1 1 5F1738DC
-P 8400 5950
-F 0 "#PWR064" H 8400 5700 50  0001 C CNN
-F 1 "GND" H 8405 5777 50  0000 C CNN
-F 2 "" H 8400 5950 50  0001 C CNN
-F 3 "" H 8400 5950 50  0001 C CNN
-	1    8400 5950
+P 11800 6050
+F 0 "#PWR031" H 11800 5800 50  0001 C CNN
+F 1 "GND" H 11805 5877 50  0000 C CNN
+F 2 "" H 11800 6050 50  0001 C CNN
+F 3 "" H 11800 6050 50  0001 C CNN
+	1    11800 6050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8150 4900 7800 4900
+	11550 5000 11200 5000
 Wire Wire Line
-	7800 4900 7800 5250
+	11200 5000 11200 5350
 Wire Wire Line
-	7800 5250 7850 5250
+	11200 5350 11250 5350
 Wire Wire Line
-	8650 5250 8700 5250
+	12050 5350 12100 5350
 Wire Wire Line
-	8700 5250 8700 4900
+	12100 5350 12100 5000
 Wire Wire Line
-	8700 4900 8350 4900
+	12100 5000 11750 5000
 $Comp
-L power:GND #PWR067
+L power:GND #PWR033
 U 1 1 5F1738E0
-P 8850 5800
-F 0 "#PWR067" H 8850 5550 50  0001 C CNN
-F 1 "GND" H 8855 5627 50  0000 C CNN
-F 2 "" H 8850 5800 50  0001 C CNN
-F 3 "" H 8850 5800 50  0001 C CNN
-	1    8850 5800
+P 12250 5900
+F 0 "#PWR033" H 12250 5650 50  0001 C CNN
+F 1 "GND" H 12255 5727 50  0000 C CNN
+F 2 "" H 12250 5900 50  0001 C CNN
+F 3 "" H 12250 5900 50  0001 C CNN
+	1    12250 5900
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VDD #PWR066
+L power:VDD #PWR032
 U 1 1 5F1738E1
-P 8850 5100
-F 0 "#PWR066" H 8850 4950 50  0001 C CNN
-F 1 "VDD" H 8867 5273 50  0000 C CNN
-F 2 "" H 8850 5100 50  0001 C CNN
-F 3 "" H 8850 5100 50  0001 C CNN
-	1    8850 5100
+P 12250 5200
+F 0 "#PWR032" H 12250 5050 50  0001 C CNN
+F 1 "VDD" H 12267 5373 50  0000 C CNN
+F 2 "" H 12250 5200 50  0001 C CNN
+F 3 "" H 12250 5200 50  0001 C CNN
+	1    12250 5200
 	1    0    0    -1  
 $EndComp
 $Comp
-L luke:C_10uF C33
+L luke:C_10uF C19
 U 1 1 5F1738DD
-P 8850 5700
-F 0 "C33" H 8965 5796 50  0000 L CNN
-F 1 "C_10uF" H 8965 5705 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 8888 6300 50  0001 C CNN
-F 3 "https://content.kemet.com/datasheets/KEM_C1006_X5R_SMD.pdf" H 8875 6550 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/kemet/C0805C106K8PACTU/399-4925-1-ND/1090920" H 9275 6200 60  0001 C CNN "Purchasing Link"
-F 5 "399-4925-1-ND" H 8850 6400 50  0001 C CNN "Digi-Key_PN"
-	1    8850 5700
+P 12250 5800
+F 0 "C19" H 12365 5896 50  0000 L CNN
+F 1 "C_10uF" H 12365 5805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 12288 6400 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1006_X5R_SMD.pdf" H 12275 6650 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/kemet/C0805C106K8PACTU/399-4925-1-ND/1090920" H 12675 6300 60  0001 C CNN "Purchasing Link"
+F 5 "399-4925-1-ND" H 12250 6500 50  0001 C CNN "Digi-Key_PN"
+	1    12250 5800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8650 5450 8850 5450
+	12050 5550 12250 5550
 Wire Wire Line
-	8850 5450 8850 5400
+	12250 5550 12250 5500
 Wire Wire Line
-	8850 5500 8850 5450
-Connection ~ 8850 5450
+	12250 5600 12250 5550
+Connection ~ 12250 5550
 $Comp
-L luke:C_2.2uF C30
+L luke:C_2.2uF C18
 U 1 1 5EC67329
-P 7300 5700
-F 0 "C30" H 7415 5796 50  0000 L CNN
-F 1 "C_2.2uF" H 7415 5705 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 7338 6300 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X5R_4V-to-50V_25.pdf" H 7325 6550 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/yageo/CC0805MRX5R6BB225/311-3438-1-ND/7164459" H 7725 6200 60  0001 C CNN "Purchasing Link"
-F 5 "311-3438-1-ND" H 7300 6400 50  0001 C CNN "Digi-Key_PN"
-	1    7300 5700
+P 10700 5800
+F 0 "C18" H 10815 5896 50  0000 L CNN
+F 1 "C_2.2uF" H 10815 5805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 10738 6400 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X5R_4V-to-50V_25.pdf" H 10725 6650 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/yageo/CC0805MRX5R6BB225/311-3438-1-ND/7164459" H 11125 6300 60  0001 C CNN "Purchasing Link"
+F 5 "311-3438-1-ND" H 10700 6500 50  0001 C CNN "Digi-Key_PN"
+	1    10700 5800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7300 5450 7300 5500
+	10700 5550 10700 5600
 $Comp
-L power:GND #PWR061
+L power:GND #PWR029
 U 1 1 5EC795AF
-P 7300 5800
-F 0 "#PWR061" H 7300 5550 50  0001 C CNN
-F 1 "GND" H 7305 5627 50  0000 C CNN
-F 2 "" H 7300 5800 50  0001 C CNN
-F 3 "" H 7300 5800 50  0001 C CNN
-	1    7300 5800
+P 10700 5900
+F 0 "#PWR029" H 10700 5650 50  0001 C CNN
+F 1 "GND" H 10705 5727 50  0000 C CNN
+F 2 "" H 10700 5900 50  0001 C CNN
+F 3 "" H 10700 5900 50  0001 C CNN
+	1    10700 5900
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR069
-U 1 1 5ECB0237
-P 9800 1400
-F 0 "#PWR069" H 9800 1150 50  0001 C CNN
-F 1 "GND" H 9805 1227 50  0000 C CNN
-F 2 "" H 9800 1400 50  0001 C CNN
-F 3 "" H 9800 1400 50  0001 C CNN
-	1    9800 1400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9050 1400 9050 1350
-Wire Wire Line
-	9050 1350 9800 1350
-Wire Wire Line
-	9800 1350 9800 1400
-Wire Wire Line
-	9050 1700 9050 1850
-Wire Wire Line
-	8400 1700 8250 1700
-Wire Wire Line
-	8250 1700 8250 1850
-Wire Wire Line
-	8600 1700 8750 1700
-Wire Wire Line
-	8750 1700 8750 1850
-$Comp
-L power:GND #PWR065
-U 1 1 5F1738EE
-P 8650 3650
-F 0 "#PWR065" H 8650 3400 50  0001 C CNN
-F 1 "GND" H 8655 3477 50  0000 C CNN
-F 2 "" H 8650 3650 50  0001 C CNN
-F 3 "" H 8650 3650 50  0001 C CNN
-	1    8650 3650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8450 3450 8450 3550
-Wire Wire Line
-	8450 3550 8650 3550
-Wire Wire Line
-	8650 3550 8650 3650
-Wire Wire Line
-	8850 3450 8850 3550
-Wire Wire Line
-	8850 3550 8650 3550
-Connection ~ 8650 3550
-Wire Wire Line
-	8650 3450 8650 3550
-Wire Wire Line
-	8050 3050 8000 3050
-Wire Wire Line
-	8000 3050 8000 3550
-Wire Wire Line
-	8000 3550 8350 3550
-Connection ~ 8450 3550
-$Comp
-L luke:R_3.83M R26
-U 1 1 5F1738D4
-P 7700 2050
-F 0 "R26" V 7493 2050 50  0000 C CNN
-F 1 "R_3.83M" V 7584 2050 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 6600 2350 50  0001 L CNN
-F 3 "https://www.vishay.com/docs/20035/dcrcwe3.pdf" H 6600 2450 50  0001 L CNN
-F 4 "541-3.83MCCT-ND" H 6600 2250 60  0001 L CNN "Digi-Key_PN"
-F 5 "https://www.digikey.com/product-detail/en/vishay-dale/CRCW08053M83FKEA/541-3-83MCCT-ND/1181192" H 6600 2550 60  0001 L CNN "Purchasing Link"
-	1    7700 2050
-	0    1    1    0   
-$EndComp
-$Comp
-L luke:R_10M R25
-U 1 1 5F1738D5
-P 7300 2050
-F 0 "R25" V 7093 2050 50  0000 C CNN
-F 1 "R_10M" V 7184 2050 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 6200 2350 50  0001 L CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 6200 2450 50  0001 L CNN
-F 4 "311-10MARDKR-ND" H 6200 2250 60  0001 L CNN "Digi-Key_PN"
-F 5 "https://www.digikey.com/product-detail/en/yageo/RC0805JR-0710ML/311-10MARDKR-ND/734136" H 6200 2550 60  0001 L CNN "Purchasing Link"
-	1    7300 2050
-	0    1    1    0   
-$EndComp
-$Comp
-L luke:R_6.04M R24
-U 1 1 5F1738D6
-P 7000 2050
-F 0 "R24" V 6793 2050 50  0000 C CNN
-F 1 "R_6.04M" V 6884 2050 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 5900 2350 50  0001 L CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 5900 2450 50  0001 L CNN
-F 4 "311-6.04MCRCT-ND" H 5900 2250 60  0001 L CNN "Digi-Key_PN"
-F 5 "https://www.digikey.com/product-detail/en/yageo/RC0805FR-076M04L/311-6-04MCRCT-ND/730997" H 5900 2550 60  0001 L CNN "Purchasing Link"
-	1    7000 2050
-	0    1    1    0   
-$EndComp
-Connection ~ 8250 1700
-$Comp
-L power:GND #PWR063
-U 1 1 5F1738DA
-P 7550 1450
-F 0 "#PWR063" H 7550 1200 50  0001 C CNN
-F 1 "GND" H 7555 1277 50  0000 C CNN
-F 2 "" H 7550 1450 50  0001 C CNN
-F 3 "" H 7550 1450 50  0001 C CNN
-	1    7550 1450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7450 1350 7450 1400
-Wire Wire Line
-	7450 1400 7550 1400
-Wire Wire Line
-	7550 1400 7550 1450
-Wire Wire Line
-	7450 950  7450 900 
-Wire Wire Line
-	7450 900  7650 900 
-Wire Wire Line
-	8250 900  8250 1700
-$Comp
-L power:GND #PWR059
-U 1 1 5F1738DE
-P 6800 2100
-F 0 "#PWR059" H 6800 1850 50  0001 C CNN
-F 1 "GND" H 6805 1927 50  0000 C CNN
-F 2 "" H 6800 2100 50  0001 C CNN
-F 3 "" H 6800 2100 50  0001 C CNN
-	1    6800 2100
-	1    0    0    -1  
-$EndComp
-$Comp
-L luke:R_5.11M R23
-U 1 1 5F1738DF
-P 6800 3450
-F 0 "R23" H 6870 3496 50  0000 L CNN
-F 1 "R_5.11M" H 6870 3405 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 5700 3750 50  0001 L CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 5700 3850 50  0001 L CNN
-F 4 "311-5.11MCRCT-ND" H 5700 3650 60  0001 L CNN "Digi-Key_PN"
-F 5 "https://www.digikey.com/product-detail/en/yageo/RC0805FR-075M11L/311-5-11MCRCT-ND/730938" H 5700 3950 60  0001 L CNN "Purchasing Link"
-	1    6800 3450
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR060
-U 1 1 5EC53187
-P 6800 3600
-F 0 "#PWR060" H 6800 3350 50  0001 C CNN
-F 1 "GND" H 6805 3427 50  0000 C CNN
-F 2 "" H 6800 3600 50  0001 C CNN
-F 3 "" H 6800 3600 50  0001 C CNN
-	1    6800 3600
-	1    0    0    -1  
-$EndComp
-$Comp
-L luke:R_4.22M R22
-U 1 1 5F1738E3
-P 6800 3050
-F 0 "R22" H 6870 3096 50  0000 L CNN
-F 1 "R_4.22M" H 6870 3005 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 5700 3350 50  0001 L CNN
-F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H 5700 3450 50  0001 L CNN
-F 4 " 2019-RK73H2ATTD4224FCT-ND" H 5700 3250 60  0001 L CNN "Digi-Key_PN"
-F 5 "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73H2ATTD4224F/2019-RK73H2ATTD4224FCT-ND/10235051" H 5700 3550 60  0001 L CNN "Purchasing Link"
-	1    6800 3050
-	1    0    0    -1  
-$EndComp
-$Comp
-L luke:R_806K R21
-U 1 1 5EC5BABC
-P 6800 2650
-F 0 "R21" H 6870 2696 50  0000 L CNN
-F 1 "R_806K" H 6870 2605 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 5700 2950 50  0001 L CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 5700 3050 50  0001 L CNN
-F 4 "311-806KCRCT-ND" H 5700 2850 60  0001 L CNN "Digi-Key_PN"
-F 5 "https://www.digikey.com/product-detail/en/yageo/RC0805FR-07806KL/311-806KCRCT-ND/731110" H 5700 3150 60  0001 L CNN "Purchasing Link"
-	1    6800 2650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6800 2800 6800 2850
-Wire Wire Line
-	6800 3200 6800 3250
-Text Notes 7200 1750 0    50   ~ 0
-R_OC
-Text Notes 6700 3900 0    50   ~ 0
-R_OK
-Text Notes 5600 3500 0    50   ~ 0
-R_OV
-$Comp
-L luke:R_6.19M R18
-U 1 1 5F1738E8
-P 5700 3050
-F 0 "R18" H 5770 3096 50  0000 L CNN
-F 1 "R_6.19M" H 5770 3005 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 4600 3350 50  0001 L CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 4600 3450 50  0001 L CNN
-F 4 "311-6.19MCRCT-ND" H 4600 3250 60  0001 L CNN "Digi-Key_PN"
-F 5 "https://www.digikey.com/product-detail/en/yageo/RC0805FR-076M19L/311-6-19MCRCT-ND/731000" H 4600 3550 60  0001 L CNN "Purchasing Link"
-	1    5700 3050
-	1    0    0    -1  
-$EndComp
-$Comp
-L luke:R_3.74M R17
-U 1 1 5F1738E9
-P 5700 2650
-F 0 "R17" H 5770 2696 50  0000 L CNN
-F 1 "R_3.74M" H 5770 2605 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 4600 2950 50  0001 L CNN
-F 3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" H 4600 3050 50  0001 L CNN
-F 4 "541-3.74MCCT-ND" H 4600 2850 60  0001 L CNN "Digi-Key_PN"
-F 5 "https://www.digikey.com/product-detail/en/vishay-dale/CRCW08053M74FKEA/541-3-74MCCT-ND/1181191" H 4600 3150 60  0001 L CNN "Purchasing Link"
-	1    5700 2650
-	1    0    0    -1  
-$EndComp
-$Comp
-L luke:R_4.22M R19
-U 1 1 5F1738EA
-P 6250 2650
-F 0 "R19" H 6320 2696 50  0000 L CNN
-F 1 "R_4.22M" H 6320 2605 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 5150 2950 50  0001 L CNN
-F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H 5150 3050 50  0001 L CNN
-F 4 " 2019-RK73H2ATTD4224FCT-ND" H 5150 2850 60  0001 L CNN "Digi-Key_PN"
-F 5 "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73H2ATTD4224F/2019-RK73H2ATTD4224FCT-ND/10235051" H 5150 3150 60  0001 L CNN "Purchasing Link"
-	1    6250 2650
-	1    0    0    -1  
-$EndComp
-Text Notes 6150 3500 0    50   ~ 0
-R_UV
-$Comp
-L luke:R_5.62M R20
-U 1 1 5ECC9141
-P 6250 3050
-F 0 "R20" H 6320 3096 50  0000 L CNN
-F 1 "R_5.62M" H 6320 3005 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 5150 3350 50  0001 L CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 5150 3450 50  0001 L CNN
-F 4 "311-5.62MCRCT-ND" H 5150 3250 60  0001 L CNN "Digi-Key_PN"
-F 5 "https://www.digikey.com/product-detail/en/yageo/RC0805FR-075M62L/311-5-62MCRCT-ND/730952" H 5150 3550 60  0001 L CNN "Purchasing Link"
-	1    6250 3050
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR057
-U 1 1 5ECC97DD
-P 5700 3200
-F 0 "#PWR057" H 5700 2950 50  0001 C CNN
-F 1 "GND" H 5705 3027 50  0000 C CNN
-F 2 "" H 5700 3200 50  0001 C CNN
-F 3 "" H 5700 3200 50  0001 C CNN
-	1    5700 3200
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR058
-U 1 1 5ECC9E46
-P 6250 3200
-F 0 "#PWR058" H 6250 2950 50  0001 C CNN
-F 1 "GND" H 6255 3027 50  0000 C CNN
-F 2 "" H 6250 3200 50  0001 C CNN
-F 3 "" H 6250 3200 50  0001 C CNN
-	1    6250 3200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6250 2800 6250 2850
-Wire Wire Line
-	5700 2800 5700 2850
-Text Label 8050 2550 2    50   ~ 0
-VBAT_OV
-Text Label 5800 2850 0    50   ~ 0
-VBAT_OV
-Wire Wire Line
-	5700 2850 5800 2850
-Connection ~ 5700 2850
-Wire Wire Line
-	5700 2850 5700 2900
-Text Label 8050 2650 2    50   ~ 0
-VBAT_UV
-Text Label 8050 2750 2    50   ~ 0
-OK_HYST
-Wire Wire Line
-	6250 2850 6350 2850
-Connection ~ 6250 2850
-Wire Wire Line
-	6250 2850 6250 2900
-Text Label 6350 2850 0    50   ~ 0
-VBAT_UV
-Text Label 6900 2850 0    50   ~ 0
-OK_HYST
-Text Label 6900 3250 0    50   ~ 0
-OK_PROG
-Wire Wire Line
-	6800 3250 6900 3250
-Connection ~ 6800 3250
-Wire Wire Line
-	6800 3250 6800 3300
-Wire Wire Line
-	6800 2850 6900 2850
-Connection ~ 6800 2850
-Wire Wire Line
-	6800 2850 6800 2900
-Wire Wire Line
-	5700 2450 5700 2500
-Wire Wire Line
-	6250 2500 6250 2450
-Connection ~ 6250 2450
-Wire Wire Line
-	6250 2450 5700 2450
-Wire Wire Line
-	6800 2500 6800 2450
-Wire Wire Line
-	6800 2450 6250 2450
-Text Label 8050 2850 2    50   ~ 0
-OK_PROG
-Wire Wire Line
-	6800 2450 8050 2450
-Connection ~ 6800 2450
-Wire Wire Line
-	6850 2050 6800 2050
-Wire Wire Line
-	6800 2050 6800 2100
-Wire Wire Line
-	8250 1700 7900 1700
-Wire Wire Line
-	7450 2050 7500 2050
-Wire Wire Line
-	7500 2050 7500 2350
-Wire Wire Line
-	7500 2350 8050 2350
-Connection ~ 7500 2050
-Wire Wire Line
-	7500 2050 7550 2050
-Wire Wire Line
-	7850 2050 7900 2050
-Wire Wire Line
-	7900 2050 7900 1700
-$Comp
-L luke:C_0.01uF C31
-U 1 1 5EECAB40
-P 7500 3200
-F 0 "C31" H 7615 3296 50  0000 L CNN
-F 1 "C_0.01uF" H 7615 3205 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 7538 3800 50  0001 C CNN
-F 3 "https://api.kemet.com/component-edge/download/datasheet/C0805C103K1RAC7210.pdf" H 7525 4050 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/kemet/C0805C103K1RAC7210/399-17617-1-ND/8572617" H 7925 3700 60  0001 C CNN "Purchasing Link"
-F 5 "399-17617-1-ND" H 7500 3900 50  0001 C CNN "Digi-Key_PN"
-	1    7500 3200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8050 2950 7500 2950
-Wire Wire Line
-	7500 2950 7500 3000
-$Comp
-L power:GND #PWR062
-U 1 1 5EEDDD41
-P 7500 3300
-F 0 "#PWR062" H 7500 3050 50  0001 C CNN
-F 1 "GND" H 7505 3127 50  0000 C CNN
-F 2 "" H 7500 3300 50  0001 C CNN
-F 3 "" H 7500 3300 50  0001 C CNN
-	1    7500 3300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7550 1400 7650 1400
-Wire Wire Line
-	7650 1400 7650 1350
-Connection ~ 7550 1400
-$Comp
-L luke:C_4.7uF C32
-U 1 1 5EEECF6B
-P 7650 1200
-F 0 "C32" H 7765 1246 50  0000 L CNN
-F 1 "C_4.7uF" H 7765 1155 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 7650 550 50  0001 C CNN
-F 3 "https://api.kemet.com/component-edge/download/datasheet/C0805C475K4RACTU.pdf" H 7675 1300 50  0001 C CNN
-F 4 "399-7415-1-ND" H 7650 650 60  0001 C CNN "Digi-Key_PN"
-F 5 "https://www.digikey.com/product-detail/en/kemet/C0805C475K4RACTU/399-7415-1-ND/3317449" H 7650 450 60  0001 C CNN "Purchasing Link"
-	1    7650 1200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7650 1050 7650 900 
-Connection ~ 7650 900 
-Wire Wire Line
-	7650 900  8250 900 
-$Comp
-L luke:C_4.7uF C34
-U 1 1 5EEF7203
-P 9350 3150
-F 0 "C34" H 9465 3196 50  0000 L CNN
-F 1 "C_4.7uF" H 9465 3105 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 9350 2500 50  0001 C CNN
-F 3 "https://api.kemet.com/component-edge/download/datasheet/C0805C475K4RACTU.pdf" H 9375 3250 50  0001 C CNN
-F 4 "399-7415-1-ND" H 9350 2600 60  0001 C CNN "Digi-Key_PN"
-F 5 "https://www.digikey.com/product-detail/en/kemet/C0805C475K4RACTU/399-7415-1-ND/3317449" H 9350 2400 60  0001 C CNN "Purchasing Link"
-	1    9350 3150
-	1    0    0    -1  
-$EndComp
-$Comp
-L luke:C_0.1uF C35
-U 1 1 5EEF8565
-P 9900 3200
-F 0 "C35" H 10015 3296 50  0000 L CNN
-F 1 "C_0.1uF" H 10015 3205 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 9938 3800 50  0001 C CNN
-F 3 "https://api.kemet.com/component-edge/download/datasheet/C0805C104M3RACTU.pdf" H 9925 4050 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/kemet/C0805C104M3RACTU/399-8000-1-ND/3471723" H 10325 3700 60  0001 C CNN "Purchasing Link"
-F 5 "399-8000-1-ND" H 9900 3900 50  0001 C CNN "Digi-Key_PN"
-	1    9900 3200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9250 2950 9350 2950
-Wire Wire Line
-	9350 2950 9350 3000
-Wire Wire Line
-	9350 2950 9900 2950
-Wire Wire Line
-	9900 2950 9900 3000
-Connection ~ 9350 2950
-Wire Wire Line
-	9350 3300 9350 3350
-Wire Wire Line
-	9900 3350 9900 3300
-$Comp
-L power:GND #PWR068
-U 1 1 5F1738F9
-P 9650 3400
-F 0 "#PWR068" H 9650 3150 50  0001 C CNN
-F 1 "GND" H 9655 3227 50  0000 C CNN
-F 2 "" H 9650 3400 50  0001 C CNN
-F 3 "" H 9650 3400 50  0001 C CNN
-	1    9650 3400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9350 3350 9650 3350
-Wire Wire Line
-	9650 3400 9650 3350
-Connection ~ 9650 3350
-Wire Wire Line
-	9650 3350 9900 3350
-Text Label 9900 2950 0    50   ~ 0
+Text Label 10700 5550 2    50   ~ 0
 LOAD
-Text Label 7300 5450 2    50   ~ 0
-LOAD
-Text Label 5100 5700 0    50   ~ 0
-NSS
-Text Label 5100 5800 0    50   ~ 0
-SCK
-Text Label 5100 5900 0    50   ~ 0
-MISO
-Text Label 5100 6000 0    50   ~ 0
-MOSI
 $Comp
-L luke:D-Schotkey_BAT54HT1G D2
+L luke:D-Schotkey_BAT54HT1G D1
 U 1 1 5F0C7916
-P 8850 5250
-F 0 "D2" V 8804 5329 50  0000 L CNN
-F 1 "D-Schotkey_BAT54HT1G" V 8895 5329 50  0000 L CNN
-F 2 "Diode_SMD:D_SOD-323" H 8850 5075 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Fairchild%20PDFs/BAT54HT1G_Rev_1.2.pdf" H 9300 5450 50  0001 C CNN
-F 4 "BAT54HT1GOSCT-ND" H 8850 4950 50  0001 C CNN "Digi-Key_PN"
-F 5 "https://www.digikey.com/product-detail/en/on-semiconductor/BAT54HT1G/BAT54HT1GOSCT-ND/917809" H 8850 4850 50  0001 C CNN "Purchasing Link"
-	1    8850 5250
+P 12250 5350
+F 0 "D1" V 12204 5429 50  0000 L CNN
+F 1 "D-Schotkey_BAT54HT1G" V 12295 5429 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-323" H 12250 5175 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Fairchild%20PDFs/BAT54HT1G_Rev_1.2.pdf" H 12700 5550 50  0001 C CNN
+F 4 "BAT54HT1GOSCT-ND" H 12250 5050 50  0001 C CNN "Digi-Key_PN"
+F 5 "https://www.digikey.com/product-detail/en/on-semiconductor/BAT54HT1G/BAT54HT1GOSCT-ND/917809" H 12250 4950 50  0001 C CNN "Purchasing Link"
+	1    12250 5350
 	0    1    1    0   
 $EndComp
 $Comp
-L luke:Switch_1767 S3
+L luke:Switch_1767 S1
 U 1 1 5F0E6B9E
-P 1750 3400
-F 0 "S3" H 1750 3675 50  0000 C CNN
-F 1 "Switch_1767" H 1750 3584 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 1950 3600 50  0001 L CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Adafruit%20PDFs/1767_Web.pdf" H 1950 3700 60  0001 L CNN
-F 4 "1528-2159-ND" H 1950 3800 60  0001 L CNN "Digi-Key_PN"
-F 5 "https://www.digikey.com/product-detail/en/adafruit-industries-llc/1767/1528-2159-ND/7244945" H 1950 3700 50  0001 L CNN "Purchasing Link"
-	1    1750 3400
+P 6950 1150
+F 0 "S1" H 6950 1425 50  0000 C CNN
+F 1 "Switch_1767" H 6950 1334 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 7150 1350 50  0001 L CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Adafruit%20PDFs/1767_Web.pdf" H 7150 1450 60  0001 L CNN
+F 4 "1528-2159-ND" H 7150 1550 60  0001 L CNN "Digi-Key_PN"
+F 5 "https://www.digikey.com/product-detail/en/adafruit-industries-llc/1767/1528-2159-ND/7244945" H 7150 1450 50  0001 L CNN "Purchasing Link"
+	1    6950 1150
 	1    0    0    -1  
 $EndComp
 $Comp
-L luke:FPC-Conn_01x08 J4
-U 1 1 5EC2410C
-P 2900 3150
-F 0 "J4" H 3000 3600 50  0000 C CNN
-F 1 "FPC-Conn_01x08" H 3000 3500 50  0000 C CNN
-F 2 "luke-footprints:Connector_Molex-5014610891" H 2900 2450 50  0001 C CNN
-F 3 "https://www.molex.com/webdocs/datasheets/pdf/en-us/5014610891_FFC_FPC_CONNECTORS.pdf" H 2900 3150 50  0001 C CNN
-F 4 "5014610891" H 2900 2350 50  0001 C CNN "Digi-Key_PN"
-F 5 "https://www.digikey.com/product-detail/en/molex/5014610891/WM14413CT-ND/6133143" H 2900 2250 50  0001 C CNN "Purchasing Link"
-	1    2900 3150
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR046
-U 1 1 5EC292DD
-P 3150 3700
-F 0 "#PWR046" H 3150 3450 50  0001 C CNN
-F 1 "GND" H 3155 3527 50  0000 C CNN
-F 2 "" H 3150 3700 50  0001 C CNN
-F 3 "" H 3150 3700 50  0001 C CNN
-	1    3150 3700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3100 3650 3150 3650
-Wire Wire Line
-	3150 3650 3150 3700
-NoConn ~ 3100 3550
-Wire Wire Line
-	3100 3450 3600 3450
-Text Label 3100 2950 0    50   ~ 0
-SCK
-Text Label 3100 3050 0    50   ~ 0
-MOSI
-Text Label 3100 3150 0    50   ~ 0
-NSS
-Text Label 3100 3350 0    50   ~ 0
-DISP
-Text Label 3100 3250 0    50   ~ 0
-EXTCOMIN
-$Comp
-L luke:C_2.2uF C28
-U 1 1 5EC4A54C
-P 3600 3700
-F 0 "C28" H 3715 3796 50  0000 L CNN
-F 1 "C_2.2uF" H 3715 3705 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 3638 4300 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X5R_4V-to-50V_25.pdf" H 3625 4550 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/yageo/CC0805MRX5R6BB225/311-3438-1-ND/7164459" H 4025 4200 60  0001 C CNN "Purchasing Link"
-F 5 "311-3438-1-ND" H 3600 4400 50  0001 C CNN "Digi-Key_PN"
-	1    3600 3700
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR050
-U 1 1 5EC4B115
-P 3600 3800
-F 0 "#PWR050" H 3600 3550 50  0001 C CNN
-F 1 "GND" H 3605 3627 50  0000 C CNN
-F 2 "" H 3600 3800 50  0001 C CNN
-F 3 "" H 3600 3800 50  0001 C CNN
-	1    3600 3800
-	1    0    0    -1  
-$EndComp
-$Comp
-L luke:R_10K R15
-U 1 1 5EC9C9CD
-P 4150 3200
-F 0 "R15" H 4220 3246 50  0000 L CNN
-F 1 "R_10K" H 4220 3155 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 3050 3500 50  0001 L CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 3050 3600 50  0001 L CNN
-F 4 " 311-10.0KCRCT-ND " H 3050 3400 60  0001 L CNN "Digi-Key_PN"
-F 5 "https://www.digikey.com/product-detail/en/yageo/RC0805FR-0710KL/311-10-0KCRCT-ND/730482" H 3050 3700 60  0001 L CNN "Purchasing Link"
-	1    4150 3200
-	1    0    0    -1  
-$EndComp
-$Comp
-L luke:R_10K R16
-U 1 1 5ECA4CE1
-P 4650 3600
-F 0 "R16" H 4720 3646 50  0000 L CNN
-F 1 "R_10K" H 4720 3555 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 3550 3900 50  0001 L CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 3550 4000 50  0001 L CNN
-F 4 " 311-10.0KCRCT-ND " H 3550 3800 60  0001 L CNN "Digi-Key_PN"
-F 5 "https://www.digikey.com/product-detail/en/yageo/RC0805FR-0710KL/311-10-0KCRCT-ND/730482" H 3550 4100 60  0001 L CNN "Purchasing Link"
-	1    4650 3600
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VDD #PWR052
-U 1 1 5ECAA595
-P 4150 3050
-F 0 "#PWR052" H 4150 2900 50  0001 C CNN
-F 1 "VDD" H 4167 3223 50  0000 C CNN
-F 2 "" H 4150 3050 50  0001 C CNN
-F 3 "" H 4150 3050 50  0001 C CNN
-	1    4150 3050
-	1    0    0    -1  
-$EndComp
-Text Label 4100 3400 2    50   ~ 0
-DISP
-$Comp
-L power:GND #PWR056
-U 1 1 5ECAB008
-P 4650 3750
-F 0 "#PWR056" H 4650 3500 50  0001 C CNN
-F 1 "GND" H 4655 3577 50  0000 C CNN
-F 2 "" H 4650 3750 50  0001 C CNN
-F 3 "" H 4650 3750 50  0001 C CNN
-	1    4650 3750
-	1    0    0    -1  
-$EndComp
-Text Label 4650 3450 1    50   ~ 0
-EXTCOMIN
-$Comp
-L luke:C_0.1uF C29
-U 1 1 5ECAF045
-P 4150 3650
-F 0 "C29" H 4265 3746 50  0000 L CNN
-F 1 "C_0.1uF" H 4265 3655 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 4188 4250 50  0001 C CNN
-F 3 "https://api.kemet.com/component-edge/download/datasheet/C0805C104M3RACTU.pdf" H 4175 4500 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/kemet/C0805C104M3RACTU/399-8000-1-ND/3471723" H 4575 4150 60  0001 C CNN "Purchasing Link"
-F 5 "399-8000-1-ND" H 4150 4350 50  0001 C CNN "Digi-Key_PN"
-	1    4150 3650
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR053
-U 1 1 5ECAFF66
-P 4150 3750
-F 0 "#PWR053" H 4150 3500 50  0001 C CNN
-F 1 "GND" H 4155 3577 50  0000 C CNN
-F 2 "" H 4150 3750 50  0001 C CNN
-F 3 "" H 4150 3750 50  0001 C CNN
-	1    4150 3750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4150 3350 4150 3400
-Wire Wire Line
-	4100 3400 4150 3400
-Connection ~ 4150 3400
-Wire Wire Line
-	4150 3400 4150 3450
-$Comp
-L luke:R_330 R13
+L luke:R_330 R4
 U 1 1 5F1738F0
-P 1300 3400
-F 0 "R13" V 1093 3400 50  0000 C CNN
-F 1 "R_330" V 1184 3400 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 1230 3400 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 1380 3400 50  0001 C CNN
-F 4 "RMCF0805FT330RCT-ND" H 1300 3400 60  0001 C CNN "Digi-Key_PN"
-F 5 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805FT330R/RMCF0805FT330RCT-ND/1942351" H 1780 3800 60  0001 C CNN "Purchasing Link"
-	1    1300 3400
+P 6500 1150
+F 0 "R4" V 6293 1150 50  0000 C CNN
+F 1 "R_330" V 6384 1150 50  0000 C CNN
+F 2 "footprints:R_0805_OEM" H 6430 1150 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 6580 1150 50  0001 C CNN
+F 4 "RMCF0805FT330RCT-ND" H 6500 1150 60  0001 C CNN "Digi-Key_PN"
+F 5 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805FT330R/RMCF0805FT330RCT-ND/1942351" H 6980 1550 60  0001 C CNN "Purchasing Link"
+	1    6500 1150
 	0    1    1    0   
 $EndComp
-Text Label 1150 3400 2    50   ~ 0
+Text Label 6350 1150 2    50   ~ 0
 BUTTON
 Wire Wire Line
-	1450 3400 1500 3400
+	6650 1150 6700 1150
 $Comp
-L luke:R_220K R14
+L luke:R_220K R5
 U 1 1 5ED88523
-P 1500 3600
-F 0 "R14" H 1570 3646 50  0000 L CNN
-F 1 "R_220K" H 1570 3555 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 400 3900 50  0001 L CNN
-F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204&DocType=DS&DocLang=English" H 400 4000 50  0001 L CNN
-F 4 "A126350CT-ND" H 400 3800 60  0001 L CNN "Digi-Key_PN"
-F 5 "https://www.digikey.com/product-detail/en/te-connectivity-passive-product/CRG0805F220K/A126350CT-ND/7603405" H 400 4100 60  0001 L CNN "Purchasing Link"
-	1    1500 3600
+P 6700 1350
+F 0 "R5" H 6770 1396 50  0000 L CNN
+F 1 "R_220K" H 6770 1305 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 5600 1650 50  0001 L CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204&DocType=DS&DocLang=English" H 5600 1750 50  0001 L CNN
+F 4 "A126350CT-ND" H 5600 1550 60  0001 L CNN "Digi-Key_PN"
+F 5 "https://www.digikey.com/product-detail/en/te-connectivity-passive-product/CRG0805F220K/A126350CT-ND/7603405" H 5600 1850 60  0001 L CNN "Purchasing Link"
+	1    6700 1350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1500 3450 1500 3400
-Connection ~ 1500 3400
+	6700 1200 6700 1150
+Connection ~ 6700 1150
 Wire Wire Line
-	1500 3400 1550 3400
+	6700 1150 6750 1150
 $Comp
-L power:GND #PWR039
+L power:GND #PWR016
 U 1 1 5ED90D9E
-P 1500 3750
-F 0 "#PWR039" H 1500 3500 50  0001 C CNN
-F 1 "GND" H 1505 3577 50  0000 C CNN
-F 2 "" H 1500 3750 50  0001 C CNN
-F 3 "" H 1500 3750 50  0001 C CNN
-	1    1500 3750
+P 6700 1500
+F 0 "#PWR016" H 6700 1250 50  0001 C CNN
+F 1 "GND" H 6705 1327 50  0000 C CNN
+F 2 "" H 6700 1500 50  0001 C CNN
+F 3 "" H 6700 1500 50  0001 C CNN
+	1    6700 1500
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VDD #PWR043
+L power:VDD #PWR019
 U 1 1 5F1738F3
-P 2100 3350
-F 0 "#PWR043" H 2100 3200 50  0001 C CNN
-F 1 "VDD" H 2117 3523 50  0000 C CNN
-F 2 "" H 2100 3350 50  0001 C CNN
-F 3 "" H 2100 3350 50  0001 C CNN
-	1    2100 3350
+P 7300 1100
+F 0 "#PWR019" H 7300 950 50  0001 C CNN
+F 1 "VDD" H 7317 1273 50  0000 C CNN
+F 2 "" H 7300 1100 50  0001 C CNN
+F 3 "" H 7300 1100 50  0001 C CNN
+	1    7300 1100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1950 3400 2100 3400
+	7150 1150 7300 1150
 Wire Wire Line
-	2100 3400 2100 3350
-Text Label 9250 2350 0    50   ~ 0
+	7300 1150 7300 1100
+Text Label 4850 5550 0    50   ~ 0
 VBAT_OK
-Text Label 4000 6200 2    50   ~ 0
-VBAT_OK
-Text Label 4000 6300 2    50   ~ 0
+Text Label 4850 5650 0    50   ~ 0
 BUTTON
 Wire Wire Line
-	8100 5950 8100 6000
+	11500 6050 11500 6100
 Wire Wire Line
-	8100 6000 7800 6000
+	11500 6100 11200 6100
 Wire Wire Line
-	7800 6000 7800 5450
+	11200 6100 11200 5550
 Wire Wire Line
-	7800 5450 7850 5450
+	11200 5550 11250 5550
 Wire Wire Line
-	7300 5450 7800 5450
-Connection ~ 7800 5450
-$Comp
-L power:VDD #PWR044
-U 1 1 5ED2B7D1
-P 2450 1650
-F 0 "#PWR044" H 2450 1500 50  0001 C CNN
-F 1 "VDD" V 2467 1778 50  0000 L CNN
-F 2 "" H 2450 1650 50  0001 C CNN
-F 3 "" H 2450 1650 50  0001 C CNN
-	1    2450 1650
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR041
-U 1 1 5ED2C244
-P 1950 1650
-F 0 "#PWR041" H 1950 1400 50  0001 C CNN
-F 1 "GND" V 1955 1522 50  0000 R CNN
-F 2 "" H 1950 1650 50  0001 C CNN
-F 3 "" H 1950 1650 50  0001 C CNN
-	1    1950 1650
-	0    1    1    0   
-$EndComp
-Text Label 5100 5500 0    50   ~ 0
-PA2
-Text Label 5100 5600 0    50   ~ 0
-PA3
-NoConn ~ 5100 6100
-NoConn ~ 5100 6200
-NoConn ~ 5100 6300
-NoConn ~ 5100 6400
-NoConn ~ 5100 6500
-NoConn ~ 5100 6800
-NoConn ~ 4000 6400
-NoConn ~ 4000 6500
-NoConn ~ 4000 6600
-NoConn ~ 4000 6700
-NoConn ~ 4000 6800
-Text Label 1250 1250 0    50   ~ 0
+	10700 5550 11200 5550
+Connection ~ 11200 5550
+NoConn ~ 4850 6350
+NoConn ~ 4850 6450
+NoConn ~ 4850 6750
+NoConn ~ 4850 7050
+NoConn ~ 3750 6750
+NoConn ~ 3750 6850
+Text Label 6000 7350 0    50   ~ 0
 RST
-Text Label 2450 1450 0    50   ~ 0
-EXTCOMIN
-Text Label 1950 1450 2    50   ~ 0
-DISP
-Text Label 2450 1350 0    50   ~ 0
-MOSI
-Text Label 1950 1350 2    50   ~ 0
-MISO
-Text Label 2450 1250 0    50   ~ 0
-SCK
-Text Label 1950 1250 2    50   ~ 0
-NSS
-Text Label 1250 1350 0    50   ~ 0
+Text Label 6000 7450 0    50   ~ 0
 SWCLK
-Text Label 1250 1450 0    50   ~ 0
+Text Label 6000 7550 0    50   ~ 0
 SWDIO
 $Comp
-L power:GND #PWR037
+L power:GND #PWR013
 U 1 1 5ED60068
-P 1250 1550
-F 0 "#PWR037" H 1250 1300 50  0001 C CNN
-F 1 "GND" V 1255 1422 50  0000 R CNN
-F 2 "" H 1250 1550 50  0001 C CNN
-F 3 "" H 1250 1550 50  0001 C CNN
-	1    1250 1550
+P 6000 7650
+F 0 "#PWR013" H 6000 7400 50  0001 C CNN
+F 1 "GND" V 6005 7522 50  0000 R CNN
+F 2 "" H 6000 7650 50  0001 C CNN
+F 3 "" H 6000 7650 50  0001 C CNN
+	1    6000 7650
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:VDD #PWR038
+L power:VDD #PWR014
 U 1 1 5ED5B97B
-P 1250 1650
-F 0 "#PWR038" H 1250 1500 50  0001 C CNN
-F 1 "VDD" V 1267 1778 50  0000 L CNN
-F 2 "" H 1250 1650 50  0001 C CNN
-F 3 "" H 1250 1650 50  0001 C CNN
-	1    1250 1650
+P 6000 7750
+F 0 "#PWR014" H 6000 7600 50  0001 C CNN
+F 1 "VDD" V 6017 7878 50  0000 L CNN
+F 2 "" H 6000 7750 50  0001 C CNN
+F 3 "" H 6000 7750 50  0001 C CNN
+	1    6000 7750
 	0    1    1    0   
 $EndComp
 $Comp
-L luke:Conn_02x05 J3
-U 1 1 5EDBABC0
-P 2150 1450
-F 0 "J3" H 2200 1867 50  0000 C CNN
-F 1 "Conn_02x05" H 2200 1776 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical" H 2200 1850 50  0001 C CNN
-F 3 "https://s3.amazonaws.com/catalogspreads-pdf/PAGE122%20.100%20SBH11%20SERIES%20MALE%20BOX%20HDR%20ST%20RA%20SMT.pdf" H 2150 1450 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/sullins-connector-solutions/SBH11-PBPC-D05-ST-BK/S9169-ND/1990062" H 2200 1950 50  0001 C CNN "Purchasing Link"
-F 5 "https://www.digikey.com/product-detail/en/sullins-connector-solutions/SFH11-PBPC-D05-ST-BK/S9194-ND/1990087" H 2200 2050 50  0001 C CNN "Female Version"
-F 6 "S9169-ND" H 2200 2150 50  0001 C CNN "Digi-Key_PN"
-	1    2150 1450
-	1    0    0    -1  
-$EndComp
-NoConn ~ 5100 5300
-NoConn ~ 5100 5400
-Text Label 1950 1550 2    50   ~ 0
-PA2
-Text Label 2450 1550 0    50   ~ 0
-PA3
-$Comp
-L luke:Crystals_32.768-SMD XTAL2
+L luke:Crystals_32.768-SMD XTAL1
 U 1 1 5EEBA3F1
-P 3050 6250
-F 0 "XTAL2" H 3050 6490 50  0000 C CNN
-F 1 "Crystals_32.768-SMD" H 3050 6399 50  0000 C CNN
-F 2 "Digikey-footprints:SMD-2_3.2x1.5mm" H 3250 6450 60  0001 L CNN
-F 3 "http://www.ecsxtal.com/store/pdf/ecx-31b.pdf" H 3250 6550 60  0001 L CNN
-F 4 "XC1617CT-ND" H 3250 6650 60  0001 L CNN "Digi-Key_PN"
-F 5 "ECS-.327-12.5-34B-TR" H 3250 6750 60  0001 L CNN "MPN"
-F 6 "Crystals, Oscillators, Resonators" H 3250 6850 60  0001 L CNN "Category"
-F 7 "Crystals" H 3250 6950 60  0001 L CNN "Family"
-F 8 "http://www.ecsxtal.com/store/pdf/ecx-31b.pdf" H 3250 7050 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "https://www.digikey.com/product-detail/en/ecs-inc/ECS-327-12-5-34B-TR/XC1617CT-ND/1693786" H 3250 7150 60  0001 L CNN "Purchasing Link"
-F 10 "CRYSTAL 32.7680KHZ 12.5PF SMD" H 3250 7250 60  0001 L CNN "Description"
-F 11 "ECS Inc." H 3250 7350 60  0001 L CNN "Manufacturer"
-	1    3050 6250
+P 2550 6500
+F 0 "XTAL1" H 2550 6740 50  0000 C CNN
+F 1 "Crystals_32.768-SMD" H 2550 6649 50  0000 C CNN
+F 2 "Digikey-footprints:SMD-2_3.2x1.5mm" H 2750 6700 60  0001 L CNN
+F 3 "http://www.ecsxtal.com/store/pdf/ecx-31b.pdf" H 2750 6800 60  0001 L CNN
+F 4 "XC1617CT-ND" H 2750 6900 60  0001 L CNN "Digi-Key_PN"
+F 5 "ECS-.327-12.5-34B-TR" H 2750 7000 60  0001 L CNN "MPN"
+F 6 "Crystals, Oscillators, Resonators" H 2750 7100 60  0001 L CNN "Category"
+F 7 "Crystals" H 2750 7200 60  0001 L CNN "Family"
+F 8 "http://www.ecsxtal.com/store/pdf/ecx-31b.pdf" H 2750 7300 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "https://www.digikey.com/product-detail/en/ecs-inc/ECS-327-12-5-34B-TR/XC1617CT-ND/1693786" H 2750 7400 60  0001 L CNN "Purchasing Link"
+F 10 "CRYSTAL 32.7680KHZ 12.5PF SMD" H 2750 7500 60  0001 L CNN "Description"
+F 11 "ECS Inc." H 2750 7600 60  0001 L CNN "Manufacturer"
+	1    2550 6500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3500 6000 3500 6250
+	3000 6250 3000 6500
 Wire Wire Line
-	3500 6250 3200 6250
+	3000 6500 2700 6500
 Wire Wire Line
-	2600 5900 2600 6250
+	2100 6150 2100 6500
 Wire Wire Line
-	2600 6250 2900 6250
+	2100 6500 2400 6500
 $Comp
-L luke:C_20pF C27
+L luke:C_20pF C9
 U 1 1 5ED60ED8
-P 3500 6450
-F 0 "C27" H 3615 6546 50  0000 L CNN
-F 1 "C_20pF" H 3615 6455 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 3538 7050 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/products/datasheet/mlcc/UPY-NP0X7R_MV_100-to-630V_21.pdf" H 3525 7300 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/yageo/CC0805JRNPO0BN200/311-4221-1-ND/8025310" H 3925 6950 60  0001 C CNN "Purchasing Link"
-F 5 "311-4221-1-ND" H 3500 7150 50  0001 C CNN "Digi-Key_PN"
-	1    3500 6450
+P 3000 6700
+F 0 "C9" H 3115 6796 50  0000 L CNN
+F 1 "C_20pF" H 3115 6705 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3038 7300 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/products/datasheet/mlcc/UPY-NP0X7R_MV_100-to-630V_21.pdf" H 3025 7550 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/yageo/CC0805JRNPO0BN200/311-4221-1-ND/8025310" H 3425 7200 60  0001 C CNN "Purchasing Link"
+F 5 "311-4221-1-ND" H 3000 7400 50  0001 C CNN "Digi-Key_PN"
+	1    3000 6700
 	1    0    0    -1  
 $EndComp
-Connection ~ 3500 6250
+Connection ~ 3000 6500
 $Comp
-L luke:C_20pF C25
+L luke:C_20pF C7
 U 1 1 5ED6190C
-P 2600 6450
-F 0 "C25" H 2715 6546 50  0000 L CNN
-F 1 "C_20pF" H 2715 6455 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 2638 7050 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/products/datasheet/mlcc/UPY-NP0X7R_MV_100-to-630V_21.pdf" H 2625 7300 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/yageo/CC0805JRNPO0BN200/311-4221-1-ND/8025310" H 3025 6950 60  0001 C CNN "Purchasing Link"
-F 5 "311-4221-1-ND" H 2600 7150 50  0001 C CNN "Digi-Key_PN"
-	1    2600 6450
+P 2100 6700
+F 0 "C7" H 2215 6796 50  0000 L CNN
+F 1 "C_20pF" H 2215 6705 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2138 7300 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/products/datasheet/mlcc/UPY-NP0X7R_MV_100-to-630V_21.pdf" H 2125 7550 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/yageo/CC0805JRNPO0BN200/311-4221-1-ND/8025310" H 2525 7200 60  0001 C CNN "Purchasing Link"
+F 5 "311-4221-1-ND" H 2100 7400 50  0001 C CNN "Digi-Key_PN"
+	1    2100 6700
 	1    0    0    -1  
 $EndComp
-Connection ~ 2600 6250
+Connection ~ 2100 6500
 $Comp
-L power:GND #PWR045
+L power:GND #PWR03
 U 1 1 5ED6204A
-P 2600 6550
-F 0 "#PWR045" H 2600 6300 50  0001 C CNN
-F 1 "GND" H 2605 6377 50  0000 C CNN
-F 2 "" H 2600 6550 50  0001 C CNN
-F 3 "" H 2600 6550 50  0001 C CNN
-	1    2600 6550
+P 2100 6800
+F 0 "#PWR03" H 2100 6550 50  0001 C CNN
+F 1 "GND" H 2105 6627 50  0000 C CNN
+F 2 "" H 2100 6800 50  0001 C CNN
+F 3 "" H 2100 6800 50  0001 C CNN
+	1    2100 6800
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR048
+L power:GND #PWR05
 U 1 1 5ED626D8
-P 3500 6550
-F 0 "#PWR048" H 3500 6300 50  0001 C CNN
-F 1 "GND" H 3505 6377 50  0000 C CNN
-F 2 "" H 3500 6550 50  0001 C CNN
-F 3 "" H 3500 6550 50  0001 C CNN
-	1    3500 6550
+P 3000 6800
+F 0 "#PWR05" H 3000 6550 50  0001 C CNN
+F 1 "GND" H 3005 6627 50  0000 C CNN
+F 2 "" H 3000 6800 50  0001 C CNN
+F 3 "" H 3000 6800 50  0001 C CNN
+	1    3000 6800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4000 6000 3500 6000
-Wire Wire Line
-	4000 5900 2600 5900
-Wire Wire Line
-	4000 5300 3450 5300
-Wire Wire Line
-	3450 5300 3450 5350
-Text Notes 1250 4550 0    98   ~ 20
+	2950 5550 2950 5600
+Text Notes 1150 4750 0    98   ~ 20
 STM32
-Text Notes 7400 4550 0    98   ~ 20
+Text Notes 10800 4650 0    98   ~ 20
 Buck/Boost Converter
-Text Notes 5700 750  0    98   ~ 20
-Engery Harvesting
-Text Notes 800  3000 0    98   ~ 20
+Text Notes 6000 750  0    98   ~ 20
 Shake Switch
-Text Notes 2900 2500 0    98   ~ 20
-LCD Connector
-Text Notes 900  850  0    98   ~ 20
-Connectors
+Text Notes 5600 6950 0    98   ~ 20
+Conn
 Wire Notes Line
-	9950 4500 9950 6250
+	13350 4600 13350 6350
 Wire Notes Line
-	7400 4500 7000 4500
+	10800 4600 10400 4600
 Wire Notes Line
-	7000 4500 7000 6250
+	10400 4600 10400 6350
 Wire Notes Line
-	7000 6250 9950 6250
+	10400 6350 13350 6350
 Wire Notes Line
-	9050 4500 9950 4500
+	12450 4600 13350 4600
 Wire Notes Line
-	5700 700  5450 700 
+	5500 6900 5500 7900
 Wire Notes Line
-	5450 700  5450 4050
+	7000 700  7500 700 
 Wire Notes Line
-	5450 4050 10400 4050
+	7500 700  7500 1800
 Wire Notes Line
-	10400 4050 10400 700 
+	7500 1800 5900 1800
 Wire Notes Line
-	10400 700  7050 700 
+	5900 1800 5900 700 
 Wire Notes Line
-	900  800  750  800 
-Wire Notes Line
-	2900 800  1750 800 
-Wire Notes Line
-	2900 1800 750  1800
-Wire Notes Line
-	750  800  750  1800
-Wire Notes Line
-	2900 800  2900 1800
-Wire Notes Line
-	2900 2450 2600 2450
-Wire Notes Line
-	2600 2450 2600 4050
-Wire Notes Line
-	2600 4050 5050 4050
-Wire Notes Line
-	5050 4050 5050 2450
-Wire Notes Line
-	5050 2450 4000 2450
-Wire Notes Line
-	1800 2950 2300 2950
-Wire Notes Line
-	2300 2950 2300 4050
-Wire Notes Line
-	2300 4050 700  4050
-Wire Notes Line
-	700  4050 700  2950
-Wire Notes Line
-	700  2950 800  2950
-Wire Notes Line
-	1250 4500 700  4500
-Wire Notes Line
-	700  4500 700  7900
-Wire Notes Line
-	700  7900 5850 7900
-Wire Notes Line
-	5850 7900 5850 4500
-Wire Notes Line
-	5850 4500 1750 4500
+	5900 700  6000 700 
 Wire Wire Line
-	3600 3400 3600 3450
+	4250 5300 4250 5350
+Wire Notes Line
+	600  7900 5350 7900
+Wire Notes Line
+	600  7900 600  4700
+Wire Notes Line
+	600  4700 1150 4700
+Wire Notes Line
+	1650 4700 5350 4700
+Wire Notes Line
+	5350 4700 5350 7900
+Wire Notes Line
+	5500 6900 5600 6900
+Wire Notes Line
+	6000 6900 6350 6900
+Wire Notes Line
+	6350 6900 6350 7900
+Wire Notes Line
+	6350 7900 5500 7900
+Text Label 3750 6950 2    50   ~ 0
+SCL
+Text Label 3750 7050 2    50   ~ 0
+SDA
 Wire Wire Line
-	3600 3450 3600 3500
-Connection ~ 3600 3450
+	3000 6250 3750 6250
 Wire Wire Line
-	4500 5050 4500 5100
+	2100 6150 3750 6150
 Wire Wire Line
-	8350 3450 8350 3550
-Connection ~ 8350 3550
-Wire Wire Line
-	8350 3550 8450 3550
+	2950 5550 3750 5550
+NoConn ~ 4850 6250
+NoConn ~ 4850 6150
+NoConn ~ 3750 6650
+NoConn ~ 3750 6450
+NoConn ~ 3750 6550
+Text Label 4850 5750 0    50   ~ 0
+RESET
+Text Label 4850 5850 0    50   ~ 0
+DISP
 $Comp
-L luke:BAT_ML1220 BT2
+L luke:BAT_ML1220 BT1
 U 1 1 5ED70C3B
-P 9050 1500
-F 0 "BT2" H 8932 1504 50  0000 R CNN
-F 1 "BAT_ML1220" H 8932 1595 50  0000 R CNN
-F 2 "Battery:Battery_Panasonic_CR1220-VCN_Vertical_CircularHoles" V 9050 1560 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Panasonic%20Inustrial/ML_Serie.pdf" V 9050 1560 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/panasonic-bsg/ML-1220-F1BN/P663-ND/2404068" H 9050 1100 50  0001 C CNN "Purchasing Link"
-F 5 "P664-ND " H 9050 1000 50  0001 C CNN "Digi-Key_PN"
-F 6 "https://industrial.panasonic.com/cdbs/www-data/pdf/AAF4000/AAF4000COL8.pdf" H 9050 900 50  0001 C CNN "Charging Datasheet"
-F 7 "https://www.digikey.com/product-detail/en/mpd-memory-protection-devices/BS-7/BS-7-ND/389447" H 9050 1500 50  0001 C CNN "Battery Holder"
-	1    9050 1500
+P 12000 1750
+F 0 "BT1" H 11882 1754 50  0000 R CNN
+F 1 "BAT_ML1220" H 11882 1845 50  0000 R CNN
+F 2 "luke-footprints:BAT_ML1220-F1A" V 12000 1810 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Panasonic%20Inustrial/ML_Serie.pdf" V 12000 1810 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/panasonic-bsg/ML-1220-F1AN/P295-ND/447504" H 12000 1350 50  0001 C CNN "Purchasing Link"
+F 5 "P664-ND " H 12000 1250 50  0001 C CNN "Digi-Key_PN"
+F 6 "https://industrial.panasonic.com/cdbs/www-data/pdf/AAF4000/AAF4000COL8.pdf" H 12000 1150 50  0001 C CNN "Charging Datasheet"
+F 7 "https://www.digikey.com/product-detail/en/mpd-memory-protection-devices/BS-7/BS-7-ND/389447" H 12000 1750 50  0001 C CNN "Battery Holder"
+	1    12000 1750
 	-1   0    0    1   
 $EndComp
+Wire Wire Line
+	11300 3800 11400 3800
+Connection ~ 11300 3800
+Wire Wire Line
+	11300 3700 11300 3800
+Wire Notes Line
+	13350 950  10000 950 
+Wire Notes Line
+	13350 4300 13350 950 
+Wire Notes Line
+	8400 4300 13350 4300
+Wire Notes Line
+	8400 950  8400 4300
+Wire Notes Line
+	8650 950  8400 950 
+Text Notes 8650 1000 0    98   ~ 20
+Engery Harvesting
+Text Label 12200 2600 0    50   ~ 0
+VBAT_OK
+Text Label 12850 3200 0    50   ~ 0
+LOAD
+Wire Wire Line
+	12600 3600 12850 3600
+Connection ~ 12600 3600
+Wire Wire Line
+	12600 3650 12600 3600
+Wire Wire Line
+	12300 3600 12600 3600
 $Comp
-L power:VDD #PWR049
-U 1 1 5ED6DF0B
-P 3600 3400
-F 0 "#PWR049" H 3600 3250 50  0001 C CNN
-F 1 "VDD" H 3617 3573 50  0000 C CNN
-F 2 "" H 3600 3400 50  0001 C CNN
-F 3 "" H 3600 3400 50  0001 C CNN
-	1    3600 3400
+L power:GND #PWR034
+U 1 1 5F1738F9
+P 12600 3650
+F 0 "#PWR034" H 12600 3400 50  0001 C CNN
+F 1 "GND" H 12605 3477 50  0000 C CNN
+F 2 "" H 12600 3650 50  0001 C CNN
+F 3 "" H 12600 3650 50  0001 C CNN
+	1    12600 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12850 3600 12850 3550
+Wire Wire Line
+	12300 3550 12300 3600
+Connection ~ 12300 3200
+Wire Wire Line
+	12850 3200 12850 3250
+Wire Wire Line
+	12300 3200 12850 3200
+Wire Wire Line
+	12300 3200 12300 3250
+Wire Wire Line
+	12200 3200 12300 3200
+$Comp
+L luke:C_0.1uF C21
+U 1 1 5EEF8565
+P 12850 3450
+F 0 "C21" H 12965 3546 50  0000 L CNN
+F 1 "C_0.1uF" H 12965 3455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 12888 4050 50  0001 C CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C0805C104M3RACTU.pdf" H 12875 4300 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/kemet/C0805C104M3RACTU/399-8000-1-ND/3471723" H 13275 3950 60  0001 C CNN "Purchasing Link"
+F 5 "399-8000-1-ND" H 12850 4150 50  0001 C CNN "Digi-Key_PN"
+	1    12850 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L luke:C_4.7uF C20
+U 1 1 5EEF7203
+P 12300 3400
+F 0 "C20" H 12415 3446 50  0000 L CNN
+F 1 "C_4.7uF" H 12415 3355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 12300 2750 50  0001 C CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C0805C475K4RACTU.pdf" H 12325 3500 50  0001 C CNN
+F 4 "399-7415-1-ND" H 12300 2850 60  0001 C CNN "Digi-Key_PN"
+F 5 "https://www.digikey.com/product-detail/en/kemet/C0805C475K4RACTU/399-7415-1-ND/3317449" H 12300 2650 60  0001 C CNN "Purchasing Link"
+	1    12300 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10600 1150 11200 1150
+Connection ~ 10600 1150
+Wire Wire Line
+	10600 1300 10600 1150
+$Comp
+L luke:C_4.7uF C17
+U 1 1 5EEECF6B
+P 10600 1450
+F 0 "C17" H 10715 1496 50  0000 L CNN
+F 1 "C_4.7uF" H 10715 1405 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 10600 800 50  0001 C CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C0805C475K4RACTU.pdf" H 10625 1550 50  0001 C CNN
+F 4 "399-7415-1-ND" H 10600 900 60  0001 C CNN "Digi-Key_PN"
+F 5 "https://www.digikey.com/product-detail/en/kemet/C0805C475K4RACTU/399-7415-1-ND/3317449" H 10600 700 60  0001 C CNN "Purchasing Link"
+	1    10600 1450
+	1    0    0    -1  
+$EndComp
+Connection ~ 10500 1650
+Wire Wire Line
+	10600 1650 10600 1600
+Wire Wire Line
+	10500 1650 10600 1650
+$Comp
+L power:GND #PWR027
+U 1 1 5EEDDD41
+P 10450 3550
+F 0 "#PWR027" H 10450 3300 50  0001 C CNN
+F 1 "GND" H 10455 3377 50  0000 C CNN
+F 2 "" H 10450 3550 50  0001 C CNN
+F 3 "" H 10450 3550 50  0001 C CNN
+	1    10450 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10450 3200 10450 3250
+Wire Wire Line
+	11000 3200 10450 3200
+$Comp
+L luke:C_0.01uF C16
+U 1 1 5EECAB40
+P 10450 3450
+F 0 "C16" H 10565 3546 50  0000 L CNN
+F 1 "C_0.01uF" H 10565 3455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 10488 4050 50  0001 C CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C0805C103K1RAC7210.pdf" H 10475 4300 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/kemet/C0805C103K1RAC7210/399-17617-1-ND/8572617" H 10875 3950 60  0001 C CNN "Purchasing Link"
+F 5 "399-17617-1-ND" H 10450 4150 50  0001 C CNN "Digi-Key_PN"
+	1    10450 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10850 2300 10850 1950
+Wire Wire Line
+	10800 2300 10850 2300
+Wire Wire Line
+	10450 2300 10500 2300
+Connection ~ 10450 2300
+Wire Wire Line
+	10450 2600 11000 2600
+Wire Wire Line
+	10450 2300 10450 2600
+Wire Wire Line
+	10400 2300 10450 2300
+Wire Wire Line
+	11200 1950 10850 1950
+Wire Wire Line
+	9750 2300 9750 2350
+Wire Wire Line
+	9800 2300 9750 2300
+Connection ~ 9750 2700
+Wire Wire Line
+	9750 2700 11000 2700
+Text Label 11000 3100 2    50   ~ 0
+OK_PROG
+Wire Wire Line
+	9750 2700 9200 2700
+Wire Wire Line
+	9750 2750 9750 2700
+Wire Wire Line
+	9200 2700 8650 2700
+Connection ~ 9200 2700
+Wire Wire Line
+	9200 2750 9200 2700
+Wire Wire Line
+	8650 2700 8650 2750
+Wire Wire Line
+	9750 3100 9750 3150
+Connection ~ 9750 3100
+Wire Wire Line
+	9750 3100 9850 3100
+Wire Wire Line
+	9750 3500 9750 3550
+Connection ~ 9750 3500
+Wire Wire Line
+	9750 3500 9850 3500
+Text Label 9850 3500 0    50   ~ 0
+OK_PROG
+Text Label 9850 3100 0    50   ~ 0
+OK_HYST
+Text Label 9300 3100 0    50   ~ 0
+VBAT_UV
+Wire Wire Line
+	9200 3100 9200 3150
+Connection ~ 9200 3100
+Wire Wire Line
+	9200 3100 9300 3100
+Text Label 11000 3000 2    50   ~ 0
+OK_HYST
+Text Label 11000 2900 2    50   ~ 0
+VBAT_UV
+Wire Wire Line
+	8650 3100 8650 3150
+Connection ~ 8650 3100
+Wire Wire Line
+	8650 3100 8750 3100
+Text Label 8750 3100 0    50   ~ 0
+VBAT_OV
+Text Label 11000 2800 2    50   ~ 0
+VBAT_OV
+Wire Wire Line
+	8650 3050 8650 3100
+Wire Wire Line
+	9200 3050 9200 3100
+$Comp
+L power:GND #PWR022
+U 1 1 5ECC9E46
+P 9200 3450
+F 0 "#PWR022" H 9200 3200 50  0001 C CNN
+F 1 "GND" H 9205 3277 50  0000 C CNN
+F 2 "" H 9200 3450 50  0001 C CNN
+F 3 "" H 9200 3450 50  0001 C CNN
+	1    9200 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR021
+U 1 1 5ECC97DD
+P 8650 3450
+F 0 "#PWR021" H 8650 3200 50  0001 C CNN
+F 1 "GND" H 8655 3277 50  0000 C CNN
+F 2 "" H 8650 3450 50  0001 C CNN
+F 3 "" H 8650 3450 50  0001 C CNN
+	1    8650 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L luke:R_5.62M R12
+U 1 1 5ECC9141
+P 9200 3300
+F 0 "R12" H 9270 3346 50  0000 L CNN
+F 1 "R_5.62M" H 9270 3255 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 8100 3600 50  0001 L CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 8100 3700 50  0001 L CNN
+F 4 "311-5.62MCRCT-ND" H 8100 3500 60  0001 L CNN "Digi-Key_PN"
+F 5 "https://www.digikey.com/product-detail/en/yageo/RC0805FR-075M62L/311-5-62MCRCT-ND/730952" H 8100 3800 60  0001 L CNN "Purchasing Link"
+	1    9200 3300
+	1    0    0    -1  
+$EndComp
+Text Notes 9100 3750 0    50   ~ 0
+R_UV
+$Comp
+L luke:R_4.22M R11
+U 1 1 5F1738EA
+P 9200 2900
+F 0 "R11" H 9270 2946 50  0000 L CNN
+F 1 "R_4.22M" H 9270 2855 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 8100 3200 50  0001 L CNN
+F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H 8100 3300 50  0001 L CNN
+F 4 " 2019-RK73H2ATTD4224FCT-ND" H 8100 3100 60  0001 L CNN "Digi-Key_PN"
+F 5 "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73H2ATTD4224F/2019-RK73H2ATTD4224FCT-ND/10235051" H 8100 3400 60  0001 L CNN "Purchasing Link"
+	1    9200 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L luke:R_3.74M R9
+U 1 1 5F1738E9
+P 8650 2900
+F 0 "R9" H 8720 2946 50  0000 L CNN
+F 1 "R_3.74M" H 8720 2855 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 7550 3200 50  0001 L CNN
+F 3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" H 7550 3300 50  0001 L CNN
+F 4 "541-3.74MCCT-ND" H 7550 3100 60  0001 L CNN "Digi-Key_PN"
+F 5 "https://www.digikey.com/product-detail/en/vishay-dale/CRCW08053M74FKEA/541-3-74MCCT-ND/1181191" H 7550 3400 60  0001 L CNN "Purchasing Link"
+	1    8650 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L luke:R_6.19M R10
+U 1 1 5F1738E8
+P 8650 3300
+F 0 "R10" H 8720 3346 50  0000 L CNN
+F 1 "R_6.19M" H 8720 3255 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 7550 3600 50  0001 L CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 7550 3700 50  0001 L CNN
+F 4 "311-6.19MCRCT-ND" H 7550 3500 60  0001 L CNN "Digi-Key_PN"
+F 5 "https://www.digikey.com/product-detail/en/yageo/RC0805FR-076M19L/311-6-19MCRCT-ND/731000" H 7550 3800 60  0001 L CNN "Purchasing Link"
+	1    8650 3300
+	1    0    0    -1  
+$EndComp
+Text Notes 8550 3750 0    50   ~ 0
+R_OV
+Text Notes 9650 4150 0    50   ~ 0
+R_OK
+Text Notes 10150 2000 0    50   ~ 0
+R_OC
+Wire Wire Line
+	9750 3450 9750 3500
+Wire Wire Line
+	9750 3050 9750 3100
+$Comp
+L luke:R_806K R13
+U 1 1 5EC5BABC
+P 9750 2900
+F 0 "R13" H 9820 2946 50  0000 L CNN
+F 1 "R_806K" H 9820 2855 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 8650 3200 50  0001 L CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 8650 3300 50  0001 L CNN
+F 4 "311-806KCRCT-ND" H 8650 3100 60  0001 L CNN "Digi-Key_PN"
+F 5 "https://www.digikey.com/product-detail/en/yageo/RC0805FR-07806KL/311-806KCRCT-ND/731110" H 8650 3400 60  0001 L CNN "Purchasing Link"
+	1    9750 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L luke:R_4.22M R14
+U 1 1 5F1738E3
+P 9750 3300
+F 0 "R14" H 9820 3346 50  0000 L CNN
+F 1 "R_4.22M" H 9820 3255 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 8650 3600 50  0001 L CNN
+F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H 8650 3700 50  0001 L CNN
+F 4 " 2019-RK73H2ATTD4224FCT-ND" H 8650 3500 60  0001 L CNN "Digi-Key_PN"
+F 5 "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73H2ATTD4224F/2019-RK73H2ATTD4224FCT-ND/10235051" H 8650 3800 60  0001 L CNN "Purchasing Link"
+	1    9750 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR025
+U 1 1 5EC53187
+P 9750 3850
+F 0 "#PWR025" H 9750 3600 50  0001 C CNN
+F 1 "GND" H 9755 3677 50  0000 C CNN
+F 2 "" H 9750 3850 50  0001 C CNN
+F 3 "" H 9750 3850 50  0001 C CNN
+	1    9750 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L luke:R_5.11M R15
+U 1 1 5F1738DF
+P 9750 3700
+F 0 "R15" H 9820 3746 50  0000 L CNN
+F 1 "R_5.11M" H 9820 3655 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 8650 4000 50  0001 L CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 8650 4100 50  0001 L CNN
+F 4 "311-5.11MCRCT-ND" H 8650 3900 60  0001 L CNN "Digi-Key_PN"
+F 5 "https://www.digikey.com/product-detail/en/yageo/RC0805FR-075M11L/311-5-11MCRCT-ND/730938" H 8650 4200 60  0001 L CNN "Purchasing Link"
+	1    9750 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR024
+U 1 1 5F1738DE
+P 9750 2350
+F 0 "#PWR024" H 9750 2100 50  0001 C CNN
+F 1 "GND" H 9755 2177 50  0000 C CNN
+F 2 "" H 9750 2350 50  0001 C CNN
+F 3 "" H 9750 2350 50  0001 C CNN
+	1    9750 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11200 1150 11200 1950
+Wire Wire Line
+	10400 1150 10600 1150
+Wire Wire Line
+	10400 1200 10400 1150
+Wire Wire Line
+	10500 1650 10500 1700
+Wire Wire Line
+	10400 1650 10500 1650
+Wire Wire Line
+	10400 1600 10400 1650
+$Comp
+L power:GND #PWR028
+U 1 1 5F1738DA
+P 10500 1700
+F 0 "#PWR028" H 10500 1450 50  0001 C CNN
+F 1 "GND" H 10505 1527 50  0000 C CNN
+F 2 "" H 10500 1700 50  0001 C CNN
+F 3 "" H 10500 1700 50  0001 C CNN
+	1    10500 1700
+	1    0    0    -1  
+$EndComp
+Connection ~ 11200 1950
+$Comp
+L luke:R_6.04M R16
+U 1 1 5F1738D6
+P 9950 2300
+F 0 "R16" V 9743 2300 50  0000 C CNN
+F 1 "R_6.04M" V 9834 2300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 8850 2600 50  0001 L CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 8850 2700 50  0001 L CNN
+F 4 "311-6.04MCRCT-ND" H 8850 2500 60  0001 L CNN "Digi-Key_PN"
+F 5 "https://www.digikey.com/product-detail/en/yageo/RC0805FR-076M04L/311-6-04MCRCT-ND/730997" H 8850 2800 60  0001 L CNN "Purchasing Link"
+	1    9950 2300
+	0    1    1    0   
+$EndComp
+$Comp
+L luke:R_10M R17
+U 1 1 5F1738D5
+P 10250 2300
+F 0 "R17" V 10043 2300 50  0000 C CNN
+F 1 "R_10M" V 10134 2300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 9150 2600 50  0001 L CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 9150 2700 50  0001 L CNN
+F 4 "311-10MARDKR-ND" H 9150 2500 60  0001 L CNN "Digi-Key_PN"
+F 5 "https://www.digikey.com/product-detail/en/yageo/RC0805JR-0710ML/311-10MARDKR-ND/734136" H 9150 2800 60  0001 L CNN "Purchasing Link"
+	1    10250 2300
+	0    1    1    0   
+$EndComp
+$Comp
+L luke:R_3.83M R18
+U 1 1 5F1738D4
+P 10650 2300
+F 0 "R18" V 10443 2300 50  0000 C CNN
+F 1 "R_3.83M" V 10534 2300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 9550 2600 50  0001 L CNN
+F 3 "https://www.vishay.com/docs/20035/dcrcwe3.pdf" H 9550 2700 50  0001 L CNN
+F 4 "541-3.83MCCT-ND" H 9550 2500 60  0001 L CNN "Digi-Key_PN"
+F 5 "https://www.digikey.com/product-detail/en/vishay-dale/CRCW08053M83FKEA/541-3-83MCCT-ND/1181192" H 9550 2800 60  0001 L CNN "Purchasing Link"
+	1    10650 2300
+	0    1    1    0   
+$EndComp
+Connection ~ 11400 3800
+Wire Wire Line
+	10950 3800 11300 3800
+Wire Wire Line
+	10950 3300 10950 3800
+Wire Wire Line
+	11000 3300 10950 3300
+Wire Wire Line
+	11600 3700 11600 3800
+Connection ~ 11600 3800
+Wire Wire Line
+	11800 3800 11600 3800
+Wire Wire Line
+	11800 3700 11800 3800
+Wire Wire Line
+	11600 3800 11600 3900
+Wire Wire Line
+	11400 3800 11600 3800
+Wire Wire Line
+	11400 3700 11400 3800
+$Comp
+L power:GND #PWR030
+U 1 1 5F1738EE
+P 11600 3900
+F 0 "#PWR030" H 11600 3650 50  0001 C CNN
+F 1 "GND" H 11605 3727 50  0000 C CNN
+F 2 "" H 11600 3900 50  0001 C CNN
+F 3 "" H 11600 3900 50  0001 C CNN
+	1    11600 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11700 1950 11700 2100
+Wire Wire Line
+	11550 1950 11700 1950
+Wire Wire Line
+	11200 1950 11200 2100
+Wire Wire Line
+	11350 1950 11200 1950
+Wire Wire Line
+	12000 1950 12000 2100
+Wire Wire Line
+	12750 1600 12750 1650
+Wire Wire Line
+	12000 1600 12750 1600
+Wire Wire Line
+	12000 1650 12000 1600
+$Comp
+L power:GND #PWR035
+U 1 1 5ECB0237
+P 12750 1650
+F 0 "#PWR035" H 12750 1400 50  0001 C CNN
+F 1 "GND" H 12755 1477 50  0000 C CNN
+F 2 "" H 12750 1650 50  0001 C CNN
+F 3 "" H 12750 1650 50  0001 C CNN
+	1    12750 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L luke:L_22uH L1
+U 1 1 5EC38BDA
+P 11450 1950
+F 0 "L1" H 11450 2135 50  0000 C CNN
+F 1 "L_22uH" H 11450 2044 50  0000 C CNN
+F 2 "Inductor_SMD:L_Wuerth_WE-TPC-3816" H 11350 1750 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/744031220.pdf" H 11350 1800 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/744031220/732-1012-1-ND/1639073" H 11750 2150 50  0001 C CNN "Purchasing Link"
+F 5 "732-1012-1-ND" H 11450 1650 50  0001 C CNN "Digi-Key_PN"
+	1    11450 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L luke:Solar-Cells_KXOB25-05X3F SC1
+U 1 1 5EC26EF0
+P 10400 1400
+F 0 "SC1" H 10200 1450 50  0000 R CNN
+F 1 "Solar-Cells_KXOB25-05X3F" H 10200 1350 50  0000 R CNN
+F 2 "luke-footprints:Solar-Cells_KXOB25" V 10400 1460 50  0001 C CNN
+F 3 "https://ixapps.ixys.com/DataSheet/KXOB25_05X3F.pdf" V 10400 1460 50  0001 L CNN
+F 4 "KXOB25-05X3FCT-ND" H 10500 1300 50  0001 L CNN "Digi-Key_PN"
+F 5 "https://www.digikey.com/product-detail/en/ixys/KXOB25-05X3F-TR/KXOB25-05X3FCT-ND/9990481" H 10500 1200 50  0001 L CNN "Purchasing Link"
+	1    10400 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L luke:Regulator_BQ25504 U5
+U 1 1 5F1738D3
+P 11600 2900
+F 0 "U5" H 12244 2946 50  0000 L CNN
+F 1 "Regulator_BQ25504" H 12244 2855 50  0000 L CNN
+F 2 "Package_DFN_QFN:VQFN-16-1EP_3x3mm_P0.5mm_EP1.8x1.8mm_ThermalVias" H 11600 1600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/bq25504.pdf" H 11300 3700 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/texas-instruments/BQ25504RGTT/296-29741-1-ND/2766003" H 11600 1500 50  0001 C CNN "Purchasing Link"
+F 5 "296-29741-1-ND" H 11600 1400 50  0001 C CNN "Digi-Key_PN"
+	1    11600 2900
+	1    0    0    -1  
+$EndComp
+Text Notes 850  750  0    98   ~ 20
+Display & Driver
+Wire Wire Line
+	4300 2850 5250 2850
+Wire Wire Line
+	5250 2850 5250 2700
+Connection ~ 5050 2350
+Wire Wire Line
+	5250 2350 5250 2400
+Wire Wire Line
+	5050 2350 5250 2350
+Wire Wire Line
+	5050 2350 5050 2300
+Wire Wire Line
+	4850 2350 5050 2350
+Wire Wire Line
+	4850 2400 4850 2350
+$Comp
+L power:VCC #PWR012
+U 1 1 5FB6C587
+P 5050 2300
+F 0 "#PWR012" H 5050 2150 50  0001 C CNN
+F 1 "VCC" H 5065 2473 50  0000 C CNN
+F 2 "" H 5050 2300 50  0001 C CNN
+F 3 "" H 5050 2300 50  0001 C CNN
+	1    5050 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 2750 4850 2700
+Wire Wire Line
+	4850 2750 4300 2750
+Text Label 4300 2550 0    50   ~ 0
+RESET
+Text Label 4300 2850 0    50   ~ 0
+SCL
+Text Label 4300 2750 0    50   ~ 0
+SDA
+Wire Wire Line
+	4350 3000 4350 3050
+Connection ~ 4350 3000
+Wire Wire Line
+	4550 3000 4550 3100
+Wire Wire Line
+	4350 3000 4550 3000
+Wire Wire Line
+	4350 3050 4300 3050
+Wire Wire Line
+	4350 2950 4350 3000
+Wire Wire Line
+	4300 2950 4350 2950
+$Comp
+L power:GND #PWR010
+U 1 1 5FA072DD
+P 4550 3100
+F 0 "#PWR010" H 4550 2850 50  0001 C CNN
+F 1 "GND" H 4555 2927 50  0000 C CNN
+F 2 "" H 4550 3100 50  0001 C CNN
+F 3 "" H 4550 3100 50  0001 C CNN
+	1    4550 3100
+	1    0    0    -1  
+$EndComp
+Connection ~ 4350 3550
+Wire Wire Line
+	4350 3550 4450 3550
+Connection ~ 4400 3450
+Wire Wire Line
+	4400 3450 4450 3450
+Text Label 4450 3450 0    50   ~ 0
+COM2
+Text Label 4450 3550 0    50   ~ 0
+COM1
+Wire Wire Line
+	4400 3250 4300 3250
+Wire Wire Line
+	4400 3450 4400 3250
+Wire Wire Line
+	4300 3450 4400 3450
+Wire Wire Line
+	4350 3350 4300 3350
+Wire Wire Line
+	4350 3550 4350 3350
+Wire Wire Line
+	4300 3550 4350 3550
+NoConn ~ 4300 2350
+Wire Wire Line
+	4650 2450 4650 2500
+Wire Wire Line
+	4300 2450 4650 2450
+$Comp
+L power:GND #PWR011
+U 1 1 5F9D384C
+P 4650 2500
+F 0 "#PWR011" H 4650 2250 50  0001 C CNN
+F 1 "GND" H 4655 2327 50  0000 C CNN
+F 2 "" H 4650 2500 50  0001 C CNN
+F 3 "" H 4650 2500 50  0001 C CNN
+	1    4650 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR06
+U 1 1 5F99CA85
+P 3600 4050
+F 0 "#PWR06" H 3600 3800 50  0001 C CNN
+F 1 "GND" H 3605 3877 50  0000 C CNN
+F 2 "" H 3600 4050 50  0001 C CNN
+F 3 "" H 3600 4050 50  0001 C CNN
+	1    3600 4050
+	1    0    0    -1  
+$EndComp
+Text Label 1600 2350 3    50   ~ 0
+1A
+Text Label 1500 2350 3    50   ~ 0
+1B
+Text Label 1400 2350 3    50   ~ 0
+1C
+Text Label 1300 2350 3    50   ~ 0
+1D
+Text Label 1200 2350 3    50   ~ 0
+1E
+Text Label 1100 2350 3    50   ~ 0
+1F
+Text Label 1000 2350 3    50   ~ 0
+1G
+Text Label 2400 2350 3    50   ~ 0
+2G
+Text Label 2300 2350 3    50   ~ 0
+2F
+Text Label 2200 2350 3    50   ~ 0
+2E
+Text Label 2100 2350 3    50   ~ 0
+2D
+Text Label 2000 2350 3    50   ~ 0
+2C
+Text Label 1900 2350 3    50   ~ 0
+2B
+Text Label 1800 2350 3    50   ~ 0
+2A
+NoConn ~ 2900 3800
+NoConn ~ 2900 3700
+NoConn ~ 2900 3600
+$Comp
+L luke:Display-Driver_PCA8561ANH U2
+U 1 1 5F8BB753
+P 3600 3850
+F 0 "U2" H 4400 3750 50  0000 C CNN
+F 1 "Display-Driver_PCA8561ANH" H 4400 3650 50  0000 C CNN
+F 2 "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.6x3.6mm" H 3600 1650 50  0001 C CNN
+F 3 "https://www.nxp.com/docs/en/data-sheet/PCA8561.pdf" H 4200 5550 50  0001 C CNN
+F 4 "568-13032-1-ND" H 3600 1950 50  0001 C CNN "Digi-Key_PN"
+F 5 "https://www.digikey.com/product-detail/en/nxp-usa-inc/PCA8561AHN-AY/568-13032-1-ND/6137585" H 3550 1800 50  0001 C CNN "Purchasing Link"
+	1    3600 3850
+	1    0    0    -1  
+$EndComp
+Connection ~ 3600 1500
+Wire Wire Line
+	3800 1500 3600 1500
+Wire Wire Line
+	3800 1550 3800 1500
+Wire Wire Line
+	3600 1500 3600 1450
+Wire Wire Line
+	3400 1500 3600 1500
+Wire Wire Line
+	3400 1550 3400 1500
+Text Label 2900 2700 2    50   ~ 0
+1A
+Text Label 2900 2600 2    50   ~ 0
+1B
+Text Label 2900 2500 2    50   ~ 0
+1C
+Text Label 2900 2400 2    50   ~ 0
+1D
+Text Label 2900 2300 2    50   ~ 0
+1E
+Text Label 2900 2200 2    50   ~ 0
+1F
+Text Label 2900 2100 2    50   ~ 0
+1G
+Text Label 2900 3400 2    50   ~ 0
+2G
+Text Label 2900 3300 2    50   ~ 0
+2F
+Text Label 2900 3200 2    50   ~ 0
+2E
+Text Label 2900 3100 2    50   ~ 0
+2D
+Text Label 2900 3000 2    50   ~ 0
+2C
+Text Label 2900 2900 2    50   ~ 0
+2B
+Text Label 2900 2800 2    50   ~ 0
+2A
+NoConn ~ 1700 2350
+Text Label 900  2350 3    50   ~ 0
+COM1
+$Comp
+L luke:C_0.1uF C11
+U 1 1 5F2B40B8
+P 3800 1750
+F 0 "C11" H 3915 1846 50  0000 L CNN
+F 1 "C_0.1uF" H 3915 1755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3838 2350 50  0001 C CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C0805C104M3RACTU.pdf" H 3825 2600 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/kemet/C0805C104M3RACTU/399-8000-1-ND/3471723" H 4225 2250 60  0001 C CNN "Purchasing Link"
+F 5 "399-8000-1-ND" H 3800 2450 50  0001 C CNN "Digi-Key_PN"
+	1    3800 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L luke:C_0.1uF C10
+U 1 1 5F2B2087
+P 3400 1750
+F 0 "C10" H 3300 1850 50  0000 R CNN
+F 1 "C_0.1uF" H 3300 1750 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3438 2350 50  0001 C CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C0805C104M3RACTU.pdf" H 3425 2600 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/kemet/C0805C104M3RACTU/399-8000-1-ND/3471723" H 3825 2250 60  0001 C CNN "Purchasing Link"
+F 5 "399-8000-1-ND" H 3400 2450 50  0001 C CNN "Digi-Key_PN"
+	1    3400 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L luke:LCD_OD-204 U1
+U 1 1 5F0F4E2A
+P 1650 1400
+F 0 "U1" H 800 1900 50  0000 L CNN
+F 1 "LCD_OD-204" H 800 1800 50  0000 L CNN
+F 2 "luke-footprints:LCD_OD-204" H 1650 2400 50  0001 C CNN
+F 3 "https://www.orientdisplay.com/standard_lcd/od-204.pdf" V 1250 550 50  0001 C CNN
+F 4 " 2544-OD-204-ND" H 1650 2200 50  0001 C CNN "Digi-Key_PN"
+F 5 "https://www.digikey.com/product-detail/en/orient-display/OD-204/2544-OD-204-ND/12089220" H 1650 2300 50  0001 C CNN "Purchasing Link"
+	1    1650 1400
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	2100 700  5650 700 
+Wire Notes Line
+	5650 700  5650 4450
+Wire Notes Line
+	5650 4450 600  4450
+Wire Notes Line
+	600  4450 600  700 
+Wire Notes Line
+	600  700  850  700 
+$Comp
+L luke:MCU_STM32L051K8Ux U3
+U 1 1 5F087D42
+P 4350 6250
+F 0 "U3" H 3800 7350 50  0000 C CNN
+F 1 "MCU_STM32L051K8Ux" H 3750 7250 50  0000 C CNN
+F 2 "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.3x3.3mm" H 3850 5350 50  0001 R CNN
+F 3 "https://www.st.com/content/ccc/resource/technical/document/datasheet/9a/75/bd/16/0f/fd/49/19/DM00108219.pdf/files/DM00108219.pdf/jcr:content/translations/en.DM00108219.pdf" H 4350 6250 50  0001 R CNN
+F 4 "https://www.digikey.com/product-detail/en/stmicroelectronics/STM32L051K8U6/497-17490-ND/5051352" H 3850 5250 50  0001 R CNN "Purchasing Link"
+F 5 "497-17490-ND" H 3850 5150 50  0001 R CNN "Digi-Key_PN"
+	1    4350 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L luke:R_4.7K R1
+U 1 1 5F1CC1B9
+P 4850 2550
+F 0 "R1" H 4920 2596 50  0000 L CNN
+F 1 "R_4.7K" H 4920 2505 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 3750 2850 50  0001 L CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 3750 2950 50  0001 L CNN
+F 4 "311-4.70KCRCT-ND" H 3750 2750 60  0001 L CNN "Digi-Key_PN"
+F 5 "https://www.digikey.com/product-detail/en/yageo/RC0805FR-074K7L/311-4-70KCRCT-ND/730876" H 3750 3050 60  0001 L CNN "Purchasing Link"
+	1    4850 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L luke:R_4.7K R2
+U 1 1 5F1CCA80
+P 5250 2550
+F 0 "R2" H 5320 2596 50  0000 L CNN
+F 1 "R_4.7K" H 5320 2505 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 4150 2850 50  0001 L CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 4150 2950 50  0001 L CNN
+F 4 "311-4.70KCRCT-ND" H 4150 2750 60  0001 L CNN "Digi-Key_PN"
+F 5 "https://www.digikey.com/product-detail/en/yageo/RC0805FR-074K7L/311-4-70KCRCT-ND/730876" H 4150 3050 60  0001 L CNN "Purchasing Link"
+	1    5250 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR026
+U 1 1 5F221FFC
+P 10050 6050
+F 0 "#PWR026" H 10050 5800 50  0001 C CNN
+F 1 "GND" H 10055 5877 50  0000 C CNN
+F 2 "" H 10050 6050 50  0001 C CNN
+F 3 "" H 10050 6050 50  0001 C CNN
+	1    10050 6050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9950 5900 10050 5900
+Wire Wire Line
+	10050 5900 10050 6000
+Wire Wire Line
+	9950 6000 10050 6000
+Connection ~ 10050 6000
+Wire Wire Line
+	10050 6000 10050 6050
+NoConn ~ 9950 5500
+NoConn ~ 9950 5600
+NoConn ~ 9950 5700
+NoConn ~ 9950 5800
+Text Label 8950 5900 2    50   ~ 0
+SCL
+Text Label 8950 5800 2    50   ~ 0
+SDA
+$Comp
+L luke:C_10uF C14
+U 1 1 5F25383F
+P 9150 5100
+F 0 "C14" H 9265 5196 50  0000 L CNN
+F 1 "C_10uF" H 9265 5105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 9188 5700 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1006_X5R_SMD.pdf" H 9175 5950 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/kemet/C0805C106K8PACTU/399-4925-1-ND/1090920" H 9575 5600 60  0001 C CNN "Purchasing Link"
+F 5 "399-4925-1-ND" H 9150 5800 50  0001 C CNN "Digi-Key_PN"
+	1    9150 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L luke:C_0.1uF C15
+U 1 1 5F25868E
+P 9700 5100
+F 0 "C15" H 9815 5196 50  0000 L CNN
+F 1 "C_0.1uF" H 9815 5105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 9738 5700 50  0001 C CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C0805C104M3RACTU.pdf" H 9725 5950 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/kemet/C0805C104M3RACTU/399-8000-1-ND/3471723" H 10125 5600 60  0001 C CNN "Purchasing Link"
+F 5 "399-8000-1-ND" H 9700 5800 50  0001 C CNN "Digi-Key_PN"
+	1    9700 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L luke:C_0.1uF C12
+U 1 1 5F2676C7
+P 8100 5300
+F 0 "C12" H 8215 5396 50  0000 L CNN
+F 1 "C_0.1uF" H 8215 5305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 8138 5900 50  0001 C CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C0805C104M3RACTU.pdf" H 8125 6150 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/kemet/C0805C104M3RACTU/399-8000-1-ND/3471723" H 8525 5800 60  0001 C CNN "Purchasing Link"
+F 5 "399-8000-1-ND" H 8100 6000 50  0001 C CNN "Digi-Key_PN"
+	1    8100 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L luke:C_22uF C13
+U 1 1 5F2798FD
+P 8650 5300
+F 0 "C13" H 8765 5396 50  0000 L CNN
+F 1 "C_22uF" H 8765 5305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 8688 5900 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1006_X5R_SMD.pdf" H 8675 6150 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/kemet/C0805C226M9PACTU/399-4696-1-ND/992221" H 9075 5800 60  0001 C CNN "Purchasing Link"
+F 5 " 399-4696-1-ND" H 8650 6000 50  0001 C CNN "Digi-Key_PN"
+	1    8650 5300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8650 5450 8650 5400
+Wire Wire Line
+	8100 5450 8100 5400
+Wire Wire Line
+	9700 5200 9700 5250
+Wire Wire Line
+	9700 5250 9450 5250
+Wire Wire Line
+	9150 5250 9150 5200
+$Comp
+L luke:Sensor_VCNL4010 U4
+U 1 1 5F21FA08
+P 9450 5750
+F 0 "U4" H 9450 5327 50  0000 C CNN
+F 1 "Sensor_VCNL4010" H 9450 5236 50  0000 C CNN
+F 2 "luke-footprints:Sensor_VCNL4010" H 9150 5800 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/83462/vcnl4010.pdf" H 9150 5800 50  0001 C CNN
+F 4 "VCNL4010-GS08CT-ND" H 0   0   50  0001 C CNN "Digi-Key_PN"
+F 5 "https://www.digikey.com/product-detail/en/vishay-semiconductor-opto-division/VCNL4010-GS08/VCNL4010-GS08CT-ND/2796066" H 0   0   50  0001 C CNN "Purchasing Link"
+	1    9450 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8100 5450 8400 5450
+Wire Wire Line
+	9450 5300 9450 5250
+Connection ~ 9450 5250
+Wire Wire Line
+	9450 5250 9150 5250
+Wire Wire Line
+	9700 4900 9700 4850
+Wire Wire Line
+	9700 4850 9450 4850
+Wire Wire Line
+	9150 4850 9150 4900
+Wire Wire Line
+	9450 4850 9450 4800
+Connection ~ 9450 4850
+Wire Wire Line
+	9450 4850 9150 4850
+$Comp
+L power:VCC #PWR023
+U 1 1 5F30A970
+P 9450 4800
+F 0 "#PWR023" H 9450 4650 50  0001 C CNN
+F 1 "VCC" H 9465 4973 50  0000 C CNN
+F 2 "" H 9450 4800 50  0001 C CNN
+F 3 "" H 9450 4800 50  0001 C CNN
+	1    9450 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L luke:R_49.9K R8
+U 1 1 5F32BBD9
+P 7600 5250
+F 0 "R8" H 7670 5296 50  0000 L CNN
+F 1 "R_49.9K" H 7670 5205 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 6500 5550 50  0001 L CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 6500 5650 50  0001 L CNN
+F 4 "311-49.9KCRCT-ND" H 6500 5450 60  0001 L CNN "Digi-Key_PN"
+F 5 "https://www.digikey.com/product-detail/en/yageo/RC0805FR-0749K9L/311-49-9KCRCT-ND/730932" H 6500 5750 60  0001 L CNN "Purchasing Link"
+	1    7600 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8650 5100 8650 5050
+Wire Wire Line
+	8650 5050 8100 5050
+Wire Wire Line
+	7600 5050 7600 5100
+Wire Wire Line
+	8100 5100 8100 5050
+Connection ~ 8100 5050
+Wire Wire Line
+	8100 5050 7600 5050
+$Comp
+L power:VCC #PWR020
+U 1 1 5F34C24E
+P 8100 5050
+F 0 "#PWR020" H 8100 4900 50  0001 C CNN
+F 1 "VCC" H 8115 5223 50  0000 C CNN
+F 2 "" H 8100 5050 50  0001 C CNN
+F 3 "" H 8100 5050 50  0001 C CNN
+	1    8100 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8950 5500 8400 5500
+Wire Wire Line
+	8400 5500 8400 5450
+Connection ~ 8400 5450
+Wire Wire Line
+	8400 5450 8650 5450
+Wire Wire Line
+	8950 6000 7600 6000
+Wire Wire Line
+	7600 5400 7600 6000
+NoConn ~ 8950 5700
+NoConn ~ 8950 5600
+$Comp
+L luke:Buzzer_PB9.9-3V BZ1
+U 1 1 5F3E203A
+P 6300 5500
+F 0 "BZ1" H 6452 5529 50  0000 L CNN
+F 1 "Buzzer_PB9.9-3V" H 6452 5438 50  0000 L CNN
+F 2 "" V 6275 5600 50  0001 C CNN
+F 3 "~" V 6275 5600 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/visaton-gmbh-co-kg/PB-9-9-3-V/2056-PB9-9-3V-ND/10650372" H 0   0   50  0001 C CNN "Purchasing Link"
+	1    6300 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR015
+U 1 1 5F3E88D7
+P 6150 5650
+F 0 "#PWR015" H 6150 5400 50  0001 C CNN
+F 1 "GND" H 6155 5477 50  0000 C CNN
+F 2 "" H 6150 5650 50  0001 C CNN
+F 3 "" H 6150 5650 50  0001 C CNN
+	1    6150 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 5600 6150 5600
+Wire Wire Line
+	6150 5600 6150 5650
+Text Label 5900 5400 2    50   ~ 0
+BUZZER
+$Comp
+L luke:R_330 R3
+U 1 1 5F42BC93
+P 6050 5400
+F 0 "R3" V 6257 5400 50  0000 C CNN
+F 1 "R_330" V 6166 5400 50  0000 C CNN
+F 2 "footprints:R_0805_OEM" H 5980 5400 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 6130 5400 50  0001 C CNN
+F 4 "RMCF0805FT330RCT-ND" H 6050 5400 60  0001 C CNN "Digi-Key_PN"
+F 5 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805FT330R/RMCF0805FT330RCT-ND/1942351" H 6530 5800 60  0001 C CNN "Purchasing Link"
+	1    6050 5400
+	0    -1   -1   0   
+$EndComp
+Text Label 4850 6050 0    50   ~ 0
+BUZZER
+NoConn ~ 4850 6650
+Text Label 8950 6000 2    50   ~ 0
+INT
+Text Label 4850 5950 0    50   ~ 0
+INT
+NoConn ~ 2900 3500
+NoConn ~ 4850 6550
+$Comp
+L power:VDD #PWR?
+U 1 1 5F4E8A36
+P 3600 1450
+F 0 "#PWR?" H 3600 1300 50  0001 C CNN
+F 1 "VDD" H 3615 1623 50  0000 C CNN
+F 2 "" H 3600 1450 50  0001 C CNN
+F 3 "" H 3600 1450 50  0001 C CNN
+	1    3600 1450
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
