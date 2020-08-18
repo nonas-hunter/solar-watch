@@ -93,6 +93,30 @@ X ~ 2 0 -100 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# luke_C_100uF
+#
+DEF luke_C_100uF C 0 10 N Y 1 F N
+F0 "C" 25 150 50 H V L CNN
+F1 "luke_C_100uF" 25 -50 50 H V L CNN
+F2 "Capacitor_SMD:C_0805_2012Metric" 38 600 50 H I C CNN
+F3 "" 25 850 50 H I C CNN
+F4 "https://www.digikey.com/product-detail/en/murata-electronics/GRM21BR60J107ME15L/490-13981-2-ND/6155751" 425 500 60 H I C CNN "Purchasing Link"
+F5 "490-13981-2-ND" 0 700 50 H I C CNN "Digi-Key_PN"
+$FPLIST
+ C?
+ C_????_*
+ C_????
+ SMD*_c
+ Capacitor*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 20 80 20 N
+P 2 0 1 20 -80 80 80 80 N
+X ~ 1 0 200 110 D 50 50 1 1 P
+X ~ 2 0 -100 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # luke_C_10uF
 #
 DEF luke_C_10uF C 0 10 N Y 1 F N
@@ -174,30 +198,6 @@ F2 "Capacitor_SMD:C_0805_2012Metric" 38 600 50 H I C CNN
 F3 "" 25 850 50 H I C CNN
 F4 "https://www.digikey.com/product-detail/en/yageo/CC0805JRNPO0BN200/311-4221-1-ND/8025310" 425 500 60 H I C CNN "Purchasing Link"
 F5 "311-4221-1-ND" 0 700 50 H I C CNN "Digi-Key_PN"
-$FPLIST
- C?
- C_????_*
- C_????
- SMD*_c
- Capacitor*
-$ENDFPLIST
-DRAW
-P 2 0 1 20 -80 20 80 20 N
-P 2 0 1 20 -80 80 80 80 N
-X ~ 1 0 200 110 D 50 50 1 1 P
-X ~ 2 0 -100 110 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# luke_C_22uF
-#
-DEF luke_C_22uF C 0 10 N Y 1 F N
-F0 "C" 25 150 50 H V L CNN
-F1 "luke_C_22uF" 25 -50 50 H V L CNN
-F2 "Capacitor_SMD:C_0805_2012Metric" 38 600 50 H I C CNN
-F3 "" 25 850 50 H I C CNN
-F4 "https://www.digikey.com/product-detail/en/kemet/C0805C226M9PACTU/399-4696-1-ND/992221" 425 500 60 H I C CNN "Purchasing Link"
-F5 " 399-4696-1-ND" 0 700 50 H I C CNN "Digi-Key_PN"
 $FPLIST
  C?
  C_????_*
@@ -496,6 +496,37 @@ X PA3 9 500 400 100 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
+# luke_Phototransistor_ALS-PT19-315C
+#
+DEF luke_Phototransistor_ALS-PT19-315C Q 0 40 Y N 1 F N
+F0 "Q" -50 200 60 H V C CNN
+F1 "luke_Phototransistor_ALS-PT19-315C" 200 0 60 V V C CNN
+F2 "digikey-footprints:LED_2-SMD_No_Lead_1.7x0.8mm" 200 200 60 H I L CNN
+F3 "" 200 300 60 H I L CNN
+F4 "1080-1244-1-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "ALS-PT19-315C/L177/TR8" 200 500 60 H I L CNN "MPN"
+F6 "Sensors, Transducers" 200 600 60 H I L CNN "Category"
+F7 "Optical Sensors - Phototransistors" 200 700 60 H I L CNN "Family"
+F8 "/product-detail/en/everlight-electronics-co-ltd/ALS-PT19-315C-L177-TR8/1080-1244-1-ND/2675978" 200 900 60 H I L CNN "DK_Detail_Page"
+F9 "SENSOR PHOTO 630NM 2SMD" 200 1000 60 H I L CNN "Description"
+F10 "Everlight Electronics Co Ltd" 200 1100 60 H I L CNN "Manufacturer"
+F11 "Active" 200 1200 60 H I L CNN "Status"
+F12 "https://www.digikey.com/product-detail/en/everlight-electronics-co-ltd/ALS-PT19-315C-L177-TR8/1080-1244-1-ND/2675978" 200 50 50 H I L CNN "Purchasing Link"
+DRAW
+C 0 0 125 0 1 0 f
+P 2 0 1 0 -285 130 -195 40 N
+P 2 0 1 0 -285 230 -195 140 N
+P 2 0 1 10 -50 -75 -50 75 N
+P 2 0 1 0 -50 -30 100 -100 N
+P 2 0 1 0 -50 30 100 100 N
+P 4 0 1 0 -165 10 -210 30 -185 55 -165 10 F
+P 4 0 1 0 -165 110 -210 130 -185 155 -165 110 F
+P 4 0 1 0 60 -80 12 -80 26 -46 60 -80 F
+X C 1 100 200 100 D 50 50 1 1 P
+X E 2 100 -200 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # luke_R_10M
 #
 DEF luke_R_10M R 0 0 N Y 1 F N
@@ -505,6 +536,26 @@ F2 "Resistor_SMD:R_0805_2012Metric" -1100 300 50 H I L CNN
 F3 "" -1100 400 50 H I L CNN
 F4 "311-10MARDKR-ND" -1100 200 60 H I L CNN "Digi-Key_PN"
 F5 "https://www.digikey.com/product-detail/en/yageo/RC0805JR-0710ML/311-10MARDKR-ND/734136" -1100 500 60 H I L CNN "Purchasing Link"
+$FPLIST
+ R_*
+ Resistor_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# luke_R_160
+#
+DEF luke_R_160 R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "luke_R_160" -100 0 50 V V C CNN
+F2 "Resistor_SMD:R_0805_2012Metric" -1100 300 50 H I L CNN
+F3 "" -1100 400 50 H I L CNN
+F4 "311-160ARCT-ND" -1100 200 60 H I L CNN "Digi-Key_PN"
+F5 "https://www.digikey.com/product-detail/en/yageo/RC0805JR-07160RL/311-160ARCT-ND/731206" -1100 500 60 H I L CNN "Purchasing Link"
 $FPLIST
  R_*
  Resistor_*
@@ -636,15 +687,15 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# luke_R_49.9K
+# luke_R_4.87K
 #
-DEF luke_R_49.9K R 0 0 N Y 1 F N
+DEF luke_R_4.87K R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "luke_R_49.9K" -100 0 50 V V C CNN
+F1 "luke_R_4.87K" -100 0 50 V V C CNN
 F2 "Resistor_SMD:R_0805_2012Metric" -1100 300 50 H I L CNN
 F3 "" -1100 400 50 H I L CNN
-F4 "311-49.9KCRCT-ND" -1100 200 60 H I L CNN "Digi-Key_PN"
-F5 "https://www.digikey.com/product-detail/en/yageo/RC0805FR-0749K9L/311-49-9KCRCT-ND/730932" -1100 500 60 H I L CNN "Purchasing Link"
+F4 "2019-RK73H2ATTD4871FCT-ND" -1100 200 60 H I L CNN "Digi-Key_PN"
+F5 "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73H2ATTD4871F/2019-RK73H2ATTD4871FCT-ND/10235649" -1100 500 60 H I L CNN "Purchasing Link"
 $FPLIST
  R_*
  Resistor_*
@@ -811,34 +862,6 @@ X VOUT 3 400 50 100 L 50 50 1 1 W
 X ~SHDN 4 -150 -450 100 U 50 50 1 1 w
 X VIN 5 -400 50 100 R 50 50 1 1 W
 X SW1 6 -400 250 100 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# luke_Sensor_VCNL4010
-#
-DEF luke_Sensor_VCNL4010 U 0 40 Y Y 1 F N
-F0 "U" 0 -500 50 H V C CNN
-F1 "luke_Sensor_VCNL4010" 0 -400 50 H V C CNN
-F2 "luke-footprints:Sensor_VCNL4010" -300 50 50 H I C CNN
-F3 "" -300 50 50 H I C CNN
-F4 "https://www.digikey.com/product-detail/en/vishay-semiconductor-opto-division/VCNL4010-GS08/VCNL4010-GS08CT-ND/2796066" 0 0 50 H I C CNN "Purchasing Link"
-F5 "VCNL4010-GS08CT-ND" 0 0 50 H I C CNN "Digi-Key_PN"
-DRAW
-S -400 350 -400 350 0 1 0 N
-S -400 350 400 -350 0 1 0 f
-X IR_AN 1 -500 250 100 R 50 50 1 1 I
-X N.C. 10 500 50 100 L 50 50 1 1 I
-X N.C. 11 500 -50 100 L 50 50 1 1 I
-X GND 12 500 -150 100 L 50 50 1 1 I
-X GND 13 500 -250 100 L 50 50 1 1 I
-X IR_CAT 2 -500 150 100 R 50 50 1 1 I
-X IR_CAT 3 -500 50 100 R 50 50 1 1 I
-X SDA 4 -500 -50 100 R 50 50 1 1 I
-X SCL 5 -500 -150 100 R 50 50 1 1 I
-X INT 6 -500 -250 100 R 50 50 1 1 I
-X VDD 7 0 450 100 D 50 50 1 1 I
-X N.C. 8 500 250 100 L 50 50 1 1 I
-X N.C. 9 500 150 100 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
