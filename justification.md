@@ -12,24 +12,23 @@ This document contains the justifications for all the design descisions for the 
 
 ### Light Sensors
 
+Written in notebook.
+
 ### Buck/Boost Converter
 
 ### Energy Harvesting
 
 ### Shake Switch
 
-**Current Consumption:** 0.5mA
+**Current Consumption:** 5 mA
 
-The shake switch is connected to a 6.04 kOhm current limiting resistor and a 2.21 mOhm pull-down resistor. When the switch is closed the circuit pulls 0.5mA. This felt like an acceptable current consumption for this circuit since it will be active for very short periods of time. 
+The shake switch is connected to a 604 Ohm current limiting resistor and a 10 kOhm pull-down resistor. When the switch is closed the circuit pulls 5mA. This felt like an acceptable current consumption for this circuit since it will be active for very short periods of time. The pull down resistor was choosen based on information from this article: (https://www.playembedded.org/blog/buttons-stm32/)
 
 ```
 [Total Current Draw]
 1/Req = 1/R1 + 1/R2
-Req = 6.02kOhm
-I = 3V / 6.02kOhm = 497uA
-
-[Current through Pin]
-3V / 6.04kOhm = 497uA
+Req = 569.59Ohm
+3V / Req = 5.27mA
 ```
 
 **Further Investigation:** It would be interesting to investigate the minimum required current to get a valid logic high.

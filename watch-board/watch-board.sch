@@ -413,64 +413,42 @@ $EndComp
 $Comp
 L luke:Switch_1767 S
 U 1 1 5F0E6B9E
-P 6850 1150
-F 0 "S" H 6850 1425 50  0000 C CNN
-F 1 "Switch_1767" H 6850 1334 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 7050 1350 50  0001 L CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Adafruit%20PDFs/1767_Web.pdf" H 7050 1450 60  0001 L CNN
-F 4 "1528-2159-ND" H 7050 1550 60  0001 L CNN "Digi-Key_PN"
-F 5 "https://www.digikey.com/product-detail/en/adafruit-industries-llc/1767/1528-2159-ND/7244945" H 7050 1450 50  0001 L CNN "Purchasing Link"
-	1    6850 1150
+P 6550 1150
+F 0 "S" H 6550 1425 50  0000 C CNN
+F 1 "Switch_1767" H 6550 1334 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 6750 1350 50  0001 L CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Adafruit%20PDFs/1767_Web.pdf" H 6750 1450 60  0001 L CNN
+F 4 "1528-2159-ND" H 6750 1550 60  0001 L CNN "Digi-Key_PN"
+F 5 "https://www.digikey.com/product-detail/en/adafruit-industries-llc/1767/1528-2159-ND/7244945" H 6750 1450 50  0001 L CNN "Purchasing Link"
+	1    6550 1150
 	1    0    0    -1  
 $EndComp
-Text Label 6250 1150 2    50   ~ 0
+Text Label 6300 1150 2    50   ~ 0
 BUTTON
 Wire Wire Line
-	6550 1150 6600 1150
-$Comp
-L luke:R_220K R
-U 1 1 5ED88523
-P 6600 1350
-F 0 "R" H 6670 1396 50  0000 L CNN
-F 1 "R_220K" H 6670 1305 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 5500 1650 50  0001 L CNN
-F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204&DocType=DS&DocLang=English" H 5500 1750 50  0001 L CNN
-F 4 "A126350CT-ND" H 5500 1550 60  0001 L CNN "Digi-Key_PN"
-F 5 "https://www.digikey.com/product-detail/en/te-connectivity-passive-product/CRG0805F220K/A126350CT-ND/7603405" H 5500 1850 60  0001 L CNN "Purchasing Link"
-	1    6600 1350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6600 1200 6600 1150
-Connection ~ 6600 1150
-Wire Wire Line
-	6600 1150 6650 1150
+	6300 1200 6300 1150
 $Comp
 L power:GND #PWR
 U 1 1 5ED90D9E
-P 6600 1500
-F 0 "#PWR" H 6600 1250 50  0001 C CNN
-F 1 "GND" H 6605 1327 50  0000 C CNN
-F 2 "" H 6600 1500 50  0001 C CNN
-F 3 "" H 6600 1500 50  0001 C CNN
-	1    6600 1500
+P 6300 1500
+F 0 "#PWR" H 6300 1250 50  0001 C CNN
+F 1 "GND" H 6305 1327 50  0000 C CNN
+F 2 "" H 6300 1500 50  0001 C CNN
+F 3 "" H 6300 1500 50  0001 C CNN
+	1    6300 1500
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:VDD #PWR
 U 1 1 5F1738F3
-P 7200 1100
-F 0 "#PWR" H 7200 950 50  0001 C CNN
-F 1 "VDD" H 7217 1273 50  0000 C CNN
-F 2 "" H 7200 1100 50  0001 C CNN
-F 3 "" H 7200 1100 50  0001 C CNN
-	1    7200 1100
+P 7150 1050
+F 0 "#PWR" H 7150 900 50  0001 C CNN
+F 1 "VDD" H 7167 1223 50  0000 C CNN
+F 2 "" H 7150 1050 50  0001 C CNN
+F 3 "" H 7150 1050 50  0001 C CNN
+	1    7150 1050
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7050 1150 7200 1150
-Wire Wire Line
-	7200 1150 7200 1100
 Text Label 4850 5950 0    50   ~ 0
 VBAT_OK
 Text Label 4850 5650 0    50   ~ 0
@@ -1874,19 +1852,6 @@ F 5 "https://www.digikey.com/product-detail/en/yageo/RC0805FR-0710KL/311-10-0KCR
 	1    6600 3350
 	0    1    1    0   
 $EndComp
-$Comp
-L luke:R_604 R?
-U 1 1 5FA72838
-P 6400 1150
-F 0 "R?" V 6193 1150 50  0000 C CNN
-F 1 "R_604" V 6284 1150 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 6330 1150 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 6480 1150 50  0001 C CNN
-F 4 "P604DACT-ND" H 6400 1150 60  0001 C CNN "Digi-Key_PN"
-F 5 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB6040V/P604DACT-ND/3075200" H 6880 1550 60  0001 C CNN "Purchasing Link"
-	1    6400 1150
-	0    1    1    0   
-$EndComp
 Text Notes 6500 6850 0    98   ~ 20
 Light
 Text Notes 5850 4750 0    98   ~ 20
@@ -1932,4 +1897,38 @@ Wire Notes Line
 	8250 2050 8250 3850
 Wire Notes Line
 	5800 2050 5800 3850
+$Comp
+L luke:R_6.04K R?
+U 1 1 5F4C2EF6
+P 6950 1150
+F 0 "R?" V 6743 1150 50  0000 C CNN
+F 1 "R_6.04K" V 6834 1150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 5850 1450 50  0001 L CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 5850 1550 50  0001 L CNN
+F 4 "311-6.04KCRCT-ND" H 5850 1350 60  0001 L CNN "Digi-Key_PN"
+F 5 "https://www.digikey.com/product-detail/en/yageo/RC0805FR-076K04L/311-6-04KCRCT-ND/730996" H 5850 1650 60  0001 L CNN "Purchasing Link"
+	1    6950 1150
+	0    1    1    0   
+$EndComp
+$Comp
+L luke:R_10K R?
+U 1 1 5F4F68AF
+P 6300 1350
+F 0 "R?" H 6370 1396 50  0000 L CNN
+F 1 "R_10K" H 6370 1305 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 5200 1650 50  0001 L CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 5200 1750 50  0001 L CNN
+F 4 " 311-10.0KCRCT-ND " H 5200 1550 60  0001 L CNN "Digi-Key_PN"
+F 5 "https://www.digikey.com/product-detail/en/yageo/RC0805FR-0710KL/311-10-0KCRCT-ND/730482" H 5200 1850 60  0001 L CNN "Purchasing Link"
+	1    6300 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7150 1150 7100 1150
+Wire Wire Line
+	7150 1050 7150 1150
+Wire Wire Line
+	6800 1150 6750 1150
+Wire Wire Line
+	6350 1150 6300 1150
 $EndSCHEMATC

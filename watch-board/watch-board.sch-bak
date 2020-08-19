@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L power:GND #PWR08
+L power:GND #PWR
 U 1 1 5EBC8B3A
 P 4300 7350
 F 0 "#PWR" H 4300 7100 50  0001 C CNN
@@ -47,7 +47,7 @@ Connection ~ 4350 5300
 Wire Wire Line
 	4350 5300 4350 5200
 $Comp
-L luke:C_0.1uF C3
+L luke:C_0.1uF C
 U 1 1 5EBAF210
 P 1550 6150
 F 0 "C" V 1400 6200 50  0000 C CNN
@@ -60,7 +60,7 @@ F 5 "399-8000-1-ND" H 1550 6850 50  0001 C CNN "Digi-Key_PN"
 	0    1    1    0   
 $EndComp
 $Comp
-L luke:C_0.1uF C1
+L luke:C_0.1uF C
 U 1 1 5EBB1CD4
 P 1550 5250
 F 0 "C" V 1400 5300 50  0000 C CNN
@@ -73,7 +73,7 @@ F 5 "399-8000-1-ND" H 1550 5950 50  0001 C CNN "Digi-Key_PN"
 	0    1    1    0   
 $EndComp
 $Comp
-L luke:C_1uF C4
+L luke:C_1uF C
 U 1 1 5EBB44E5
 P 1550 6550
 F 0 "C" V 1400 6600 50  0000 C CNN
@@ -114,7 +114,7 @@ Connection ~ 1800 7450
 Wire Wire Line
 	1800 7650 1800 7450
 $Comp
-L power:GND #PWR02
+L power:GND #PWR
 U 1 1 5EC5CFD6
 P 1800 7650
 F 0 "#PWR" H 1800 7400 50  0001 C CNN
@@ -137,7 +137,7 @@ Wire Wire Line
 Wire Wire Line
 	1400 7050 1450 7050
 $Comp
-L luke:C_10uF C6
+L luke:C_10uF C
 U 1 1 5EBB722F
 P 1550 7450
 F 0 "C" V 1400 7500 50  0000 C CNN
@@ -150,7 +150,7 @@ F 5 "399-4925-1-ND" H 1550 8150 50  0001 C CNN "Digi-Key_PN"
 	0    1    1    0   
 $EndComp
 $Comp
-L luke:C_0.1uF C5
+L luke:C_0.1uF C
 U 1 1 5EBAFDA0
 P 1550 7050
 F 0 "C" V 1400 7100 50  0000 C CNN
@@ -187,7 +187,7 @@ VDD\nPlace near Pin 17\nDatasheet Page 47
 Text Notes 650  7300 0    50   ~ 0
 VDD\nPlace near Pin 1\nDatasheet Page 47
 $Comp
-L luke:C_1uF C2
+L luke:C_1uF C
 U 1 1 5ECAA11E
 P 1550 5650
 F 0 "C" V 1400 5700 50  0000 C CNN
@@ -200,7 +200,7 @@ F 5 "311-1909-1-ND " H 1550 6350 50  0001 C CNN "Digi-Key_PN"
 	0    1    1    0   
 $EndComp
 $Comp
-L power:VDD #PWR09
+L power:VDD #PWR
 U 1 1 5ECD6303
 P 4350 5200
 F 0 "#PWR" H 4350 5050 50  0001 C CNN
@@ -211,7 +211,7 @@ F 3 "" H 4350 5200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VDD #PWR01
+L power:VDD #PWR
 U 1 1 5ECD953F
 P 1400 5050
 F 0 "#PWR" H 1400 4900 50  0001 C CNN
@@ -222,7 +222,7 @@ F 3 "" H 1400 5050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR07
+L power:GND #PWR
 U 1 1 5ED3B9B6
 P 3700 5800
 F 0 "#PWR" H 3700 5550 50  0001 C CNN
@@ -241,7 +241,7 @@ SWDIO
 Text Label 4850 6950 0    50   ~ 0
 SWCLK
 $Comp
-L luke:Conn_01x05_Male J1
+L luke:Conn_01x05_Male J
 U 1 1 5ED7C4B6
 P 5750 7550
 F 0 "J" H 5850 8000 50  0000 C CNN
@@ -254,7 +254,7 @@ $EndComp
 Text Label 3750 5550 2    50   ~ 0
 RST
 $Comp
-L luke:C_0.1uF C8
+L luke:C_0.1uF C
 U 1 1 5EDC3510
 P 2950 5800
 F 0 "C" H 3065 5896 50  0000 L CNN
@@ -267,7 +267,7 @@ F 5 "399-8000-1-ND" H 2950 6500 50  0001 C CNN "Digi-Key_PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR04
+L power:GND #PWR
 U 1 1 5EDC8CCB
 P 2950 5900
 F 0 "#PWR" H 2950 5650 50  0001 C CNN
@@ -278,7 +278,7 @@ F 3 "" H 2950 5900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L luke:Regulator_LTC3531-3 U6
+L luke:Regulator_LTC3531-3 U
 U 1 1 5EC3061F
 P 11650 5700
 F 0 "U" H 11650 6215 50  0000 C CNN
@@ -291,7 +291,7 @@ F 5 "https://www.digikey.com/product-detail/en/linear-technology-analog-devices/
 	1    0    0    -1  
 $EndComp
 $Comp
-L luke:L_10uH L2
+L luke:L_10uH L
 U 1 1 5F1738DB
 P 11650 5100
 F 0 "L" H 11650 5285 50  0000 C CNN
@@ -305,7 +305,7 @@ F 6 "https://www.digikey.com/product-detail/en/murata-electronics/LQH43CN100K03L
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR031
+L power:GND #PWR
 U 1 1 5F1738DC
 P 11800 6150
 F 0 "#PWR" H 11800 5900 50  0001 C CNN
@@ -328,7 +328,7 @@ Wire Wire Line
 Wire Wire Line
 	12100 5100 11750 5100
 $Comp
-L power:GND #PWR033
+L power:GND #PWR
 U 1 1 5F1738E0
 P 12250 6000
 F 0 "#PWR" H 12250 5750 50  0001 C CNN
@@ -339,7 +339,7 @@ F 3 "" H 12250 6000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VDD #PWR032
+L power:VDD #PWR
 U 1 1 5F1738E1
 P 12250 5300
 F 0 "#PWR" H 12250 5150 50  0001 C CNN
@@ -350,7 +350,7 @@ F 3 "" H 12250 5300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L luke:C_10uF C19
+L luke:C_10uF C
 U 1 1 5F1738DD
 P 12250 5900
 F 0 "C" H 12365 5996 50  0000 L CNN
@@ -370,7 +370,7 @@ Wire Wire Line
 	12250 5700 12250 5650
 Connection ~ 12250 5650
 $Comp
-L luke:C_2.2uF C18
+L luke:C_2.2uF C
 U 1 1 5EC67329
 P 10700 5900
 F 0 "C" H 10815 5996 50  0000 L CNN
@@ -385,7 +385,7 @@ $EndComp
 Wire Wire Line
 	10700 5650 10700 5700
 $Comp
-L power:GND #PWR029
+L power:GND #PWR
 U 1 1 5EC795AF
 P 10700 6000
 F 0 "#PWR" H 10700 5750 50  0001 C CNN
@@ -398,7 +398,7 @@ $EndComp
 Text Label 10700 5650 2    50   ~ 0
 LOAD
 $Comp
-L luke:D-Schotkey_BAT54HT1G D1
+L luke:D-Schotkey_BAT54HT1G D
 U 1 1 5F0C7916
 P 12250 5450
 F 0 "D" V 12204 5529 50  0000 L CNN
@@ -411,7 +411,7 @@ F 5 "https://www.digikey.com/product-detail/en/on-semiconductor/BAT54HT1G/BAT54H
 	0    1    1    0   
 $EndComp
 $Comp
-L luke:Switch_1767 S1
+L luke:Switch_1767 S
 U 1 1 5F0E6B9E
 P 6850 1150
 F 0 "S" H 6850 1425 50  0000 C CNN
@@ -428,7 +428,7 @@ BUTTON
 Wire Wire Line
 	6550 1150 6600 1150
 $Comp
-L luke:R_220K R5
+L luke:R_220K R
 U 1 1 5ED88523
 P 6600 1350
 F 0 "R" H 6670 1396 50  0000 L CNN
@@ -446,7 +446,7 @@ Connection ~ 6600 1150
 Wire Wire Line
 	6600 1150 6650 1150
 $Comp
-L power:GND #PWR016
+L power:GND #PWR
 U 1 1 5ED90D9E
 P 6600 1500
 F 0 "#PWR" H 6600 1250 50  0001 C CNN
@@ -457,7 +457,7 @@ F 3 "" H 6600 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VDD #PWR019
+L power:VDD #PWR
 U 1 1 5F1738F3
 P 7200 1100
 F 0 "#PWR" H 7200 950 50  0001 C CNN
@@ -498,7 +498,7 @@ SWCLK
 Text Label 5950 7550 0    50   ~ 0
 SWDIO
 $Comp
-L power:GND #PWR013
+L power:GND #PWR
 U 1 1 5ED60068
 P 5950 7650
 F 0 "#PWR" H 5950 7400 50  0001 C CNN
@@ -509,7 +509,7 @@ F 3 "" H 5950 7650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:VDD #PWR014
+L power:VDD #PWR
 U 1 1 5ED5B97B
 P 5950 7750
 F 0 "#PWR" H 5950 7600 50  0001 C CNN
@@ -520,7 +520,7 @@ F 3 "" H 5950 7750 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L luke:Crystals_32.768-SMD XTAL1
+L luke:Crystals_32.768-SMD XTAL
 U 1 1 5EEBA3F1
 P 2550 6500
 F 0 "XTAL" H 2550 6740 50  0000 C CNN
@@ -547,7 +547,7 @@ Wire Wire Line
 Wire Wire Line
 	2100 6500 2400 6500
 $Comp
-L luke:C_20pF C9
+L luke:C_20pF C
 U 1 1 5ED60ED8
 P 3000 6700
 F 0 "C" H 3115 6796 50  0000 L CNN
@@ -561,7 +561,7 @@ F 5 "311-4221-1-ND" H 3000 7400 50  0001 C CNN "Digi-Key_PN"
 $EndComp
 Connection ~ 3000 6500
 $Comp
-L luke:C_20pF C7
+L luke:C_20pF C
 U 1 1 5ED6190C
 P 2100 6700
 F 0 "C" H 2215 6796 50  0000 L CNN
@@ -575,7 +575,7 @@ F 5 "311-4221-1-ND" H 2100 7400 50  0001 C CNN "Digi-Key_PN"
 $EndComp
 Connection ~ 2100 6500
 $Comp
-L power:GND #PWR03
+L power:GND #PWR
 U 1 1 5ED6204A
 P 2100 6800
 F 0 "#PWR" H 2100 6550 50  0001 C CNN
@@ -586,7 +586,7 @@ F 3 "" H 2100 6800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR05
+L power:GND #PWR
 U 1 1 5ED626D8
 P 3000 6800
 F 0 "#PWR" H 3000 6550 50  0001 C CNN
@@ -664,7 +664,7 @@ NoConn ~ 3750 6550
 Text Label 4850 6350 0    50   ~ 0
 RESET
 $Comp
-L luke:BAT_ML1220 BT1
+L luke:BAT_ML1220 BT
 U 1 1 5ED70C3B
 P 12000 1500
 F 0 "BT" H 11882 1504 50  0000 R CNN
@@ -707,7 +707,7 @@ Wire Wire Line
 Wire Wire Line
 	12300 3350 12600 3350
 $Comp
-L power:GND #PWR034
+L power:GND #PWR
 U 1 1 5F1738F9
 P 12600 3400
 F 0 "#PWR" H 12600 3150 50  0001 C CNN
@@ -731,7 +731,7 @@ Wire Wire Line
 Wire Wire Line
 	12200 2950 12300 2950
 $Comp
-L luke:C_0.1uF C21
+L luke:C_0.1uF C
 U 1 1 5EEF8565
 P 12850 3200
 F 0 "C" H 12965 3296 50  0000 L CNN
@@ -744,7 +744,7 @@ F 5 "399-8000-1-ND" H 12850 3900 50  0001 C CNN "Digi-Key_PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L luke:C_4.7uF C20
+L luke:C_4.7uF C
 U 1 1 5EEF7203
 P 12300 3150
 F 0 "C" H 12415 3196 50  0000 L CNN
@@ -762,7 +762,7 @@ Connection ~ 10600 900
 Wire Wire Line
 	10600 1050 10600 900 
 $Comp
-L luke:C_4.7uF C17
+L luke:C_4.7uF C
 U 1 1 5EEECF6B
 P 10600 1200
 F 0 "C" H 10715 1246 50  0000 L CNN
@@ -780,7 +780,7 @@ Wire Wire Line
 Wire Wire Line
 	10500 1400 10600 1400
 $Comp
-L power:GND #PWR027
+L power:GND #PWR
 U 1 1 5EEDDD41
 P 10450 3300
 F 0 "#PWR" H 10450 3050 50  0001 C CNN
@@ -795,7 +795,7 @@ Wire Wire Line
 Wire Wire Line
 	11000 2950 10450 2950
 $Comp
-L luke:C_0.01uF C16
+L luke:C_0.01uF C
 U 1 1 5EECAB40
 P 10450 3200
 F 0 "C" H 10565 3296 50  0000 L CNN
@@ -881,7 +881,7 @@ Wire Wire Line
 Wire Wire Line
 	9200 2800 9200 2850
 $Comp
-L power:GND #PWR022
+L power:GND #PWR
 U 1 1 5ECC9E46
 P 9200 3200
 F 0 "#PWR" H 9200 2950 50  0001 C CNN
@@ -892,7 +892,7 @@ F 3 "" H 9200 3200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR021
+L power:GND #PWR
 U 1 1 5ECC97DD
 P 8650 3200
 F 0 "#PWR" H 8650 2950 50  0001 C CNN
@@ -903,7 +903,7 @@ F 3 "" H 8650 3200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L luke:R_5.62M R12
+L luke:R_5.62M R
 U 1 1 5ECC9141
 P 9200 3050
 F 0 "R" H 9270 3096 50  0000 L CNN
@@ -918,7 +918,7 @@ $EndComp
 Text Notes 9100 3500 0    50   ~ 0
 R_UV
 $Comp
-L luke:R_4.22M R11
+L luke:R_4.22M R
 U 1 1 5F1738EA
 P 9200 2650
 F 0 "R" H 9270 2696 50  0000 L CNN
@@ -931,7 +931,7 @@ F 5 "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73H2A
 	1    0    0    -1  
 $EndComp
 $Comp
-L luke:R_3.74M R9
+L luke:R_3.74M R
 U 1 1 5F1738E9
 P 8650 2650
 F 0 "R" H 8720 2696 50  0000 L CNN
@@ -944,7 +944,7 @@ F 5 "https://www.digikey.com/product-detail/en/vishay-dale/CRCW08053M74FKEA/541-
 	1    0    0    -1  
 $EndComp
 $Comp
-L luke:R_6.19M R10
+L luke:R_6.19M R
 U 1 1 5F1738E8
 P 8650 3050
 F 0 "R" H 8720 3096 50  0000 L CNN
@@ -967,7 +967,7 @@ Wire Wire Line
 Wire Wire Line
 	9750 2800 9750 2850
 $Comp
-L luke:R_806K R13
+L luke:R_806K R
 U 1 1 5EC5BABC
 P 9750 2650
 F 0 "R" H 9820 2696 50  0000 L CNN
@@ -980,7 +980,7 @@ F 5 "https://www.digikey.com/product-detail/en/yageo/RC0805FR-07806KL/311-806KCR
 	1    0    0    -1  
 $EndComp
 $Comp
-L luke:R_4.22M R14
+L luke:R_4.22M R
 U 1 1 5F1738E3
 P 9750 3050
 F 0 "R" H 9820 3096 50  0000 L CNN
@@ -993,7 +993,7 @@ F 5 "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73H2A
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR025
+L power:GND #PWR
 U 1 1 5EC53187
 P 9750 3600
 F 0 "#PWR" H 9750 3350 50  0001 C CNN
@@ -1004,7 +1004,7 @@ F 3 "" H 9750 3600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L luke:R_5.11M R15
+L luke:R_5.11M R
 U 1 1 5F1738DF
 P 9750 3450
 F 0 "R" H 9820 3496 50  0000 L CNN
@@ -1017,7 +1017,7 @@ F 5 "https://www.digikey.com/product-detail/en/yageo/RC0805FR-075M11L/311-5-11MC
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR024
+L power:GND #PWR
 U 1 1 5F1738DE
 P 9750 2100
 F 0 "#PWR" H 9750 1850 50  0001 C CNN
@@ -1040,7 +1040,7 @@ Wire Wire Line
 Wire Wire Line
 	10400 1350 10400 1400
 $Comp
-L power:GND #PWR028
+L power:GND #PWR
 U 1 1 5F1738DA
 P 10500 1450
 F 0 "#PWR" H 10500 1200 50  0001 C CNN
@@ -1052,7 +1052,7 @@ F 3 "" H 10500 1450 50  0001 C CNN
 $EndComp
 Connection ~ 11200 1700
 $Comp
-L luke:R_6.04M R16
+L luke:R_6.04M R
 U 1 1 5F1738D6
 P 9950 2050
 F 0 "R" V 9743 2050 50  0000 C CNN
@@ -1065,7 +1065,7 @@ F 5 "https://www.digikey.com/product-detail/en/yageo/RC0805FR-076M04L/311-6-04MC
 	0    1    1    0   
 $EndComp
 $Comp
-L luke:R_10M R17
+L luke:R_10M R
 U 1 1 5F1738D5
 P 10250 2050
 F 0 "R" V 10043 2050 50  0000 C CNN
@@ -1078,7 +1078,7 @@ F 5 "https://www.digikey.com/product-detail/en/yageo/RC0805JR-0710ML/311-10MARDK
 	0    1    1    0   
 $EndComp
 $Comp
-L luke:R_3.83M R18
+L luke:R_3.83M R
 U 1 1 5F1738D4
 P 10650 2050
 F 0 "R" V 10443 2050 50  0000 C CNN
@@ -1111,7 +1111,7 @@ Wire Wire Line
 Wire Wire Line
 	11400 3450 11400 3550
 $Comp
-L power:GND #PWR030
+L power:GND #PWR
 U 1 1 5F1738EE
 P 11600 3650
 F 0 "#PWR" H 11600 3400 50  0001 C CNN
@@ -1138,7 +1138,7 @@ Wire Wire Line
 Wire Wire Line
 	12000 1400 12000 1350
 $Comp
-L power:GND #PWR035
+L power:GND #PWR
 U 1 1 5ECB0237
 P 12750 1400
 F 0 "#PWR" H 12750 1150 50  0001 C CNN
@@ -1149,7 +1149,7 @@ F 3 "" H 12750 1400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L luke:L_22uH L1
+L luke:L_22uH L
 U 1 1 5EC38BDA
 P 11450 1700
 F 0 "L" H 11450 1885 50  0000 C CNN
@@ -1162,7 +1162,7 @@ F 5 "732-1012-1-ND" H 11450 1400 50  0001 C CNN "Digi-Key_PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L luke:Solar-Cells_KXOB25-05X3F SC1
+L luke:Solar-Cells_KXOB25-05X3F SC
 U 1 1 5EC26EF0
 P 10400 1150
 F 0 "SC" H 10200 1200 50  0000 R CNN
@@ -1175,7 +1175,7 @@ F 5 "https://www.digikey.com/product-detail/en/ixys/KXOB25-05X3F-TR/KXOB25-05X3F
 	1    0    0    -1  
 $EndComp
 $Comp
-L luke:Regulator_BQ25504 U5
+L luke:Regulator_BQ25504 U
 U 1 1 5F1738D3
 P 11600 2650
 F 0 "U" H 12244 2696 50  0000 L CNN
@@ -1205,7 +1205,7 @@ Wire Wire Line
 Wire Wire Line
 	4850 2400 4850 2350
 $Comp
-L power:VCC #PWR012
+L power:VCC #PWR
 U 1 1 5FB6C587
 P 5050 2300
 F 0 "#PWR" H 5050 2150 50  0001 C CNN
@@ -1239,7 +1239,7 @@ Wire Wire Line
 Wire Wire Line
 	4300 2950 4350 2950
 $Comp
-L power:GND #PWR010
+L power:GND #PWR
 U 1 1 5FA072DD
 P 4550 3100
 F 0 "#PWR" H 4550 2850 50  0001 C CNN
@@ -1277,7 +1277,7 @@ Wire Wire Line
 Wire Wire Line
 	4300 2450 4650 2450
 $Comp
-L power:GND #PWR011
+L power:GND #PWR
 U 1 1 5F9D384C
 P 4650 2500
 F 0 "#PWR" H 4650 2250 50  0001 C CNN
@@ -1288,7 +1288,7 @@ F 3 "" H 4650 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR06
+L power:GND #PWR
 U 1 1 5F99CA85
 P 3600 4050
 F 0 "#PWR" H 3600 3800 50  0001 C CNN
@@ -1330,7 +1330,7 @@ NoConn ~ 2900 3800
 NoConn ~ 2900 3700
 NoConn ~ 2900 3600
 $Comp
-L luke:Display-Driver_PCA8561ANH U2
+L luke:Display-Driver_PCA8561ANH U
 U 1 1 5F8BB753
 P 3600 3850
 F 0 "U" H 4400 3750 50  0000 C CNN
@@ -1385,7 +1385,7 @@ NoConn ~ 1700 2350
 Text Label 900  2350 3    50   ~ 0
 COM1
 $Comp
-L luke:C_0.1uF C11
+L luke:C_0.1uF C
 U 1 1 5F2B40B8
 P 3800 1750
 F 0 "C" H 3915 1846 50  0000 L CNN
@@ -1398,7 +1398,7 @@ F 5 "399-8000-1-ND" H 3800 2450 50  0001 C CNN "Digi-Key_PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L luke:C_0.1uF C10
+L luke:C_0.1uF C
 U 1 1 5F2B2087
 P 3400 1750
 F 0 "C" H 3300 1850 50  0000 R CNN
@@ -1411,7 +1411,7 @@ F 5 "399-8000-1-ND" H 3400 2450 50  0001 C CNN "Digi-Key_PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L luke:LCD_OD-204 U1
+L luke:LCD_OD-204 DS
 U 1 1 5F0F4E2A
 P 1650 1400
 F 0 "DS" H 800 1900 50  0000 L CNN
@@ -1434,7 +1434,7 @@ Wire Notes Line
 Wire Notes Line
 	600  700  850  700 
 $Comp
-L luke:MCU_STM32L051K8Ux U3
+L luke:MCU_STM32L051K8Ux U
 U 1 1 5F087D42
 P 4350 6250
 F 0 "U" H 3800 7350 50  0000 C CNN
@@ -1447,7 +1447,7 @@ F 5 "497-17490-ND" H 3850 5150 50  0001 R CNN "Digi-Key_PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L luke:R_4.7K R1
+L luke:R_4.7K R
 U 1 1 5F1CC1B9
 P 4850 2550
 F 0 "R" H 4920 2596 50  0000 L CNN
@@ -1460,7 +1460,7 @@ F 5 "https://www.digikey.com/product-detail/en/yageo/RC0805FR-074K7L/311-4-70KCR
 	1    0    0    -1  
 $EndComp
 $Comp
-L luke:R_4.7K R2
+L luke:R_4.7K R
 U 1 1 5F1CCA80
 P 5250 2550
 F 0 "R" H 5320 2596 50  0000 L CNN
@@ -1472,13 +1472,13 @@ F 5 "https://www.digikey.com/product-detail/en/yageo/RC0805FR-074K7L/311-4-70KCR
 	1    5250 2550
 	1    0    0    -1  
 $EndComp
-Text Label 6450 3050 2    50   ~ 0
+Text Label 6450 3350 2    50   ~ 0
 BUZZER
 NoConn ~ 4850 6650
 NoConn ~ 2900 3500
 NoConn ~ 4850 6550
 $Comp
-L power:VDD #PWR?
+L power:VDD #PWR
 U 1 1 5F4E8A36
 P 3600 1450
 F 0 "#PWR" H 3600 1300 50  0001 C CNN
@@ -1520,7 +1520,7 @@ NoConn ~ 1750 4150
 Text Label 950  4150 3    50   ~ 0
 COM2
 $Comp
-L luke:LCD_OD-204 U?
+L luke:LCD_OD-204 DS
 U 1 1 5F3CEBB5
 P 1700 3200
 F 0 "DS" H 850 3700 50  0000 L CNN
@@ -1533,7 +1533,7 @@ F 5 "https://www.digikey.com/product-detail/en/orient-display/OD-204/2544-OD-204
 	1    0    0    -1  
 $EndComp
 $Comp
-L luke:Phototransistor_ALS-PT19-315C Q?
+L luke:Phototransistor_ALS-PT19-315C Q
 U 1 1 5F3D0C08
 P 5850 5200
 F 0 "Q" H 6050 5300 60  0000 L CNN
@@ -1553,7 +1553,7 @@ F 12 "https://www.digikey.com/product-detail/en/everlight-electronics-co-ltd/ALS
 	1    0    0    -1  
 $EndComp
 $Comp
-L luke:R_4.87K R?
+L luke:R_4.87K R
 U 1 1 5F498D81
 P 5950 5850
 F 0 "R" H 6020 5896 50  0000 L CNN
@@ -1566,7 +1566,7 @@ F 5 "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73H2A
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR
 U 1 1 5F49C501
 P 5950 6000
 F 0 "#PWR" H 5950 5750 50  0001 C CNN
@@ -1577,7 +1577,7 @@ F 3 "" H 5950 6000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L luke:R_160 R?
+L luke:R_160 R
 U 1 1 5F4B0ECD
 P 6250 5550
 F 0 "R" V 6043 5550 50  0000 C CNN
@@ -1597,7 +1597,7 @@ Wire Wire Line
 	5950 5550 5950 5700
 Connection ~ 5950 5550
 $Comp
-L luke:C_100uF C?
+L luke:C_100uF C
 U 1 1 5F502163
 P 6550 5900
 F 0 "C" H 6665 5996 50  0000 L CNN
@@ -1614,7 +1614,7 @@ Wire Wire Line
 Wire Wire Line
 	6550 5550 6550 5700
 $Comp
-L power:GND #PWR?
+L power:GND #PWR
 U 1 1 5F50D721
 P 6550 6000
 F 0 "#PWR" H 6550 5750 50  0001 C CNN
@@ -1625,7 +1625,7 @@ F 3 "" H 6550 6000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L luke:Phototransistor_ALS-PT19-315C Q?
+L luke:Phototransistor_ALS-PT19-315C Q
 U 1 1 5F52EF83
 P 7950 5200
 F 0 "Q" H 8150 5300 60  0000 L CNN
@@ -1645,7 +1645,7 @@ F 12 "https://www.digikey.com/product-detail/en/everlight-electronics-co-ltd/ALS
 	1    0    0    -1  
 $EndComp
 $Comp
-L luke:R_4.87K R?
+L luke:R_4.87K R
 U 1 1 5F52EF8B
 P 8050 5850
 F 0 "R" H 8120 5896 50  0000 L CNN
@@ -1658,7 +1658,7 @@ F 5 "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73H2A
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR
 U 1 1 5F52EF91
 P 8050 6000
 F 0 "#PWR" H 8050 5750 50  0001 C CNN
@@ -1669,7 +1669,7 @@ F 3 "" H 8050 6000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L luke:R_160 R?
+L luke:R_160 R
 U 1 1 5F52EF99
 P 8350 5550
 F 0 "R" V 8143 5550 50  0000 C CNN
@@ -1689,7 +1689,7 @@ Wire Wire Line
 	8050 5550 8050 5700
 Connection ~ 8050 5550
 $Comp
-L luke:C_100uF C?
+L luke:C_100uF C
 U 1 1 5F52EFA5
 P 8650 5900
 F 0 "C" H 8765 5996 50  0000 L CNN
@@ -1706,7 +1706,7 @@ Wire Wire Line
 Wire Wire Line
 	8650 5550 8650 5700
 $Comp
-L power:GND #PWR?
+L power:GND #PWR
 U 1 1 5F52EFAD
 P 8650 6000
 F 0 "#PWR" H 8650 5750 50  0001 C CNN
@@ -1727,15 +1727,15 @@ LIGHT_R
 Text Label 4850 5550 0    50   ~ 0
 BUZZER
 $Comp
-L luke:Buzzer_Piezo-35mm BZ?
+L luke:Buzzer_Piezo-35mm BZ
 U 1 1 5F6B2B83
-P 7200 2600
-F 0 "BZ" H 7353 2629 50  0000 L CNN
-F 1 "Buzzer_Piezo-35mm" H 7353 2538 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" V 7175 2700 50  0001 C CNN
-F 3 "https://www.murata.com/~/media/webrenewal/support/library/catalog/products/sound/p37e.ashx?la=en-us" V 7175 2700 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/murata-electronics/7BB-35-3L0/490-7717-ND/4358157" H 7200 2600 50  0001 C CNN "Purchasing Link"
-	1    7200 2600
+P 7200 2900
+F 0 "BZ" H 7353 2929 50  0000 L CNN
+F 1 "Buzzer_Piezo-35mm" H 7353 2838 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" V 7175 3000 50  0001 C CNN
+F 3 "https://www.murata.com/~/media/webrenewal/support/library/catalog/products/sound/p37e.ashx?la=en-us" V 7175 3000 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/murata-electronics/7BB-35-3L0/490-7717-ND/4358157" H 7200 2900 50  0001 C CNN "Purchasing Link"
+	1    7200 2900
 	1    0    0    -1  
 $EndComp
 Text Notes 5900 2100 0    98   ~ 20
@@ -1745,14 +1745,14 @@ Wire Notes Line
 $Comp
 L luke:Transistor_MMBT3904-TP Q?
 U 1 1 5F7B2AC5
-P 6950 3050
-F 0 "Q?" H 7140 3096 50  0000 L CNN
-F 1 "Transistor_MMBT3904-TP" H 7140 3005 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 7150 2950 50  0001 L CIN
-F 3 "https://www.mccsemi.com/pdf/Products/MMBT3904(SOT-23).pdf" H 6950 3050 50  0001 L CNN
-F 4 "https://www.digikey.com/product-detail/en/micro-commercial-co/MMBT3904-TP/MMBT3904TPMSCT-ND/717395" H 7150 2850 50  0001 L CNN "Purchasing Link"
-F 5 "MMBT3904TPMSCT-ND " H 7150 2750 50  0001 L CNN "Digi-Key_PN"
-	1    6950 3050
+P 6950 3350
+F 0 "Q?" H 7140 3396 50  0000 L CNN
+F 1 "Transistor_MMBT3904-TP" H 7140 3305 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7150 3250 50  0001 L CIN
+F 3 "https://www.mccsemi.com/pdf/Products/MMBT3904(SOT-23).pdf" H 6950 3350 50  0001 L CNN
+F 4 "https://www.digikey.com/product-detail/en/micro-commercial-co/MMBT3904-TP/MMBT3904TPMSCT-ND/717395" H 7150 3150 50  0001 L CNN "Purchasing Link"
+F 5 "MMBT3904TPMSCT-ND " H 7150 3050 50  0001 L CNN "Digi-Key_PN"
+	1    6950 3350
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1769,49 +1769,49 @@ $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5F7E6997
-P 7050 3250
-F 0 "#PWR?" H 7050 3000 50  0001 C CNN
-F 1 "GND" H 7055 3077 50  0000 C CNN
-F 2 "" H 7050 3250 50  0001 C CNN
-F 3 "" H 7050 3250 50  0001 C CNN
-	1    7050 3250
+P 7050 3550
+F 0 "#PWR?" H 7050 3300 50  0001 C CNN
+F 1 "GND" H 7055 3377 50  0000 C CNN
+F 2 "" H 7050 3550 50  0001 C CNN
+F 3 "" H 7050 3550 50  0001 C CNN
+	1    7050 3550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7050 2500 7100 2500
+	7050 2800 7100 2800
 Wire Wire Line
-	7100 2700 7050 2700
+	7100 3000 7050 3000
 $Comp
 L luke:D-Schotkey_BAT54HT1G D?
 U 1 1 5F8DAA63
-P 6900 2600
-F 0 "D?" V 6850 2400 50  0000 L CNN
-F 1 "D-Schotkey_BAT54HT1G" V 6950 1600 50  0000 L CNN
-F 2 "Diode_SMD:D_SOD-323" H 6900 2425 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Fairchild%20PDFs/BAT54HT1G_Rev_1.2.pdf" H 7350 2800 50  0001 C CNN
-F 4 "BAT54HT1GOSCT-ND" H 6900 2300 50  0001 C CNN "Digi-Key_PN"
-F 5 "https://www.digikey.com/product-detail/en/on-semiconductor/BAT54HT1G/BAT54HT1GOSCT-ND/917809" H 6900 2200 50  0001 C CNN "Purchasing Link"
-	1    6900 2600
+P 6900 2900
+F 0 "D?" V 6850 2700 50  0000 L CNN
+F 1 "D-Schotkey_BAT54HT1G" V 6950 1900 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-323" H 6900 2725 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Fairchild%20PDFs/BAT54HT1G_Rev_1.2.pdf" H 7350 3100 50  0001 C CNN
+F 4 "BAT54HT1GOSCT-ND" H 6900 2600 50  0001 C CNN "Digi-Key_PN"
+F 5 "https://www.digikey.com/product-detail/en/on-semiconductor/BAT54HT1G/BAT54HT1GOSCT-ND/917809" H 6900 2500 50  0001 C CNN "Purchasing Link"
+	1    6900 2900
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	7050 2350 7050 2400
+	7050 2650 7050 2700
+Wire Wire Line
+	7050 3000 7050 3100
+Wire Wire Line
+	6900 3050 6900 3100
+Wire Wire Line
+	6900 3100 7050 3100
+Connection ~ 7050 3100
+Wire Wire Line
+	7050 3100 7050 3150
+Wire Wire Line
+	6900 2750 6900 2700
+Wire Wire Line
+	6900 2700 7050 2700
+Connection ~ 7050 2700
 Wire Wire Line
 	7050 2700 7050 2800
-Wire Wire Line
-	6900 2750 6900 2800
-Wire Wire Line
-	6900 2800 7050 2800
-Connection ~ 7050 2800
-Wire Wire Line
-	7050 2800 7050 2850
-Wire Wire Line
-	6900 2450 6900 2400
-Wire Wire Line
-	6900 2400 7050 2400
-Connection ~ 7050 2400
-Wire Wire Line
-	7050 2400 7050 2500
 Text Label 8050 5000 0    50   ~ 0
 VLIGHT_R
 Text Label 5950 5000 0    50   ~ 0
@@ -1864,14 +1864,14 @@ $EndComp
 $Comp
 L luke:R_10K R?
 U 1 1 5FA4CEF4
-P 6600 3050
-F 0 "R?" V 6393 3050 50  0000 C CNN
-F 1 "R_10K" V 6484 3050 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 5500 3350 50  0001 L CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 5500 3450 50  0001 L CNN
-F 4 " 311-10.0KCRCT-ND " H 5500 3250 60  0001 L CNN "Digi-Key_PN"
-F 5 "https://www.digikey.com/product-detail/en/yageo/RC0805FR-0710KL/311-10-0KCRCT-ND/730482" H 5500 3550 60  0001 L CNN "Purchasing Link"
-	1    6600 3050
+P 6600 3350
+F 0 "R?" V 6393 3350 50  0000 C CNN
+F 1 "R_10K" V 6484 3350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 5500 3650 50  0001 L CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 5500 3750 50  0001 L CNN
+F 4 " 311-10.0KCRCT-ND " H 5500 3550 60  0001 L CNN "Digi-Key_PN"
+F 5 "https://www.digikey.com/product-detail/en/yageo/RC0805FR-0710KL/311-10-0KCRCT-ND/730482" H 5500 3850 60  0001 L CNN "Purchasing Link"
+	1    6600 3350
 	0    1    1    0   
 $EndComp
 $Comp
@@ -1891,12 +1891,6 @@ Text Notes 6500 6850 0    98   ~ 20
 Light
 Text Notes 5850 4750 0    98   ~ 20
 Light Sensors
-Wire Notes Line
-	8250 2050 8250 3550
-Wire Notes Line
-	8250 3550 5800 3550
-Wire Notes Line
-	5800 2050 5800 3550
 Wire Notes Line
 	6450 2050 8250 2050
 Wire Notes Line
@@ -1919,4 +1913,23 @@ Wire Notes Line
 	6400 7900 6400 6800
 Wire Notes Line
 	6400 6800 6500 6800
+$Comp
+L luke:R_160 R?
+U 1 1 5F417F37
+P 7050 2500
+F 0 "R?" H 7120 2546 50  0000 L CNN
+F 1 "R_160" H 7120 2455 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 5950 2800 50  0001 L CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 5950 2900 50  0001 L CNN
+F 4 "311-160ARCT-ND" H 5950 2700 60  0001 L CNN "Digi-Key_PN"
+F 5 "https://www.digikey.com/product-detail/en/yageo/RC0805JR-07160RL/311-160ARCT-ND/731206" H 5950 3000 60  0001 L CNN "Purchasing Link"
+	1    7050 2500
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	8250 3850 5800 3850
+Wire Notes Line
+	8250 2050 8250 3850
+Wire Notes Line
+	5800 2050 5800 3850
 $EndSCHEMATC
