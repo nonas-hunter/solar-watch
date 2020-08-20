@@ -426,25 +426,7 @@ $EndComp
 Text Label 6250 1150 2    50   ~ 0
 BUTTON
 Wire Wire Line
-	6550 1150 6600 1150
-$Comp
-L luke:R_220K R
-U 1 1 5ED88523
-P 6600 1350
-F 0 "R" H 6670 1396 50  0000 L CNN
-F 1 "R_220K" H 6670 1305 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 5500 1650 50  0001 L CNN
-F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204&DocType=DS&DocLang=English" H 5500 1750 50  0001 L CNN
-F 4 "A126350CT-ND" H 5500 1550 60  0001 L CNN "Digi-Key_PN"
-F 5 "https://www.digikey.com/product-detail/en/te-connectivity-passive-product/CRG0805F220K/A126350CT-ND/7603405" H 5500 1850 60  0001 L CNN "Purchasing Link"
-	1    6600 1350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
 	6600 1200 6600 1150
-Connection ~ 6600 1150
-Wire Wire Line
-	6600 1150 6650 1150
 $Comp
 L power:GND #PWR
 U 1 1 5ED90D9E
@@ -467,10 +449,6 @@ F 3 "" H 7200 1100 50  0001 C CNN
 	1    7200 1100
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7050 1150 7200 1150
-Wire Wire Line
-	7200 1150 7200 1100
 Text Label 4850 5950 0    50   ~ 0
 VBAT_OK
 Text Label 4850 5650 0    50   ~ 0
@@ -1874,19 +1852,6 @@ F 5 "https://www.digikey.com/product-detail/en/yageo/RC0805FR-0710KL/311-10-0KCR
 	1    6600 3350
 	0    1    1    0   
 $EndComp
-$Comp
-L luke:R_604 R?
-U 1 1 5FA72838
-P 6400 1150
-F 0 "R?" V 6193 1150 50  0000 C CNN
-F 1 "R_604" V 6284 1150 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 6330 1150 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 6480 1150 50  0001 C CNN
-F 4 "P604DACT-ND" H 6400 1150 60  0001 C CNN "Digi-Key_PN"
-F 5 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB6040V/P604DACT-ND/3075200" H 6880 1550 60  0001 C CNN "Purchasing Link"
-	1    6400 1150
-	0    1    1    0   
-$EndComp
 Text Notes 6500 6850 0    98   ~ 20
 Light
 Text Notes 5850 4750 0    98   ~ 20
@@ -1932,4 +1897,39 @@ Wire Notes Line
 	8250 2050 8250 3850
 Wire Notes Line
 	5800 2050 5800 3850
+$Comp
+L luke:R_10K R?
+U 1 1 5F4F68AF
+P 6600 1350
+F 0 "R?" H 6670 1396 50  0000 L CNN
+F 1 "R_10K" H 6670 1305 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 5500 1650 50  0001 L CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 5500 1750 50  0001 L CNN
+F 4 " 311-10.0KCRCT-ND " H 5500 1550 60  0001 L CNN "Digi-Key_PN"
+F 5 "https://www.digikey.com/product-detail/en/yageo/RC0805FR-0710KL/311-10-0KCRCT-ND/730482" H 5500 1850 60  0001 L CNN "Purchasing Link"
+	1    6600 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 1150 6600 1150
+Wire Wire Line
+	7200 1150 7200 1100
+Wire Wire Line
+	7050 1150 7200 1150
+Wire Wire Line
+	6550 1150 6600 1150
+Connection ~ 6600 1150
+$Comp
+L luke:R_604 R?
+U 1 1 5F59DDC7
+P 6400 1150
+F 0 "R?" V 6193 1150 50  0000 C CNN
+F 1 "R_604" V 6284 1150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 6330 1150 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 6480 1150 50  0001 C CNN
+F 4 "P604DACT-ND" H 6400 1150 60  0001 C CNN "Digi-Key_PN"
+F 5 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB6040V/P604DACT-ND/3075200" H 6880 1550 60  0001 C CNN "Purchasing Link"
+	1    6400 1150
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
