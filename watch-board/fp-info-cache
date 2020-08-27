@@ -1,4 +1,4 @@
-19445349412075959
+19446947920593959
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -85582,6 +85582,13 @@ BAT_ML1220-F1A
 2
 2
 luke-footprints
+Battery_Panasonic-ML-2020-V1A
+
+
+0
+2
+2
+luke-footprints
 Connector_Female-B2B-10
 
 
@@ -85642,8 +85649,8 @@ Sensor_VCNL4010
 
 
 0
-0
-0
+13
+13
 luke-footprints
 Solar-Cells_KXOB25
 

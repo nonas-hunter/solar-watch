@@ -1,17 +1,17 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# luke_BAT_ML1220
+# luke_BAT_ML2020-V1A
 #
-DEF luke_BAT_ML1220 BT 0 0 N N 1 F N
+DEF luke_BAT_ML2020-V1A BT 0 0 N N 1 F N
 F0 "BT" 100 100 50 H V L CNN
-F1 "luke_BAT_ML1220" 100 0 50 H V L CNN
-F2 "luke-footprints:BAT_ML1220-F1A" -350 -50 50 V I C CNN
+F1 "luke_BAT_ML2020-V1A" 100 0 50 H V L CNN
+F2 "luke-footprints:Battery_Panasonic-ML-2020-V1A" 0 -750 50 H I C CNN
 F3 "" 0 60 50 V I C CNN
-F4 "https://www.digikey.com/product-detail/en/panasonic-bsg/ML-1220-F1AN/P295-ND/447504" 0 -400 50 H I C CNN "Purchasing Link"
-F5 "P664-ND " 0 -500 50 H I C CNN "Digi-Key_PN"
+F4 "https://www.digikey.com/product-detail/en/panasonic-bsg/ML-2020-V1AN/P045-ND/431504" 0 -400 50 H I C CNN "Purchasing Link"
+F5 "P045-ND" 0 -500 50 H I C CNN "Digi-Key_PN"
 F6 "https://industrial.panasonic.com/cdbs/www-data/pdf/AAF4000/AAF4000COL8.pdf" 0 -600 50 H I C CNN "Charging Datasheet"
-F7 "https://www.digikey.com/product-detail/en/mpd-memory-protection-devices/BS-7/BS-7-ND/389447" 0 0 50 H I C CNN "Battery Holder"
+F7 "https://media.digikey.com/pdf/Other%20Related%20Documents/Panasonic%20Other%20Doc/ML%20Series%20Tab%20Configurations.pdf" 0 -900 50 H I C CNN "Tab Configuration"
 DRAW
 S -90 70 90 60 0 1 0 F
 S -62 47 58 27 0 1 0 F
@@ -19,8 +19,8 @@ P 2 0 1 0 0 30 0 0 N
 P 2 0 1 0 0 70 0 100 N
 P 2 0 1 10 20 135 60 135 N
 P 2 0 1 10 40 155 40 115 N
-X + 1 0 200 100 D 50 50 1 1 P
-X - 2 0 -100 100 U 50 50 1 1 P
+X - Neg 0 -100 100 U 50 50 1 1 P
+X + Pos 0 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -29,7 +29,7 @@ ENDDEF
 DEF luke_Buzzer_Piezo-35mm BZ 0 1 Y N 1 F N
 F0 "BZ" 150 50 50 H V L CNN
 F1 "luke_Buzzer_Piezo-35mm" 150 -50 50 H V L CNN
-F2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" -25 100 50 V I C CNN
+F2 "Fuse:Fuse_Littelfuse-NANO2-451_453" -25 100 50 V I C CNN
 F3 "" -25 100 50 V I C CNN
 F4 "https://www.digikey.com/product-detail/en/murata-electronics/7BB-35-3L0/490-7717-ND/4358157" 0 0 50 H I C CNN "Purchasing Link"
 $FPLIST
@@ -237,13 +237,14 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# luke_Conn_01x05_Male
+# luke_Conn_01x05_Male_SMD
 #
-DEF luke_Conn_01x05_Male J 0 40 Y N 1 F N
+DEF luke_Conn_01x05_Male_SMD J 0 40 Y N 1 F N
 F0 "J" 0 300 50 H V C CNN
-F1 "luke_Conn_01x05_Male" 0 -300 50 H V C CNN
-F2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" 0 -400 50 H I C CNN
+F1 "luke_Conn_01x05_Male_SMD" 0 -300 50 H V C CNN
+F2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical_SMD_Pin1Left" 0 -400 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
+F4 "https://www.digikey.com/product-detail/en/molex/0878980524/WM14825-ND/3264904" 0 0 50 H I C CNN "Purchasing Link"
 $FPLIST
  Connector*:*_1x??_*
 $ENDFPLIST
@@ -409,15 +410,15 @@ X N.C. 9 50 -950 100 U 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# luke_LED_IN-S63AT5UW
+# luke_LED_WP710A10LSECK-J4
 #
-DEF luke_LED_IN-S63AT5UW D 0 40 N N 1 F N
+DEF luke_LED_WP710A10LSECK-J4 D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "luke_LED_IN-S63AT5UW" 0 -100 50 H V C CNN
-F2 "Connector_Wire:SolderWire-0.5sqmm_1x02_P4.8mm_D0.9mm_OD2.3mm" 0 0 50 H I C CNN
+F1 "luke_LED_WP710A10LSECK-J4" 0 -100 50 H V C CNN
+F2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
-F4 "https://www.digikey.com/product-detail/en/inolux/IN-S63AT5UW/1830-1063-1-ND/7604706" 0 0 50 H I C CNN "Purchasing Link"
-F5 "1830-1063-1-ND" 0 0 50 H I C CNN "Digi-Key_PN"
+F4 "https://www.digikey.com/product-detail/en/kingbright/WP710A10LSECK-J4/754-1912-ND/5177413" 0 0 50 H I C CNN "Purchasing Link"
+F5 "754-1912-ND" 0 0 50 H I C CNN "Digi-Key_PN"
 $FPLIST
  LED*
  LED_SMD:*
@@ -526,7 +527,7 @@ ENDDEF
 DEF luke_Phototransistor_ALS-PT19-315C Q 0 40 Y N 1 F N
 F0 "Q" -50 200 60 H V C CNN
 F1 "luke_Phototransistor_ALS-PT19-315C" 200 0 60 V V C CNN
-F2 "digikey-footprints:LED_2-SMD_No_Lead_1.7x0.8mm" 200 200 60 H I L CNN
+F2 "Digikey-footprints:LED_2-SMD_No_Lead_1.7x0.8mm" 200 200 60 H I L CNN
 F3 "" 200 300 60 H I L CNN
 F4 "1080-1244-1-ND" 200 400 60 H I L CNN "Digi-Key_PN"
 F5 "ALS-PT19-315C/L177/TR8" 200 500 60 H I L CNN "MPN"
@@ -549,6 +550,26 @@ P 4 0 1 0 -165 110 -210 130 -185 155 -165 110 F
 P 4 0 1 0 60 -80 12 -80 26 -46 60 -80 F
 X C 1 100 200 100 D 50 50 1 1 P
 X E 2 100 -200 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# luke_R_1.5K
+#
+DEF luke_R_1.5K R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "luke_R_1.5K" -100 0 50 V V C CNN
+F2 "Resistor_SMD:R_0805_2012Metric" -1100 300 50 H I L CNN
+F3 "" -1100 400 50 H I L CNN
+F4 "A129751CT-ND" -1100 200 60 H I L CNN "Digi-Key_PN"
+F5 "https://www.digikey.com/product-detail/en/te-connectivity-passive-product/CRGCQ0805F1K5/A129751CT-ND/8577583" -1100 500 60 H I L CNN "Purchasing Link"
+$FPLIST
+ R_*
+ Resistor_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -601,6 +622,26 @@ F2 "Resistor_SMD:R_0805_2012Metric" -1100 300 50 H I L CNN
 F3 "" -1100 400 50 H I L CNN
 F4 "311-160ARCT-ND" -1100 200 60 H I L CNN "Digi-Key_PN"
 F5 "https://www.digikey.com/product-detail/en/yageo/RC0805JR-07160RL/311-160ARCT-ND/731206" -1100 500 60 H I L CNN "Purchasing Link"
+$FPLIST
+ R_*
+ Resistor_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# luke_R_2.3K
+#
+DEF luke_R_2.3K R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "luke_R_2.3K" -100 0 50 V V C CNN
+F2 "Resistor_SMD:R_0805_2012Metric" -1100 300 50 H I L CNN
+F3 "" -1100 400 50 H I L CNN
+F4 "RNCP0805FTD2K32CT-ND" -1100 200 60 H I L CNN "Digi-Key_PN"
+F5 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP0805FTD2K32/RNCP0805FTD2K32CT-ND/2240578" -1100 500 60 H I L CNN "Purchasing Link"
 $FPLIST
  R_*
  Resistor_*
