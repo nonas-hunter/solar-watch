@@ -445,32 +445,32 @@ NoConn ~ 10050 2700
 NoConn ~ 10050 3000
 NoConn ~ 8950 2700
 NoConn ~ 8950 2800
-Text Label 8100 4500 0    50   ~ 0
+Text Label 8050 4400 0    50   ~ 0
 RST
-Text Label 8100 4600 0    50   ~ 0
+Text Label 8050 4500 0    50   ~ 0
 SWCLK
-Text Label 8100 4700 0    50   ~ 0
+Text Label 8050 4600 0    50   ~ 0
 SWDIO
 $Comp
 L power:GND #PWR032
 U 1 1 5ED60068
-P 8100 4800
-F 0 "#PWR032" H 8100 4550 50  0001 C CNN
-F 1 "GND" V 8105 4672 50  0000 R CNN
-F 2 "" H 8100 4800 50  0001 C CNN
-F 3 "" H 8100 4800 50  0001 C CNN
-	1    8100 4800
+P 8050 4700
+F 0 "#PWR032" H 8050 4450 50  0001 C CNN
+F 1 "GND" V 8055 4572 50  0000 R CNN
+F 2 "" H 8050 4700 50  0001 C CNN
+F 3 "" H 8050 4700 50  0001 C CNN
+	1    8050 4700
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:VDD #PWR033
 U 1 1 5ED5B97B
-P 8100 4900
-F 0 "#PWR033" H 8100 4750 50  0001 C CNN
-F 1 "VDD" V 8117 5028 50  0000 L CNN
-F 2 "" H 8100 4900 50  0001 C CNN
-F 3 "" H 8100 4900 50  0001 C CNN
-	1    8100 4900
+P 8050 4800
+F 0 "#PWR033" H 8050 4650 50  0001 C CNN
+F 1 "VDD" V 8067 4928 50  0000 L CNN
+F 2 "" H 8050 4800 50  0001 C CNN
+F 3 "" H 8050 4800 50  0001 C CNN
+	1    8050 4800
 	0    1    1    0   
 $EndComp
 $Comp
@@ -1133,17 +1133,6 @@ Wire Wire Line
 	4850 2300 5050 2300
 Wire Wire Line
 	4850 2350 4850 2300
-$Comp
-L power:VCC #PWR014
-U 1 1 5FB6C587
-P 5050 2250
-F 0 "#PWR014" H 5050 2100 50  0001 C CNN
-F 1 "VCC" H 5065 2423 50  0000 C CNN
-F 2 "" H 5050 2250 50  0001 C CNN
-F 3 "" H 5050 2250 50  0001 C CNN
-	1    5050 2250
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4850 2700 4850 2650
 Wire Wire Line
@@ -1685,17 +1674,6 @@ F 5 "MMBT3904TPMSCT-ND " H 12100 1650 50  0001 L CNN "Digi-Key_PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR035
-U 1 1 5F7E6088
-P 12000 950
-F 0 "#PWR035" H 12000 800 50  0001 C CNN
-F 1 "VCC" H 12015 1123 50  0000 C CNN
-F 2 "" H 12000 950 50  0001 C CNN
-F 3 "" H 12000 950 50  0001 C CNN
-	1    12000 950 
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR036
 U 1 1 5F7E6997
 P 12000 2150
@@ -1937,20 +1915,85 @@ F 7 "https://media.digikey.com/pdf/Other%20Related%20Documents/Panasonic%20Other
 	1    4200 5350
 	-1   0    0    1   
 $EndComp
-$Comp
-L luke:Conn_01x05_Male_SMD J1
-U 1 1 5F7820CD
-P 7900 4700
-F 0 "J1" H 8000 5200 50  0000 C CNN
-F 1 "Conn_01x05_Male_SMD" H 8000 5100 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical_SMD_Pin1Left" H 7900 4300 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/878980524_sd.pdf" H 7900 4700 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/molex/0878980524/WM14825-ND/3264904" H 7900 4700 50  0001 C CNN "Purchasing Link"
-	1    7900 4700
-	1    0    0    -1  
-$EndComp
 Wire Notes Line
 	8000 4050 8500 4050
 Wire Notes Line
 	7500 5050 8500 5050
+$Comp
+L power:VDD #PWR035
+U 1 1 5F4A49CD
+P 12000 950
+F 0 "#PWR035" H 12000 800 50  0001 C CNN
+F 1 "VDD" H 12015 1123 50  0000 C CNN
+F 2 "" H 12000 950 50  0001 C CNN
+F 3 "" H 12000 950 50  0001 C CNN
+	1    12000 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VDD #PWR014
+U 1 1 5F4A50B9
+P 5050 2250
+F 0 "#PWR014" H 5050 2100 50  0001 C CNN
+F 1 "VDD" H 5065 2423 50  0000 C CNN
+F 2 "" H 5050 2250 50  0001 C CNN
+F 3 "" H 5050 2250 50  0001 C CNN
+	1    5050 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L luke:Conn_PAD J1
+U 1 1 5F4F53E0
+P 7850 4400
+F 0 "J1" H 7800 4400 50  0000 C CNN
+F 1 "Conn_PAD" H 8400 4850 50  0001 C CNN
+F 2 "luke-footprints:Connector_PAD_1mm_Circ" H 7850 4050 50  0001 C CNN
+F 3 "~" H 7850 4450 50  0001 C CNN
+	1    7850 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L luke:Conn_PAD J2
+U 1 1 5F4F6177
+P 7850 4500
+F 0 "J2" H 7800 4500 50  0000 C CNN
+F 1 "Conn_PAD" H 8400 4950 50  0001 C CNN
+F 2 "luke-footprints:Connector_PAD_1mm_Circ" H 7850 4150 50  0001 C CNN
+F 3 "~" H 7850 4550 50  0001 C CNN
+	1    7850 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L luke:Conn_PAD J4
+U 1 1 5F4F83BC
+P 7850 4700
+F 0 "J4" H 7800 4700 50  0000 C CNN
+F 1 "Conn_PAD" H 8400 5150 50  0001 C CNN
+F 2 "luke-footprints:Connector_PAD_1mm_Circ" H 7850 4350 50  0001 C CNN
+F 3 "~" H 7850 4750 50  0001 C CNN
+	1    7850 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L luke:Conn_PAD J3
+U 1 1 5F5027C3
+P 7850 4600
+F 0 "J3" H 7800 4600 50  0000 C CNN
+F 1 "Conn_PAD" H 8400 5050 50  0001 C CNN
+F 2 "luke-footprints:Connector_PAD_1mm_Circ" H 7850 4250 50  0001 C CNN
+F 3 "~" H 7850 4650 50  0001 C CNN
+	1    7850 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L luke:Conn_PAD J5
+U 1 1 5F50E150
+P 7850 4800
+F 0 "J5" H 7800 4800 50  0000 C CNN
+F 1 "Conn_PAD" H 8400 5250 50  0001 C CNN
+F 2 "luke-footprints:Connector_PAD_1mm_Circ" H 7850 4450 50  0001 C CNN
+F 3 "~" H 7850 4850 50  0001 C CNN
+	1    7850 4800
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
