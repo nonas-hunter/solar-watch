@@ -1859,19 +1859,6 @@ F 5 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP080
 	1    11200 3400
 	1    0    0    -1  
 $EndComp
-$Comp
-L luke:LED_WP710A10LSECK-J4 D1
-U 1 1 5F51AD34
-P 11600 3400
-F 0 "D1" V 11639 3282 50  0000 R CNN
-F 1 "LED_WP710A10LSECK-J4" V 11548 3282 50  0000 R CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 11600 3400 50  0001 C CNN
-F 3 "https://www.kingbrightusa.com/images/catalog/SPEC/WP710A10LSECK-J4.pdf" H 11600 3400 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/kingbright/WP710A10LSECK-J4/754-1912-ND/5177413" H 11600 3400 50  0001 C CNN "Purchasing Link"
-F 5 "754-1912-ND" H 11600 3400 50  0001 C CNN "Digi-Key_PN"
-	1    11600 3400
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	11200 3150 11200 3200
 Wire Wire Line
@@ -1995,5 +1982,18 @@ F 2 "luke-footprints:Connector_PAD_1mm_Circ" H 7850 4450 50  0001 C CNN
 F 3 "~" H 7850 4850 50  0001 C CNN
 	1    7850 4800
 	1    0    0    -1  
+$EndComp
+$Comp
+L luke:LED_APTD3216LSURCK D1
+U 1 1 5F49ED87
+P 11600 3400
+F 0 "D1" V 11639 3282 50  0000 R CNN
+F 1 "LED_APTD3216LSURCK" V 11548 3282 50  0000 R CNN
+F 2 "LED_SMD:LED_1206_3216Metric" H 11600 3400 50  0001 C CNN
+F 3 "https://www.kingbrightusa.com/images/catalog/SPEC/APTD3216LQBC-D.pdf" H 11600 3400 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/kingbright/APTD3216LSURCK/754-2050-6-ND/7043124" H 11600 3400 50  0001 C CNN "Purchasing Link"
+F 5 "754-2050-6-ND" H 11600 3400 50  0001 C CNN "Digi-Key_PN"
+	1    11600 3400
+	0    -1   -1   0   
 $EndComp
 $EndSCHEMATC

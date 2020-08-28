@@ -394,15 +394,15 @@ X N.C. 9 50 -950 100 U 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# luke_LED_WP710A10LSECK-J4
+# luke_LED_APTD3216LSURCK
 #
-DEF luke_LED_WP710A10LSECK-J4 D 0 40 N N 1 F N
+DEF luke_LED_APTD3216LSURCK D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "luke_LED_WP710A10LSECK-J4" 0 -100 50 H V C CNN
-F2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" 0 0 50 H I C CNN
+F1 "luke_LED_APTD3216LSURCK" 0 -150 50 H V C CNN
+F2 "LED_SMD:LED_1206_3216Metric" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
-F4 "https://www.digikey.com/product-detail/en/kingbright/WP710A10LSECK-J4/754-1912-ND/5177413" 0 0 50 H I C CNN "Purchasing Link"
-F5 "754-1912-ND" 0 0 50 H I C CNN "Digi-Key_PN"
+F4 "https://www.digikey.com/product-detail/en/kingbright/APTD3216LSURCK/754-2050-6-ND/7043124" 0 0 50 H I C CNN "Purchasing Link"
+F5 "754-2050-6-ND" 0 0 50 H I C CNN "Digi-Key_PN"
 $FPLIST
  LED*
  LED_SMD:*
