@@ -1260,17 +1260,17 @@ F 5 "https://www.digikey.com/product-detail/en/nxp-usa-inc/PCA8561AHN-AY/568-130
 	1    3600 3800
 	1    0    0    -1  
 $EndComp
-Connection ~ 3600 1450
+Connection ~ 4900 1050
 Wire Wire Line
-	3800 1450 3600 1450
+	5100 1050 4900 1050
 Wire Wire Line
-	3800 1500 3800 1450
+	5100 1100 5100 1050
 Wire Wire Line
-	3600 1450 3600 1400
+	4900 1050 4900 1000
 Wire Wire Line
-	3400 1450 3600 1450
+	4700 1050 4900 1050
 Wire Wire Line
-	3400 1500 3400 1450
+	4700 1100 4700 1050
 Text Label 2900 2650 2    50   ~ 0
 1A
 Text Label 2900 2550 2    50   ~ 0
@@ -1305,27 +1305,27 @@ COM1
 $Comp
 L luke:C_0.1uF C4
 U 1 1 5F2B40B8
-P 3800 1700
-F 0 "C4" H 3915 1796 50  0000 L CNN
-F 1 "C_0.1uF" H 3915 1705 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 3838 2300 50  0001 C CNN
-F 3 "https://api.kemet.com/component-edge/download/datasheet/C0805C104M3RACTU.pdf" H 3825 2550 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/kemet/C0805C104M3RACTU/399-8000-1-ND/3471723" H 4225 2200 60  0001 C CNN "Purchasing Link"
-F 5 "399-8000-1-ND" H 3800 2400 50  0001 C CNN "Digi-Key_PN"
-	1    3800 1700
+P 5100 1300
+F 0 "C4" H 5215 1396 50  0000 L CNN
+F 1 "C_0.1uF" H 5215 1305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 5138 1900 50  0001 C CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C0805C104M3RACTU.pdf" H 5125 2150 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/kemet/C0805C104M3RACTU/399-8000-1-ND/3471723" H 5525 1800 60  0001 C CNN "Purchasing Link"
+F 5 "399-8000-1-ND" H 5100 2000 50  0001 C CNN "Digi-Key_PN"
+	1    5100 1300
 	1    0    0    -1  
 $EndComp
 $Comp
 L luke:C_0.1uF C3
 U 1 1 5F2B2087
-P 3400 1700
-F 0 "C3" H 3300 1800 50  0000 R CNN
-F 1 "C_0.1uF" H 3300 1700 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 3438 2300 50  0001 C CNN
-F 3 "https://api.kemet.com/component-edge/download/datasheet/C0805C104M3RACTU.pdf" H 3425 2550 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/kemet/C0805C104M3RACTU/399-8000-1-ND/3471723" H 3825 2200 60  0001 C CNN "Purchasing Link"
-F 5 "399-8000-1-ND" H 3400 2400 50  0001 C CNN "Digi-Key_PN"
-	1    3400 1700
+P 4700 1300
+F 0 "C3" H 4600 1400 50  0000 R CNN
+F 1 "C_0.1uF" H 4600 1300 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4738 1900 50  0001 C CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C0805C104M3RACTU.pdf" H 4725 2150 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/kemet/C0805C104M3RACTU/399-8000-1-ND/3471723" H 5125 1800 60  0001 C CNN "Purchasing Link"
+F 5 "399-8000-1-ND" H 4700 2000 50  0001 C CNN "Digi-Key_PN"
+	1    4700 1300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1398,12 +1398,12 @@ NoConn ~ 10050 2500
 $Comp
 L power:VDD #PWR07
 U 1 1 5F4E8A36
-P 3600 1400
-F 0 "#PWR07" H 3600 1250 50  0001 C CNN
-F 1 "VDD" H 3615 1573 50  0000 C CNN
-F 2 "" H 3600 1400 50  0001 C CNN
-F 3 "" H 3600 1400 50  0001 C CNN
-	1    3600 1400
+P 4900 1000
+F 0 "#PWR07" H 4900 850 50  0001 C CNN
+F 1 "VDD" H 4915 1173 50  0000 C CNN
+F 2 "" H 4900 1000 50  0001 C CNN
+F 3 "" H 4900 1000 50  0001 C CNN
+	1    4900 1000
 	1    0    0    -1  
 $EndComp
 Text Label 1650 4100 3    50   ~ 0
@@ -1634,9 +1634,9 @@ F 3 "" H 12300 5350 50  0001 C CNN
 	1    12300 5350
 	1    0    0    -1  
 $EndComp
-Text Label 10050 1700 0    50   ~ 0
+Text Label 10050 2000 0    50   ~ 0
 LIGHT_L
-Text Label 10050 1800 0    50   ~ 0
+Text Label 10050 1700 0    50   ~ 0
 LIGHT_R
 Text Label 10200 4900 0    50   ~ 0
 LIGHT_L
@@ -1723,9 +1723,9 @@ Text Label 11700 4350 0    50   ~ 0
 VLIGHT_R
 Text Label 9600 4350 0    50   ~ 0
 VLIGHT_L
-Text Label 10050 2100 0    50   ~ 0
+Text Label 10050 1800 0    50   ~ 0
 VLIGHT_R
-Text Label 10050 2000 0    50   ~ 0
+Text Label 10050 2100 0    50   ~ 0
 VLIGHT_L
 Text Label 10050 2200 0    50   ~ 0
 LIGHT
@@ -1996,4 +1996,50 @@ F 5 "754-2050-6-ND" H 11600 3400 50  0001 C CNN "Digi-Key_PN"
 	1    11600 3400
 	0    -1   -1   0   
 $EndComp
+Wire Wire Line
+	5100 1400 5100 1450
+Wire Wire Line
+	5100 1450 4900 1450
+Wire Wire Line
+	4700 1450 4700 1400
+Wire Wire Line
+	4900 1450 4900 1500
+Connection ~ 4900 1450
+Wire Wire Line
+	4900 1450 4700 1450
+$Comp
+L power:GND #PWR041
+U 1 1 5F581391
+P 4900 1500
+F 0 "#PWR041" H 4900 1250 50  0001 C CNN
+F 1 "GND" H 4905 1327 50  0000 C CNN
+F 2 "" H 4900 1500 50  0001 C CNN
+F 3 "" H 4900 1500 50  0001 C CNN
+	1    4900 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VDD #PWR040
+U 1 1 5F585EBB
+P 3800 1800
+F 0 "#PWR040" H 3800 1650 50  0001 C CNN
+F 1 "VDD" H 3815 1973 50  0000 C CNN
+F 2 "" H 3800 1800 50  0001 C CNN
+F 3 "" H 3800 1800 50  0001 C CNN
+	1    3800 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VDD #PWR039
+U 1 1 5F58699A
+P 3400 1800
+F 0 "#PWR039" H 3400 1650 50  0001 C CNN
+F 1 "VDD" H 3415 1973 50  0000 C CNN
+F 2 "" H 3400 1800 50  0001 C CNN
+F 3 "" H 3400 1800 50  0001 C CNN
+	1    3400 1800
+	1    0    0    -1  
+$EndComp
+Text Notes 3800 1050 0    50   ~ 0
+C3: Place near Pin 2\nC4: Place near Pin 3
 $EndSCHEMATC
