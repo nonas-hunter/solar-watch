@@ -1147,9 +1147,7 @@ Wire Wire Line
 	4350 2950 4350 3000
 Connection ~ 4350 2950
 Wire Wire Line
-	4550 2950 4550 3050
-Wire Wire Line
-	4350 2950 4550 2950
+	4650 2950 4650 3050
 Wire Wire Line
 	4350 3000 4300 3000
 Wire Wire Line
@@ -1159,36 +1157,18 @@ Wire Wire Line
 $Comp
 L power:GND #PWR010
 U 1 1 5FA072DD
-P 4550 3050
-F 0 "#PWR010" H 4550 2800 50  0001 C CNN
-F 1 "GND" H 4555 2877 50  0000 C CNN
-F 2 "" H 4550 3050 50  0001 C CNN
-F 3 "" H 4550 3050 50  0001 C CNN
-	1    4550 3050
+P 4650 3050
+F 0 "#PWR010" H 4650 2800 50  0001 C CNN
+F 1 "GND" H 4655 2877 50  0000 C CNN
+F 2 "" H 4650 3050 50  0001 C CNN
+F 3 "" H 4650 3050 50  0001 C CNN
+	1    4650 3050
 	1    0    0    -1  
 $EndComp
-Connection ~ 4350 3500
-Wire Wire Line
-	4350 3500 4450 3500
-Connection ~ 4400 3400
-Wire Wire Line
-	4400 3400 4450 3400
-Text Label 4450 3400 0    50   ~ 0
+Text Label 4300 3200 0    50   ~ 0
 COM2
-Text Label 4450 3500 0    50   ~ 0
+Text Label 4300 3500 0    50   ~ 0
 COM1
-Wire Wire Line
-	4400 3200 4300 3200
-Wire Wire Line
-	4400 3400 4400 3200
-Wire Wire Line
-	4300 3400 4400 3400
-Wire Wire Line
-	4350 3300 4300 3300
-Wire Wire Line
-	4350 3500 4350 3300
-Wire Wire Line
-	4300 3500 4350 3500
 NoConn ~ 4300 2300
 Wire Wire Line
 	4650 2400 4650 2450
@@ -1247,19 +1227,6 @@ Text Label 1800 2300 3    50   ~ 0
 NoConn ~ 2900 3750
 NoConn ~ 2900 3650
 NoConn ~ 2900 3550
-$Comp
-L luke:Display-Driver_PCA8561ANH U1
-U 1 1 5F8BB753
-P 3600 3800
-F 0 "U1" H 4400 3700 50  0000 C CNN
-F 1 "Display-Driver_PCA8561ANH" H 4400 3600 50  0000 C CNN
-F 2 "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.6x3.6mm" H 3600 1600 50  0001 C CNN
-F 3 "https://www.nxp.com/docs/en/data-sheet/PCA8561.pdf" H 4200 5500 50  0001 C CNN
-F 4 "568-13032-1-ND" H 3600 1900 50  0001 C CNN "Digi-Key_PN"
-F 5 "https://www.digikey.com/product-detail/en/nxp-usa-inc/PCA8561AHN-AY/568-13032-1-ND/6137585" H 3550 1750 50  0001 C CNN "Purchasing Link"
-	1    3600 3800
-	1    0    0    -1  
-$EndComp
 Connection ~ 4900 1050
 Wire Wire Line
 	5100 1050 4900 1050
@@ -2042,4 +2009,21 @@ F 3 "" H 3400 1800 50  0001 C CNN
 $EndComp
 Text Notes 3800 1050 0    50   ~ 0
 C3: Place near Pin 2\nC4: Place near Pin 3
+NoConn ~ 4300 3300
+$Comp
+L luke:Display-Driver_PCA8561ANH U1
+U 1 1 5F8BB753
+P 3600 3800
+F 0 "U1" H 4400 3700 50  0000 C CNN
+F 1 "Display-Driver_PCA8561ANH" H 4400 3600 50  0000 C CNN
+F 2 "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.6x3.6mm" H 3600 1600 50  0001 C CNN
+F 3 "https://www.nxp.com/docs/en/data-sheet/PCA8561.pdf" H 4200 5500 50  0001 C CNN
+F 4 "568-13032-1-ND" H 3600 1900 50  0001 C CNN "Digi-Key_PN"
+F 5 "https://www.digikey.com/product-detail/en/nxp-usa-inc/PCA8561AHN-AY/568-13032-1-ND/6137585" H 3550 1750 50  0001 C CNN "Purchasing Link"
+	1    3600 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 2950 4650 2950
+NoConn ~ 4300 3400
 $EndSCHEMATC
