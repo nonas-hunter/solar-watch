@@ -1957,7 +1957,7 @@ P 11600 3400
 F 0 "D1" V 11639 3282 50  0000 R CNN
 F 1 "LED_APTD3216LSURCK" V 11548 3282 50  0000 R CNN
 F 2 "LED_SMD:LED_1206_3216Metric" H 11600 3400 50  0001 C CNN
-F 3 "https://www.kingbrightusa.com/images/catalog/SPEC/APTD3216LQBC-D.pdf" H 11600 3400 50  0001 C CNN
+F 3 "https://www.kingbrightusa.com/images/catalog/SPEC/APTD3216LSURCK.pdf" H 11600 3400 50  0001 C CNN
 F 4 "https://www.digikey.com/product-detail/en/kingbright/APTD3216LSURCK/754-2050-6-ND/7043124" H 11600 3400 50  0001 C CNN "Purchasing Link"
 F 5 "754-2050-6-ND" H 11600 3400 50  0001 C CNN "Digi-Key_PN"
 	1    11600 3400

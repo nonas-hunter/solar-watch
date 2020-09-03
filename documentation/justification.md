@@ -10,7 +10,7 @@ This document contains the justifications for all the design descisions for the 
 
 The run times are based on predicted current consumption values as shown bellow.
 
-- Everything ON: ~33.3 min (30.6 mA)
+- Everything ON: ~33.3 min (27.6 mA)
 - Everything OFF: ~77.3 hrs (220 uA)
 
 ### Display & Driver
@@ -96,9 +96,11 @@ The buzzing element is a 35mm piezo element. This will be driven by a PMW signal
 
 ### Light
 
-**Current Consumption:** 4.97 mA
+**Current Consumption:** 2 mA
 
-A 604 Ohm current limiting resistor to prevent the LED from consuming more than 5 mA.
+A 1.5 kOhm current limiting resistor to prevent the LED from consuming more than 2 mA. A voltage divder is also used to drive the LED at 2 V rather than 3.
+
+The LED omitts an orange color (typical wavelength 645 nm) which is also the peak sensitivity wavelength. This will hopefully make it possible to use the light sensors in the dark with the light emitted from the LED.
 
 ```
 [Current through LED]
