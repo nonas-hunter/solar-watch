@@ -1,0 +1,1239 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L special:BAT_ML2020 BT?
+U 1 1 600AAB4C
+P 4350 5350
+F 0 "BT?" H 4232 5354 50  0000 R CNN
+F 1 "BAT_ML2020" H 4232 5445 50  0000 R CNN
+F 2 "luke-footprints:Battery_Panasonic_ML2020_F1AN" H 4450 5000 50  0001 L CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Panasonic%20Inustrial/ML_Serie.pdf" V 4350 5410 50  0001 L CNN
+F 4 "https://www.digikey.com/product-detail/en/panasonic-bsg/ML-2020-F1AN/P664-ND/2404069" H 4450 4900 50  0001 L CNN "Vendor Link"
+F 5 "P664-ND" H 4450 5100 50  0001 L CNN "Vendor #"
+F 6 "https://industrial.panasonic.com/cdbs/www-data/pdf/AAF4000/AAF4000COL8.pdf" H 4450 4800 50  0001 L CNN "Charging Datasheet"
+F 7 "Digi-Key" H 4450 5200 50  0001 L CNN "Vendor"
+	1    4350 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 600B3F32
+P 4350 5450
+F 0 "#PWR?" H 4350 5200 50  0001 C CNN
+F 1 "GND" H 4355 5277 50  0000 C CNN
+F 2 "" H 4350 5450 50  0001 C CNN
+F 3 "" H 4350 5450 50  0001 C CNN
+	1    4350 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 600FE67A
+P 3050 7300
+F 0 "#PWR?" H 3050 7050 50  0001 C CNN
+F 1 "GND" H 3055 7127 50  0000 C CNN
+F 2 "" H 3050 7300 50  0001 C CNN
+F 3 "" H 3050 7300 50  0001 C CNN
+	1    3050 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L inductor:22uH L?
+U 1 1 60250B56
+P 3150 5550
+F 0 "L?" H 3150 5735 50  0000 C CNN
+F 1 "22uH" H 3150 5644 50  0000 C CNN
+F 2 "luke-footprints:L_Wuerth_WE-TPC-3816" H 3050 5350 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/744031220.pdf" H 3050 5400 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/744031220/732-1012-1-ND/1639073" H 3150 5150 50  0001 C CNN "Vendor Link"
+F 5 "732-1012-1-ND" H 3150 5250 50  0001 C CNN "Vendor #"
+F 6 "Digi-Key" H 3150 5050 50  0001 C CNN "Vendor"
+	1    3150 5550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 7200 2950 7250
+Wire Wire Line
+	2950 7250 3050 7250
+Wire Wire Line
+	3050 7250 3050 7200
+Wire Wire Line
+	3050 7250 3050 7300
+Connection ~ 3050 7250
+Wire Wire Line
+	3050 7250 3150 7250
+Wire Wire Line
+	3150 7250 3150 7200
+Wire Wire Line
+	3700 5100 3700 5600
+Wire Wire Line
+	4350 5150 4350 5100
+Wire Wire Line
+	4350 5100 3700 5100
+Wire Wire Line
+	3900 6700 3950 6700
+Wire Wire Line
+	3950 6700 3950 6750
+Connection ~ 3950 6700
+Wire Wire Line
+	3950 7100 3950 7050
+Wire Wire Line
+	4200 7100 4200 7150
+Connection ~ 4200 7100
+Wire Wire Line
+	4200 7100 3950 7100
+Wire Wire Line
+	4450 6750 4450 6700
+Wire Wire Line
+	3950 6700 4450 6700
+Wire Wire Line
+	4450 7050 4450 7100
+Wire Wire Line
+	4200 7100 4450 7100
+$Comp
+L power:GND #PWR?
+U 1 1 6027BA80
+P 4200 7150
+F 0 "#PWR?" H 4200 6900 50  0001 C CNN
+F 1 "GND" H 4205 6977 50  0000 C CNN
+F 2 "" H 4200 7150 50  0001 C CNN
+F 3 "" H 4200 7150 50  0001 C CNN
+	1    4200 7150
+	1    0    0    -1  
+$EndComp
+Text Label 3900 6100 0    50   ~ 0
+VBAT_OK
+$Comp
+L power:GND #PWR?
+U 1 1 6027E0D1
+P 3550 7200
+F 0 "#PWR?" H 3550 6950 50  0001 C CNN
+F 1 "GND" H 3555 7027 50  0000 C CNN
+F 2 "" H 3550 7200 50  0001 C CNN
+F 3 "" H 3550 7200 50  0001 C CNN
+	1    3550 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60280651
+P 2650 6850
+F 0 "#PWR?" H 2650 6600 50  0001 C CNN
+F 1 "GND" H 2655 6677 50  0000 C CNN
+F 2 "" H 2650 6850 50  0001 C CNN
+F 3 "" H 2650 6850 50  0001 C CNN
+	1    2650 6850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 6800 2650 6800
+Wire Wire Line
+	2650 6800 2650 6850
+Wire Wire Line
+	2700 6700 2550 6700
+Wire Wire Line
+	2550 7100 2550 6700
+$Comp
+L power:GND #PWR?
+U 1 1 60287248
+P 2550 7400
+F 0 "#PWR?" H 2550 7150 50  0001 C CNN
+F 1 "GND" H 2555 7227 50  0000 C CNN
+F 2 "" H 2550 7400 50  0001 C CNN
+F 3 "" H 2550 7400 50  0001 C CNN
+	1    2550 7400
+	1    0    0    -1  
+$EndComp
+Text Label 2700 6300 2    50   ~ 0
+VBAT_OV
+Text Label 2700 6400 2    50   ~ 0
+VBAT_UV
+Text Label 2700 6500 2    50   ~ 0
+OK_HYST
+Text Label 2700 6600 2    50   ~ 0
+OK_PROG
+$Comp
+L power:GND #PWR?
+U 1 1 60266E24
+P 2350 5250
+F 0 "#PWR?" H 2350 5000 50  0001 C CNN
+F 1 "GND" H 2355 5077 50  0000 C CNN
+F 2 "" H 2350 5250 50  0001 C CNN
+F 3 "" H 2350 5250 50  0001 C CNN
+	1    2350 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 5200 2500 5200
+Connection ~ 2350 5200
+Wire Wire Line
+	2350 5200 2350 5250
+Wire Wire Line
+	2500 5200 2500 5050
+Wire Wire Line
+	2200 5200 2350 5200
+Wire Wire Line
+	2200 5150 2200 5200
+$Comp
+L special:Solar-Cells_KXOB25-05X3F SC?
+U 1 1 6025B643
+P 2200 4950
+F 0 "SC?" H 2000 5000 50  0000 R CNN
+F 1 "Solar-Cells_KXOB25-05X3F" H 2000 4900 50  0000 R CNN
+F 2 "luke-footprints:Solar-Cells_KXOB25" H 2300 4550 50  0001 L CNN
+F 3 "https://ixapps.ixys.com/DataSheet/KXOB25_05X3F.pdf" V 2200 5010 50  0001 L CNN
+F 4 "KXOB25-05X3FCT-ND" H 2300 4850 50  0001 L CNN "Vendor #"
+F 5 "https://www.digikey.com/product-detail/en/ixys/KXOB25-05X3F-TR/KXOB25-05X3FCT-ND/9990481" H 2300 4750 50  0001 L CNN "Vendor Link"
+F 6 "Digi-Key" H 2300 4650 50  0001 L CNN "Vendor"
+	1    2200 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 4700 2200 4750
+Wire Wire Line
+	2500 4750 2500 4700
+Wire Wire Line
+	2500 4700 2200 4700
+Wire Wire Line
+	2500 4700 2900 4700
+Connection ~ 2500 4700
+$Comp
+L power:GND #PWR?
+U 1 1 602A177E
+P 1900 6950
+F 0 "#PWR?" H 1900 6700 50  0001 C CNN
+F 1 "GND" H 1905 6777 50  0000 C CNN
+F 2 "" H 1900 6950 50  0001 C CNN
+F 3 "" H 1900 6950 50  0001 C CNN
+	1    1900 6950
+	1    0    0    -1  
+$EndComp
+Text Label 1950 6600 0    50   ~ 0
+VBAT_OV
+Wire Wire Line
+	1900 6550 1900 6600
+Wire Wire Line
+	1900 6600 1950 6600
+Connection ~ 1900 6600
+Wire Wire Line
+	1900 6600 1900 6650
+Wire Wire Line
+	1900 6250 1900 6200
+Wire Wire Line
+	1900 6200 2700 6200
+Text Label 1500 6600 0    50   ~ 0
+VBAT_UV
+Wire Wire Line
+	1450 6550 1450 6600
+Wire Wire Line
+	1450 6600 1500 6600
+Connection ~ 1450 6600
+Wire Wire Line
+	1450 6600 1450 6650
+Wire Wire Line
+	1450 6250 1450 6200
+Wire Wire Line
+	1450 6200 1900 6200
+Connection ~ 1900 6200
+$Comp
+L power:GND #PWR?
+U 1 1 6026F15D
+P 1450 6950
+F 0 "#PWR?" H 1450 6700 50  0001 C CNN
+F 1 "GND" H 1455 6777 50  0000 C CNN
+F 2 "" H 1450 6950 50  0001 C CNN
+F 3 "" H 1450 6950 50  0001 C CNN
+	1    1450 6950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	950  6950 950  7000
+Wire Wire Line
+	950  6650 950  6600
+Wire Wire Line
+	950  6250 950  6200
+Wire Wire Line
+	950  6200 1450 6200
+Connection ~ 1450 6200
+$Comp
+L power:GND #PWR?
+U 1 1 6027ABEC
+P 950 7350
+F 0 "#PWR?" H 950 7100 50  0001 C CNN
+F 1 "GND" H 955 7177 50  0000 C CNN
+F 2 "" H 950 7350 50  0001 C CNN
+F 3 "" H 950 7350 50  0001 C CNN
+	1    950  7350
+	1    0    0    -1  
+$EndComp
+Text Label 1000 7000 0    50   ~ 0
+OK_PROG
+Text Label 1000 6600 0    50   ~ 0
+OK_HYST
+Wire Wire Line
+	950  6600 1000 6600
+Connection ~ 950  6600
+Wire Wire Line
+	950  6600 950  6550
+Wire Wire Line
+	950  7000 1000 7000
+Connection ~ 950  7000
+Wire Wire Line
+	950  7000 950  7050
+$Comp
+L power:GND #PWR?
+U 1 1 602C7CF1
+P 1800 5900
+F 0 "#PWR?" H 1800 5650 50  0001 C CNN
+F 1 "GND" H 1805 5727 50  0000 C CNN
+F 2 "" H 1800 5900 50  0001 C CNN
+F 3 "" H 1800 5900 50  0001 C CNN
+	1    1800 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 5850 1800 5850
+Wire Wire Line
+	1800 5850 1800 5900
+Wire Wire Line
+	2500 5550 2500 5850
+Wire Wire Line
+	2500 5850 2450 5850
+Wire Wire Line
+	2500 5850 2500 6100
+Connection ~ 2500 5850
+Wire Wire Line
+	2500 6100 2700 6100
+Wire Wire Line
+	2500 5550 2550 5550
+Wire Wire Line
+	2850 5550 2900 5550
+Wire Wire Line
+	2900 5550 2900 5600
+Wire Wire Line
+	2900 4700 2900 5550
+Connection ~ 2900 5550
+Wire Wire Line
+	2900 5550 3050 5550
+Wire Wire Line
+	3250 5550 3400 5550
+Wire Wire Line
+	3400 5550 3400 5600
+Text Label 4800 6700 0    50   ~ 0
+LOAD
+Wire Wire Line
+	4450 6700 4500 6700
+Connection ~ 4450 6700
+$Comp
+L power:GND #PWR?
+U 1 1 6035048E
+P 3200 3150
+F 0 "#PWR?" H 3200 2900 50  0001 C CNN
+F 1 "GND" H 3205 2977 50  0000 C CNN
+F 2 "" H 3200 3150 50  0001 C CNN
+F 3 "" H 3200 3150 50  0001 C CNN
+	1    3200 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L special:Crystals_32.768-SMD XTAL?
+U 1 1 6036FC97
+P 1350 2250
+F 0 "XTAL?" H 1350 2490 50  0000 C CNN
+F 1 "Crystals_32.768-SMD" H 1350 2399 50  0000 C CNN
+F 2 "luke-footprints:SMD-2_3.2x1.5mm" H 1550 2450 60  0001 L CNN
+F 3 "http://www.ecsxtal.com/store/pdf/ecx-31b.pdf" H 1550 2550 60  0001 L CNN
+F 4 "XC1617CT-ND" H 1550 2650 60  0001 L CNN "Vendor #"
+F 5 "ECS-.327-12.5-34B-TR" H 1550 2750 60  0001 L CNN "MFR#"
+F 6 "Crystals" H 1550 2950 60  0001 L CNN "Type"
+F 7 "https://www.digikey.com/product-detail/en/ecs-inc/ECS-327-12-5-34B-TR/XC1617CT-ND/1693786" H 1550 3150 60  0001 L CNN "Vendor Link"
+F 8 "ECS Inc." H 1550 3350 60  0001 L CNN "MFR"
+	1    1350 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L integrated_circuits:Regulator_LTC3531-3.3 U?
+U 1 1 60359C90
+P 6050 5700
+F 0 "U?" H 6050 6215 50  0000 C CNN
+F 1 "Regulator_LTC3531-3.3" H 6050 6124 50  0000 C CNN
+F 2 "luke-footprints:DFN-8-1EP_3x3mm_P0.65mm_EP1.7x2.05mm" H 6050 4500 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/3531fb.pdf" H 6050 4550 50  0001 C CNN
+F 4 "LTC3531EDD-3.3#PBF-ND" H 6050 4650 50  0001 C CNN "Vendor #"
+F 5 "https://www.digikey.com/en/products/detail/analog-devices-inc/LTC3531EDD-3-3-PBF/1620258" H 6050 4400 50  0001 C CNN "Vendor Link"
+F 6 "Digi-Key" H 6050 4300 50  0001 C CNN "Vendor"
+	1    6050 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6035A6EB
+P 6050 6250
+F 0 "#PWR?" H 6050 6000 50  0001 C CNN
+F 1 "GND" H 6055 6077 50  0000 C CNN
+F 2 "" H 6050 6250 50  0001 C CNN
+F 3 "" H 6050 6250 50  0001 C CNN
+	1    6050 6250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 6150 6200 6200
+Wire Wire Line
+	6200 6200 6050 6200
+Wire Wire Line
+	6050 6200 6050 6250
+Wire Wire Line
+	5900 6150 5900 6200
+Wire Wire Line
+	5900 6200 6050 6200
+Connection ~ 6050 6200
+Wire Wire Line
+	6050 6200 6050 6150
+$Comp
+L inductor:10uH L?
+U 1 1 60360896
+P 6050 5050
+F 0 "L?" H 6050 5235 50  0000 C CNN
+F 1 "10uH" H 6050 5144 50  0000 C CNN
+F 2 "luke-footprints:L_1812_4532Metric" H 5950 4850 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/P02/JELF243A-0042.pdf" H 5950 4900 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/murata-electronics/LQH43CN100K03L/490-2519-1-ND/599992" H 6350 5250 50  0001 C CNN "Vendor Link"
+F 5 " 490-2519-1-ND" H 6050 4750 50  0001 C CNN "Vendor #"
+F 6 "Digi-Key" H 6050 5350 50  0001 C CNN "Vendor"
+	1    6050 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6450 5450 6550 5450
+Wire Wire Line
+	6550 5450 6550 5050
+Wire Wire Line
+	6550 5050 6150 5050
+Wire Wire Line
+	5950 5050 5550 5050
+Wire Wire Line
+	5550 5050 5550 5450
+Wire Wire Line
+	5550 5450 5650 5450
+$Comp
+L power:GND #PWR?
+U 1 1 60374CE7
+P 6750 5950
+F 0 "#PWR?" H 6750 5700 50  0001 C CNN
+F 1 "GND" H 6755 5777 50  0000 C CNN
+F 2 "" H 6750 5950 50  0001 C CNN
+F 3 "" H 6750 5950 50  0001 C CNN
+	1    6750 5950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6750 5600 6750 5550
+Wire Wire Line
+	6450 5600 6750 5600
+Wire Wire Line
+	6750 5600 6750 5650
+Connection ~ 6750 5600
+Wire Wire Line
+	5650 5600 5600 5600
+Wire Wire Line
+	5600 5600 5600 5750
+Wire Wire Line
+	5600 5750 5650 5750
+Wire Wire Line
+	5600 5600 5300 5600
+Wire Wire Line
+	5300 5600 5300 5650
+Connection ~ 5600 5600
+$Comp
+L power:GND #PWR?
+U 1 1 603921D2
+P 5300 5950
+F 0 "#PWR?" H 5300 5700 50  0001 C CNN
+F 1 "GND" H 5305 5777 50  0000 C CNN
+F 2 "" H 5300 5950 50  0001 C CNN
+F 3 "" H 5300 5950 50  0001 C CNN
+	1    5300 5950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 5600 5250 5600
+Connection ~ 5300 5600
+Text Label 5250 5600 2    50   ~ 0
+LOAD
+Wire Wire Line
+	900  2250 1200 2250
+Wire Wire Line
+	1500 2250 1800 2250
+$Comp
+L power:GND #PWR?
+U 1 1 6038E055
+P 900 2600
+F 0 "#PWR?" H 900 2350 50  0001 C CNN
+F 1 "GND" H 905 2427 50  0000 C CNN
+F 2 "" H 900 2600 50  0001 C CNN
+F 3 "" H 900 2600 50  0001 C CNN
+	1    900  2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6038E624
+P 1800 2600
+F 0 "#PWR?" H 1800 2350 50  0001 C CNN
+F 1 "GND" H 1805 2427 50  0000 C CNN
+F 2 "" H 1800 2600 50  0001 C CNN
+F 3 "" H 1800 2600 50  0001 C CNN
+	1    1800 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 2300 1800 2250
+Connection ~ 1800 2250
+Wire Wire Line
+	900  2300 900  2250
+Connection ~ 900  2250
+Wire Wire Line
+	1800 1950 1800 2250
+Wire Wire Line
+	900  1850 900  2250
+Wire Wire Line
+	3200 1150 3200 1200
+Wire Wire Line
+	3100 1200 3100 1250
+Wire Wire Line
+	3200 1250 3200 1200
+Connection ~ 3200 1200
+Wire Wire Line
+	3200 1200 3300 1200
+Wire Wire Line
+	3300 1200 3300 1250
+Wire Wire Line
+	3200 1200 3100 1200
+$Comp
+L power:GND #PWR?
+U 1 1 603CE2A2
+P 10550 6250
+F 0 "#PWR?" H 10550 6000 50  0001 C CNN
+F 1 "GND" H 10555 6077 50  0000 C CNN
+F 2 "" H 10550 6250 50  0001 C CNN
+F 3 "" H 10550 6250 50  0001 C CNN
+	1    10550 6250
+	1    0    0    -1  
+$EndComp
+Text Label 10200 6250 0    50   ~ 0
+LOAD
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 603CEDA8
+P 10550 6250
+F 0 "#FLG?" H 10550 6325 50  0001 C CNN
+F 1 "PWR_FLAG" H 10550 6423 50  0000 C CNN
+F 2 "" H 10550 6250 50  0001 C CNN
+F 3 "~" H 10550 6250 50  0001 C CNN
+	1    10550 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 603CF120
+P 10900 6250
+F 0 "#FLG?" H 10900 6325 50  0001 C CNN
+F 1 "PWR_FLAG" H 10900 6423 50  0000 C CNN
+F 2 "" H 10900 6250 50  0001 C CNN
+F 3 "~" H 10900 6250 50  0001 C CNN
+	1    10900 6250
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 603CF666
+P 10200 6250
+F 0 "#FLG?" H 10200 6325 50  0001 C CNN
+F 1 "PWR_FLAG" H 10200 6423 50  0000 C CNN
+F 2 "" H 10200 6250 50  0001 C CNN
+F 3 "~" H 10200 6250 50  0001 C CNN
+	1    10200 6250
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 603DFFA3
+P 6750 5550
+F 0 "#PWR?" H 6750 5400 50  0001 C CNN
+F 1 "+3.3V" H 6765 5723 50  0000 C CNN
+F 2 "" H 6750 5550 50  0001 C CNN
+F 3 "" H 6750 5550 50  0001 C CNN
+	1    6750 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 603E441A
+P 3200 1150
+F 0 "#PWR?" H 3200 1000 50  0001 C CNN
+F 1 "+3.3V" H 3215 1323 50  0000 C CNN
+F 2 "" H 3200 1150 50  0001 C CNN
+F 3 "" H 3200 1150 50  0001 C CNN
+	1    3200 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 603E5C8D
+P 10900 6250
+F 0 "#PWR?" H 10900 6100 50  0001 C CNN
+F 1 "+3.3V" H 10915 6423 50  0000 C CNN
+F 2 "" H 10900 6250 50  0001 C CNN
+F 3 "" H 10900 6250 50  0001 C CNN
+	1    10900 6250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 1150 2250 1200
+$Comp
+L power:GND #PWR?
+U 1 1 603F2B8D
+P 2250 1600
+F 0 "#PWR?" H 2250 1350 50  0001 C CNN
+F 1 "GND" H 2255 1427 50  0000 C CNN
+F 2 "" H 2250 1600 50  0001 C CNN
+F 3 "" H 2250 1600 50  0001 C CNN
+	1    2250 1600
+	1    0    0    -1  
+$EndComp
+Text Notes 5300 1450 0    50   ~ 0
+VDD\nPlace near Pin 17\nDatasheet Page 47
+Text Notes 5200 2550 0    50   ~ 0
+VDDA\nPlace near Pin 5\nDatasheet Page 47
+Text Notes 5250 3500 0    50   ~ 0
+VDD\nPlace near Pin 1\nDatasheet Page 47
+Wire Wire Line
+	5050 1200 5000 1200
+Wire Wire Line
+	5050 1200 5050 1600
+Wire Wire Line
+	5050 1600 5000 1600
+Wire Wire Line
+	5050 1600 5050 2200
+Wire Wire Line
+	5050 2200 5000 2200
+Connection ~ 5050 1600
+Wire Wire Line
+	5050 2200 5050 2600
+Wire Wire Line
+	5050 2600 5000 2600
+Connection ~ 5050 2200
+Wire Wire Line
+	5050 2600 5050 3200
+Wire Wire Line
+	5050 3200 5000 3200
+Connection ~ 5050 2600
+Wire Wire Line
+	5050 3200 5050 3600
+Wire Wire Line
+	5050 3600 5000 3600
+Connection ~ 5050 3200
+Wire Wire Line
+	4700 3600 4650 3600
+Wire Wire Line
+	4650 3600 4650 3200
+Wire Wire Line
+	4650 3200 4700 3200
+Wire Wire Line
+	4650 3200 4650 2600
+Wire Wire Line
+	4650 2600 4700 2600
+Connection ~ 4650 3200
+Wire Wire Line
+	4650 2600 4650 2200
+Wire Wire Line
+	4650 2200 4700 2200
+Connection ~ 4650 2600
+Wire Wire Line
+	4650 2200 4650 1600
+Wire Wire Line
+	4650 1600 4700 1600
+Connection ~ 4650 2200
+Wire Wire Line
+	4650 1600 4650 1200
+Wire Wire Line
+	4650 1200 4700 1200
+Connection ~ 4650 1600
+$Comp
+L power:+3.3V #PWR?
+U 1 1 6046874B
+P 4650 900
+F 0 "#PWR?" H 4650 750 50  0001 C CNN
+F 1 "+3.3V" H 4665 1073 50  0000 C CNN
+F 2 "" H 4650 900 50  0001 C CNN
+F 3 "" H 4650 900 50  0001 C CNN
+	1    4650 900 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 900  4650 1200
+Connection ~ 4650 1200
+Wire Wire Line
+	5050 3600 5050 3650
+Connection ~ 5050 3600
+$Comp
+L power:GND #PWR?
+U 1 1 604746CC
+P 5050 3650
+F 0 "#PWR?" H 5050 3400 50  0001 C CNN
+F 1 "GND" H 5055 3477 50  0000 C CNN
+F 2 "" H 5050 3650 50  0001 C CNN
+F 3 "" H 5050 3650 50  0001 C CNN
+	1    5050 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L special:Switch_1767 S?
+U 1 1 604A1F23
+P 7500 1250
+F 0 "S?" H 7500 1525 50  0000 C CNN
+F 1 "Switch_1767" H 7500 1434 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 7700 1450 50  0001 L CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Adafruit%20PDFs/1767_Web.pdf" H 7700 1550 60  0001 L CNN
+F 4 "1528-2159-ND" H 7700 1650 60  0001 L CNN "Vendor #"
+F 5 "https://www.digikey.com/product-detail/en/adafruit-industries-llc/1767/1528-2159-ND/7244945" H 7700 1550 50  0001 L CNN "Vendor Link"
+F 6 "Digi-Key" H 7850 1750 50  0001 C CNN "Vendor"
+	1    7500 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 604A3F11
+P 7950 1200
+F 0 "#PWR?" H 7950 1050 50  0001 C CNN
+F 1 "+3.3V" H 7965 1373 50  0000 C CNN
+F 2 "" H 7950 1200 50  0001 C CNN
+F 3 "" H 7950 1200 50  0001 C CNN
+	1    7950 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7950 1200 7950 1250
+Wire Wire Line
+	7950 1250 7700 1250
+$Comp
+L resistor_0603:604 R?
+U 1 1 604CEC51
+P 7050 1250
+F 0 "R?" V 6843 1250 50  0000 C CNN
+F 1 "604" V 6934 1250 50  0000 C CNN
+F 2 "luke-footprints:R_0603_1608Metric" H 7200 1050 50  0001 L CNN
+F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 5950 1650 50  0001 L CNN
+F 4 "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0603FT604R/1714163" H 7200 750 60  0001 L CNN "Vendor Link"
+F 5 "Digi-Key" H 7200 950 50  0001 L CNN "Vendor"
+F 6 "RMCF0603FT604RCT-ND" H 7200 850 50  0001 L CNN "Vendor #"
+	1    7050 1250
+	0    1    1    0   
+$EndComp
+$Comp
+L resistor_0603:10K R?
+U 1 1 604CFE3A
+P 7250 1450
+F 0 "R?" H 7320 1496 50  0000 L CNN
+F 1 "10K" H 7320 1405 50  0000 L CNN
+F 2 "luke-footprints:R_0603_1608Metric" H 7400 1250 50  0001 L CNN
+F 3 "https://www.seielect.com/catalog/sei-rncp.pdf" H 6150 1850 50  0001 L CNN
+F 4 "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RNCP0603FTD10K0/2240139" H 7400 950 60  0001 L CNN "Vendor Link"
+F 5 "Digi-Key" H 7400 1150 50  0001 L CNN "Vendor"
+F 6 "RNCP0603FTD10K0CT-ND" H 7400 1050 50  0001 L CNN "Vendor #"
+	1    7250 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 604D04E2
+P 7250 1600
+F 0 "#PWR?" H 7250 1350 50  0001 C CNN
+F 1 "GND" H 7255 1427 50  0000 C CNN
+F 2 "" H 7250 1600 50  0001 C CNN
+F 3 "" H 7250 1600 50  0001 C CNN
+	1    7250 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7300 1250 7250 1250
+Wire Wire Line
+	7250 1250 7250 1300
+Wire Wire Line
+	7250 1250 7200 1250
+Connection ~ 7250 1250
+$Comp
+L resistor_0402:4.02M R?
+U 1 1 604FDD77
+P 1900 6400
+F 0 "R?" H 1970 6446 50  0000 L CNN
+F 1 "4.02M" H 1970 6355 50  0000 L CNN
+F 2 "luke-footprints:R_0402_1005Metric" H 2050 6200 50  0001 L CNN
+F 3 "https://www.vishay.com/docs/20035/dcrcwe3.pdf" H 800 6800 50  0001 L CNN
+F 4 "https://www.digikey.com/en/products/detail/vishay-dale/CRCW04024M02FKED/1178417" H 2050 5900 60  0001 L CNN "Vendor Link"
+F 5 "Digi-Key" H 2050 6100 50  0001 L CNN "Vendor"
+F 6 "541-4.02MLCT-ND" H 2050 6000 50  0001 L CNN "Vendor #"
+	1    1900 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L resistor_0402:6.2M R?
+U 1 1 60501AC6
+P 1900 6800
+F 0 "R?" H 1970 6846 50  0000 L CNN
+F 1 "6.2M" H 1970 6755 50  0000 L CNN
+F 2 "luke-footprints:R_0402_1005Metric" H 2050 6600 50  0001 L CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 800 7200 50  0001 L CNN
+F 4 "https://www.digikey.com/en/products/detail/yageo/RC0402FR-076M2L/5917732" H 2050 6300 60  0001 L CNN "Vendor Link"
+F 5 "Digi-Key" H 2050 6500 50  0001 L CNN "Vendor"
+F 6 "13-RC0402FR-076M2LCT-ND" H 2050 6400 50  0001 L CNN "Vendor #"
+	1    1900 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L resistor_0402:4.42M R?
+U 1 1 60505DBC
+P 1450 6400
+F 0 "R?" H 1520 6446 50  0000 L CNN
+F 1 "4.42M" H 1520 6355 50  0000 L CNN
+F 2 "luke-footprints:R_0402_1005Metric" H 1600 6200 50  0001 L CNN
+F 3 "https://www.vishay.com/docs/20035/dcrcwe3.pdf" H 350 6800 50  0001 L CNN
+F 4 "https://www.digikey.com/en/products/detail/vishay-dale/CRCW04024M42FKED/1178422" H 1600 5900 60  0001 L CNN "Vendor Link"
+F 5 "Digi-Key" H 1600 6100 50  0001 L CNN "Vendor"
+F 6 "541-4.42MLCT-ND" H 1600 6000 50  0001 L CNN "Vendor #"
+	1    1450 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L resistor_0402:5.76M R?
+U 1 1 60506AEC
+P 1450 6800
+F 0 "R?" H 1520 6846 50  0000 L CNN
+F 1 "5.76M" H 1520 6755 50  0000 L CNN
+F 2 "luke-footprints:R_0402_1005Metric" H 1600 6600 50  0001 L CNN
+F 3 "https://www.vishay.com/docs/20035/dcrcwe3.pdf" H 350 7200 50  0001 L CNN
+F 4 "https://www.digikey.com/en/products/detail/vishay-dale/CRCW04025M76FKED/2555940?s=N4IgjCBcpgbFoDGUBmBDANgZwKYBoQB7KAbRAGYBOMAVgA4QBdAgBwBcoQBlNgJwEsAdgHMQAXwIAmAAx0aCEO04BVQfzYB5FAFkcaLAFdeOEAQOdtGgBYBbLKZA2hnGgDoA7PAI20ADxce8BIgALSSCsiQfAb4RKQg8gSUTKwckCDiYmJAA" H 1600 6300 60  0001 L CNN "Vendor Link"
+F 5 "Digi-Key" H 1600 6500 50  0001 L CNN "Vendor"
+F 6 "541-CRCW04025M76FKEDCT-ND" H 1600 6400 50  0001 L CNN "Vendor #"
+	1    1450 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L resistor_0402:1.82M R?
+U 1 1 60507774
+P 950 6400
+F 0 "R?" H 1020 6446 50  0000 L CNN
+F 1 "1.82M" H 1020 6355 50  0000 L CNN
+F 2 "luke-footprints:R_0402_1005Metric" H 1100 6200 50  0001 L CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H -150 6800 50  0001 L CNN
+F 4 "https://www.digikey.com/en/products/detail/yageo/RC0402FR-071M82L/5917580" H 1100 5900 60  0001 L CNN "Vendor Link"
+F 5 "Digi-Key" H 1100 6100 50  0001 L CNN "Vendor"
+F 6 "13-RC0402FR-071M82LCT-ND" H 1100 6000 50  0001 L CNN "Vendor #"
+	1    950  6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L resistor_0402:3.83M R?
+U 1 1 605083F4
+P 950 6800
+F 0 "R?" H 1020 6846 50  0000 L CNN
+F 1 "3.83M" H 1020 6755 50  0000 L CNN
+F 2 "luke-footprints:R_0402_1005Metric" H 1100 6600 50  0001 L CNN
+F 3 "https://www.vishay.com/docs/20035/dcrcwe3.pdf" H -150 7200 50  0001 L CNN
+F 4 "https://www.digikey.com/en/products/detail/vishay-dale/CRCW04023M83FKED/1178414" H 1100 6300 60  0001 L CNN "Vendor Link"
+F 5 "Digi-Key" H 1100 6500 50  0001 L CNN "Vendor"
+F 6 "541-3.83MLCT-ND" H 1100 6400 50  0001 L CNN "Vendor #"
+	1    950  6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L resistor_0402:4.53M R?
+U 1 1 605091F4
+P 950 7200
+F 0 "R?" H 1020 7246 50  0000 L CNN
+F 1 "4.53M" H 1020 7155 50  0000 L CNN
+F 2 "luke-footprints:R_0402_1005Metric" H 1100 7000 50  0001 L CNN
+F 3 "https://www.vishay.com/docs/20035/dcrcwe3.pdf" H -150 7600 50  0001 L CNN
+F 4 "https://www.digikey.com/en/products/detail/vishay-dale/CRCW04024M53FKED/1178423" H 1100 6700 60  0001 L CNN "Vendor Link"
+F 5 "Digi-Key" H 1100 6900 50  0001 L CNN "Vendor"
+F 6 "541-4.53MLCT-ND" H 1100 6800 50  0001 L CNN "Vendor #"
+	1    950  7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L resistor_0402:10M R?
+U 1 1 60527BBB
+P 2000 5850
+F 0 "R?" V 1793 5850 50  0000 C CNN
+F 1 "10M" V 1884 5850 50  0000 C CNN
+F 2 "luke-footprints:R_0402_1005Metric" H 2150 5650 50  0001 L CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 900 6250 50  0001 L CNN
+F 4 "https://www.digikey.com/en/products/detail/yageo/RC0402FR-0710ML/2827572" H 2150 5350 60  0001 L CNN "Vendor Link"
+F 5 "Digi-Key" H 2150 5550 50  0001 L CNN "Vendor"
+F 6 "311-10.0MLRCT-ND" H 2150 5450 50  0001 L CNN "Vendor #"
+	1    2000 5850
+	0    1    1    0   
+$EndComp
+$Comp
+L resistor_0402:6.04M R?
+U 1 1 6052884B
+P 2300 5850
+F 0 "R?" V 2093 5850 50  0000 C CNN
+F 1 "6.04M" V 2184 5850 50  0000 C CNN
+F 2 "luke-footprints:R_0402_1005Metric" H 2450 5650 50  0001 L CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 1200 6250 50  0001 L CNN
+F 4 "https://www.digikey.com/en/products/detail/yageo/RC0402FR-076M04L/5917730" H 2450 5350 60  0001 L CNN "Vendor Link"
+F 5 "Digi-Key" H 2450 5550 50  0001 L CNN "Vendor"
+F 6 "13-RC0402FR-076M04LCT-ND" H 2450 5450 50  0001 L CNN "Vendor #"
+	1    2300 5850
+	0    1    1    0   
+$EndComp
+$Comp
+L resistor_0402:3.83M R?
+U 1 1 60529854
+P 2700 5550
+F 0 "R?" V 2493 5550 50  0000 C CNN
+F 1 "3.83M" V 2584 5550 50  0000 C CNN
+F 2 "luke-footprints:R_0402_1005Metric" H 2850 5350 50  0001 L CNN
+F 3 "https://www.vishay.com/docs/20035/dcrcwe3.pdf" H 1600 5950 50  0001 L CNN
+F 4 "https://www.digikey.com/en/products/detail/vishay-dale/CRCW04023M83FKED/1178414" H 2850 5050 60  0001 L CNN "Vendor Link"
+F 5 "Digi-Key" H 2850 5250 50  0001 L CNN "Vendor"
+F 6 "541-3.83MLCT-ND" H 2850 5150 50  0001 L CNN "Vendor #"
+	1    2700 5550
+	0    1    1    0   
+$EndComp
+$Comp
+L integrated_circuits:Regulator_BQ25504 U?
+U 1 1 6026BE0A
+P 3300 6400
+F 0 "U?" H 3950 6550 50  0000 L CNN
+F 1 "Regulator_BQ25504" H 3950 6450 50  0000 L CNN
+F 2 "luke-footprints:VQFN-16-1EP_3x3mm_P0.5mm_EP1.8x1.8mm_ThermalVias" H 3300 5100 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/bq25504.pdf" H 3000 7200 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/texas-instruments/BQ25504RGTT/296-29741-1-ND/2766003" H 3300 5000 50  0001 C CNN "Vendor Link"
+F 5 "296-29741-1-ND" H 3300 4900 50  0001 C CNN "Vendor #"
+F 6 "Digi-Key" H 3300 4800 50  0001 C CNN "Vendor"
+	1    3300 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L resistor_0805:JUMPER R?
+U 1 1 6053C4F2
+P 4650 6700
+F 0 "R?" V 4443 6700 50  0000 C CNN
+F 1 "JUMPER" V 4534 6700 50  0000 C CNN
+F 2 "luke-footprints:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 4800 6500 50  0001 L CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 3550 7100 50  0001 L CNN
+F 4 "https://www.digikey.com/en/products/detail/yageo/RC0805JR-070RL/728216" H 4800 6200 60  0001 L CNN "Vendor Link"
+F 5 "Digi-Key" H 4800 6400 50  0001 L CNN "Vendor"
+F 6 "311-0.0ARCT-ND" H 4800 6300 50  0001 L CNN "Vendor #"
+	1    4650 6700
+	0    1    1    0   
+$EndComp
+$Comp
+L capacitor_0402:20pF C?
+U 1 1 6054463A
+P 1800 2500
+F 0 "C?" H 1915 2596 50  0000 L CNN
+F 1 "20pF" H 1915 2505 50  0000 L CNN
+F 2 "luke-footprints:C_0402_1005Metric" H 1838 3100 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GP_NP0_16V-to-50V_18.pdf" H 1825 3350 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/yageo/CC0402JRNPO9BN200/2833582" H 2225 3000 60  0001 C CNN "Vendor Link"
+F 5 "311-1417-1-ND" H 1800 3200 50  0001 C CNN "Vendor #"
+F 6 "Digi-Key" H 1800 3300 50  0001 C CNN "Vendor"
+	1    1800 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L capacitor_0402:20pF C?
+U 1 1 60544F60
+P 900 2500
+F 0 "C?" H 1015 2596 50  0000 L CNN
+F 1 "20pF" H 1015 2505 50  0000 L CNN
+F 2 "luke-footprints:C_0402_1005Metric" H 938 3100 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GP_NP0_16V-to-50V_18.pdf" H 925 3350 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/yageo/CC0402JRNPO9BN200/2833582" H 1325 3000 60  0001 C CNN "Vendor Link"
+F 5 "311-1417-1-ND" H 900 3200 50  0001 C CNN "Vendor #"
+F 6 "Digi-Key" H 900 3300 50  0001 C CNN "Vendor"
+	1    900  2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L capacitor_0402:0.1uF C?
+U 1 1 6054BF03
+P 2250 1400
+F 0 "C?" H 2365 1496 50  0000 L CNN
+F 1 "0.1uF" H 2365 1405 50  0000 L CNN
+F 2 "luke-footprints:C_0402_1005Metric" H 2288 2000 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL05B104KO5NNNC.pdf" H 2275 2250 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05B104KO5NNNC/3886659" H 2675 1900 60  0001 C CNN "Vendor Link"
+F 5 "1276-1001-1-ND" H 2250 2100 50  0001 C CNN "Vendor #"
+F 6 "Digi-Key" H 2250 2200 50  0001 C CNN "Vendor"
+	1    2250 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L capacitor_0402:10uF C?
+U 1 1 60551D8D
+P 4800 3200
+F 0 "C?" V 4548 3250 50  0000 C CNN
+F 1 "10uF" V 4639 3250 50  0000 C CNN
+F 2 "luke-footprints:C_0402_1005Metric" H 4838 3800 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R60J106ME05-01A.pdf" H 4825 4050 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/murata-electronics/GRM155R60J106ME05D/11500166" H 5225 3700 60  0001 C CNN "Vendor Link"
+F 5 "490-GRM155R60J106ME05DCT-ND" H 4800 3900 50  0001 C CNN "Vendor #"
+F 6 "Digi-Key" H 4800 4000 50  0001 C CNN "Vendor"
+	1    4800 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L capacitor_0402:0.1uF C?
+U 1 1 605534F5
+P 4800 3600
+F 0 "C?" V 4548 3650 50  0000 C CNN
+F 1 "0.1uF" V 4639 3650 50  0000 C CNN
+F 2 "luke-footprints:C_0402_1005Metric" H 4838 4200 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL05B104KO5NNNC.pdf" H 4825 4450 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05B104KO5NNNC/3886659" H 5225 4100 60  0001 C CNN "Vendor Link"
+F 5 "1276-1001-1-ND" H 4800 4300 50  0001 C CNN "Vendor #"
+F 6 "Digi-Key" H 4800 4400 50  0001 C CNN "Vendor"
+	1    4800 3600
+	0    1    1    0   
+$EndComp
+$Comp
+L capacitor_0402:1uF C?
+U 1 1 60554744
+P 4800 2600
+F 0 "C?" V 4548 2650 50  0000 C CNN
+F 1 "1uF" V 4639 2650 50  0000 C CNN
+F 2 "luke-footprints:C_0402_1005Metric" H 4838 3200 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL05A105KQ5NNNC.jsp" H 4825 3450 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05A105KQ5NNNC/3886668" H 5225 3100 60  0001 C CNN "Vendor Link"
+F 5 "1276-1010-1-ND" H 4800 3300 50  0001 C CNN "Vendor #"
+F 6 "Digi-Key" H 4800 3400 50  0001 C CNN "Vendor"
+	1    4800 2600
+	0    1    1    0   
+$EndComp
+$Comp
+L capacitor_0402:0.1uF C?
+U 1 1 605560AE
+P 4800 2200
+F 0 "C?" V 4548 2250 50  0000 C CNN
+F 1 "0.1uF" V 4639 2250 50  0000 C CNN
+F 2 "luke-footprints:C_0402_1005Metric" H 4838 2800 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL05B104KO5NNNC.pdf" H 4825 3050 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05B104KO5NNNC/3886659" H 5225 2700 60  0001 C CNN "Vendor Link"
+F 5 "1276-1001-1-ND" H 4800 2900 50  0001 C CNN "Vendor #"
+F 6 "Digi-Key" H 4800 3000 50  0001 C CNN "Vendor"
+	1    4800 2200
+	0    1    1    0   
+$EndComp
+$Comp
+L capacitor_0402:1uF C?
+U 1 1 6055723C
+P 4800 1600
+F 0 "C?" V 4548 1650 50  0000 C CNN
+F 1 "1uF" V 4639 1650 50  0000 C CNN
+F 2 "luke-footprints:C_0402_1005Metric" H 4838 2200 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL05A105KQ5NNNC.jsp" H 4825 2450 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05A105KQ5NNNC/3886668" H 5225 2100 60  0001 C CNN "Vendor Link"
+F 5 "1276-1010-1-ND" H 4800 2300 50  0001 C CNN "Vendor #"
+F 6 "Digi-Key" H 4800 2400 50  0001 C CNN "Vendor"
+	1    4800 1600
+	0    1    1    0   
+$EndComp
+$Comp
+L capacitor_0402:0.1uF C?
+U 1 1 60558038
+P 4800 1200
+F 0 "C?" V 4548 1250 50  0000 C CNN
+F 1 "0.1uF" V 4639 1250 50  0000 C CNN
+F 2 "luke-footprints:C_0402_1005Metric" H 4838 1800 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL05B104KO5NNNC.pdf" H 4825 2050 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05B104KO5NNNC/3886659" H 5225 1700 60  0001 C CNN "Vendor Link"
+F 5 "1276-1001-1-ND" H 4800 1900 50  0001 C CNN "Vendor #"
+F 6 "Digi-Key" H 4800 2000 50  0001 C CNN "Vendor"
+	1    4800 1200
+	0    1    1    0   
+$EndComp
+$Comp
+L capacitor_0402:2.2uF C?
+U 1 1 6056FCAF
+P 5300 5850
+F 0 "C?" H 5415 5946 50  0000 L CNN
+F 1 "2.2uF" H 5415 5855 50  0000 L CNN
+F 2 "luke-footprints:C_0402_1005Metric" H 5338 6450 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL05A225MQ5NNNC.jsp" H 5325 6700 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05A225MQ5NNNC/3887127" H 5725 6350 60  0001 C CNN "Vendor Link"
+F 5 "1276-1469-1-ND" H 5300 6550 50  0001 C CNN "Vendor #"
+F 6 "Digi-Key" H 5300 6650 50  0001 C CNN "Vendor"
+	1    5300 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L capacitor_0402:10uF C?
+U 1 1 605717F3
+P 6750 5850
+F 0 "C?" H 6865 5946 50  0000 L CNN
+F 1 "10uF" H 6865 5855 50  0000 L CNN
+F 2 "luke-footprints:C_0402_1005Metric" H 6788 6450 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R60J106ME05-01A.pdf" H 6775 6700 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/murata-electronics/GRM155R60J106ME05D/11500166" H 7175 6350 60  0001 C CNN "Vendor Link"
+F 5 "490-GRM155R60J106ME05DCT-ND" H 6750 6550 50  0001 C CNN "Vendor #"
+F 6 "Digi-Key" H 6750 6650 50  0001 C CNN "Vendor"
+	1    6750 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L integrated_circuits:MCU_STM32L051K8U6 U?
+U 1 1 6037F1EC
+P 3200 2150
+F 0 "U?" H 3800 1100 50  0000 C CNN
+F 1 "MCU_STM32L051K8U6" H 3800 1000 50  0000 C CNN
+F 2 "luke-footprints:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm" H 2700 1250 50  0001 R CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00108219.pdf" H 3200 2150 50  0001 R CNN
+F 4 "Digi-Key" H 2700 1050 50  0001 R CNN "Vendor"
+F 5 "497-17490-ND" H 2700 950 50  0001 R CNN "Vendor #"
+F 6 "https://www.digikey.com/en/products/detail/stmicroelectronics/STM32L051K8U6/5051352" H 2700 1150 50  0001 R CNN "Vendor Link"
+	1    3200 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 1950 1800 1950
+Wire Wire Line
+	2600 1850 900  1850
+Wire Wire Line
+	2600 1450 2600 1150
+Wire Wire Line
+	2600 1150 2250 1150
+Wire Wire Line
+	2600 1650 2350 1650
+Wire Wire Line
+	2350 1650 2350 1550
+Wire Wire Line
+	2350 1550 2250 1550
+Wire Wire Line
+	2250 1550 2250 1600
+Wire Wire Line
+	2250 1500 2250 1550
+Connection ~ 2250 1550
+$Comp
+L capacitor_0402:0.1uF C?
+U 1 1 603DEDE1
+P 3950 6950
+F 0 "C?" H 4065 7046 50  0000 L CNN
+F 1 "0.1uF" H 4065 6955 50  0000 L CNN
+F 2 "luke-footprints:C_0402_1005Metric" H 3988 7550 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL05B104KO5NNNC.pdf" H 3975 7800 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05B104KO5NNNC/3886659" H 4375 7450 60  0001 C CNN "Vendor Link"
+F 5 "1276-1001-1-ND" H 3950 7650 50  0001 C CNN "Vendor #"
+F 6 "Digi-Key" H 3950 7750 50  0001 C CNN "Vendor"
+	1    3950 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L capacitor_0402:4.7uF C?
+U 1 1 603DFCA5
+P 4450 6950
+F 0 "C?" H 4565 7046 50  0000 L CNN
+F 1 "4.7uF" H 4565 6955 50  0000 L CNN
+F 2 "luke-footprints:C_0402_1005Metric" H 4488 7550 50  0001 C CNN
+F 3 "https://www.samsungsem.com/kr/support/product-search/mlcc/CL10A475KP8NNNC.jsp" H 4475 7800 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05A475MP5NRNC/3887140" H 4875 7450 60  0001 C CNN "Vendor Link"
+F 5 "1276-1482-1-ND" H 4450 7650 50  0001 C CNN "Vendor #"
+F 6 "Digi-Key" H 4450 7750 50  0001 C CNN "Vendor"
+	1    4450 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L capacitor_0402:4.7uF C?
+U 1 1 603E79F5
+P 2500 4950
+F 0 "C?" H 2615 5046 50  0000 L CNN
+F 1 "4.7uF" H 2615 4955 50  0000 L CNN
+F 2 "luke-footprints:C_0402_1005Metric" H 2538 5550 50  0001 C CNN
+F 3 "https://www.samsungsem.com/kr/support/product-search/mlcc/CL10A475KP8NNNC.jsp" H 2525 5800 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05A475MP5NRNC/3887140" H 2925 5450 60  0001 C CNN "Vendor Link"
+F 5 "1276-1482-1-ND" H 2500 5650 50  0001 C CNN "Vendor #"
+F 6 "Digi-Key" H 2500 5750 50  0001 C CNN "Vendor"
+	1    2500 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L capacitor_0402:0.01uF C?
+U 1 1 603EB854
+P 2550 7300
+F 0 "C?" H 2665 7396 50  0000 L CNN
+F 1 "0.01uF" H 2665 7305 50  0000 L CNN
+F 2 "luke-footprints:C_0402_1005Metric" H 2588 7900 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL05B103KB5NNN_Spec.pdf" H 2575 8150 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05B103KB5NNNC/3886686" H 2975 7800 60  0001 C CNN "Vendor Link"
+F 5 "1276-1028-1-ND" H 2550 8000 50  0001 C CNN "Vendor #"
+F 6 "Digi-Key" H 2550 8100 50  0001 C CNN "Vendor"
+	1    2550 7300
+	1    0    0    -1  
+$EndComp
+Text Label 6900 1250 2    50   ~ 0
+BUTTON
+$Comp
+L resistor_special:Photo_27-60K R?
+U 1 1 604218C2
+P 7100 3050
+F 0 "R?" H 7170 3096 50  0000 L CNN
+F 1 "Photo_27-60K" H 7170 3005 50  0000 L CNN
+F 2 "luke-footprints:R_LDR_5.1x4.3mm_P3.4mm_Vertical" H 7850 3050 50  0001 L CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Photonic%20Detetectors%20Inc%20PDFs/PDV-P8104.pdf" H 7100 3000 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/advanced-photonix/PDV-P8104/480611" H 7100 2500 50  0001 C CNN "Vendor Link"
+F 5 "PDV-P8104-ND" H 7100 2400 50  0001 C CNN "Vendor #"
+F 6 "Digi-Key" H 7100 2600 50  0001 C CNN "Vendor"
+	1    7100 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L resistor_0603:JUMPER R?
+U 1 1 6042A731
+P 7100 2650
+F 0 "R?" H 7170 2696 50  0000 L CNN
+F 1 "JUMPER" H 7170 2605 50  0000 L CNN
+F 2 "luke-footprints:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 7250 2450 50  0001 L CNN
+F 3 "https://www.vishay.com/docs/20035/dcrcwe3.pdf" H 6000 3050 50  0001 L CNN
+F 4 "https://www.digikey.com/en/products/detail/vishay-dale/CRCW06030000Z0EA/1174156" H 7250 2150 60  0001 L CNN "Vendor Link"
+F 5 "Digi-Key" H 7250 2350 50  0001 L CNN "Vendor"
+F 6 "541-0.0GCT-ND" H 7250 2250 50  0001 L CNN "Vendor #"
+	1    7100 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 2800 7100 2850
+Text Label 7150 2850 0    50   ~ 0
+LIGHT
+Wire Wire Line
+	7150 2850 7100 2850
+Connection ~ 7100 2850
+Wire Wire Line
+	7100 2850 7100 2900
+$Comp
+L power:GND #PWR?
+U 1 1 60438469
+P 7100 3200
+F 0 "#PWR?" H 7100 2950 50  0001 C CNN
+F 1 "GND" H 7105 3027 50  0000 C CNN
+F 2 "" H 7100 3200 50  0001 C CNN
+F 3 "" H 7100 3200 50  0001 C CNN
+	1    7100 3200
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

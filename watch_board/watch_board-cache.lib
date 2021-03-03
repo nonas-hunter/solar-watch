@@ -1,0 +1,816 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# capacitor_0402_0.01uF
+#
+DEF capacitor_0402_0.01uF C 0 10 N Y 1 F N
+F0 "C" 25 150 50 H V L CNN
+F1 "capacitor_0402_0.01uF" 25 -50 50 H V L CNN
+F2 "luke-footprints:C_0402_1005Metric" 38 600 50 H I C CNN
+F3 "" 25 850 50 H I C CNN
+F4 "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05B103KB5NNNC/3886686" 425 500 60 H I C CNN "Vendor Link"
+F5 "1276-1028-1-ND" 0 700 50 H I C CNN "Vendor #"
+F6 "Digi-Key" 0 800 50 H I C CNN "Vendor"
+$FPLIST
+ C?
+ C_????_*
+ C_????
+ SMD*_c
+ Capacitor*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 20 80 20 N
+P 2 0 1 20 -80 80 80 80 N
+X ~ 1 0 200 110 D 50 50 1 1 P
+X ~ 2 0 -100 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_0402_0.1uF
+#
+DEF capacitor_0402_0.1uF C 0 10 N Y 1 F N
+F0 "C" 25 150 50 H V L CNN
+F1 "capacitor_0402_0.1uF" 25 -50 50 H V L CNN
+F2 "luke-footprints:C_0402_1005Metric" 38 600 50 H I C CNN
+F3 "" 25 850 50 H I C CNN
+F4 "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05B104KO5NNNC/3886659" 425 500 60 H I C CNN "Vendor Link"
+F5 "1276-1001-1-ND" 0 700 50 H I C CNN "Vendor #"
+F6 "Digi-Key" 0 800 50 H I C CNN "Vendor"
+$FPLIST
+ C?
+ C_????_*
+ C_????
+ SMD*_c
+ Capacitor*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 20 80 20 N
+P 2 0 1 20 -80 80 80 80 N
+X ~ 1 0 200 110 D 50 50 1 1 P
+X ~ 2 0 -100 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_0402_10uF
+#
+DEF capacitor_0402_10uF C 0 10 N Y 1 F N
+F0 "C" 25 150 50 H V L CNN
+F1 "capacitor_0402_10uF" 25 -50 50 H V L CNN
+F2 "luke-footprints:C_0402_1005Metric" 38 600 50 H I C CNN
+F3 "" 25 850 50 H I C CNN
+F4 "https://www.digikey.com/en/products/detail/murata-electronics/GRM155R60J106ME05D/11500166" 425 500 60 H I C CNN "Vendor Link"
+F5 "490-GRM155R60J106ME05DCT-ND" 0 700 50 H I C CNN "Vendor #"
+F6 "Digi-Key" 0 800 50 H I C CNN "Vendor"
+$FPLIST
+ C?
+ C_????_*
+ C_????
+ SMD*_c
+ Capacitor*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 20 80 20 N
+P 2 0 1 20 -80 80 80 80 N
+X ~ 1 0 200 110 D 50 50 1 1 P
+X ~ 2 0 -100 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_0402_1uF
+#
+DEF capacitor_0402_1uF C 0 10 N Y 1 F N
+F0 "C" 25 150 50 H V L CNN
+F1 "capacitor_0402_1uF" 25 -50 50 H V L CNN
+F2 "luke-footprints:C_0402_1005Metric" 38 600 50 H I C CNN
+F3 "" 25 850 50 H I C CNN
+F4 "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05A105KQ5NNNC/3886668" 425 500 60 H I C CNN "Vendor Link"
+F5 "1276-1010-1-ND" 0 700 50 H I C CNN "Vendor #"
+F6 "Digi-Key" 0 800 50 H I C CNN "Vendor"
+$FPLIST
+ C?
+ C_????_*
+ C_????
+ SMD*_c
+ Capacitor*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 20 80 20 N
+P 2 0 1 20 -80 80 80 80 N
+X ~ 1 0 200 110 D 50 50 1 1 P
+X ~ 2 0 -100 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_0402_2.2uF
+#
+DEF capacitor_0402_2.2uF C 0 10 N Y 1 F N
+F0 "C" 25 150 50 H V L CNN
+F1 "capacitor_0402_2.2uF" 25 -50 50 H V L CNN
+F2 "luke-footprints:C_0402_1005Metric" 38 600 50 H I C CNN
+F3 "" 25 850 50 H I C CNN
+F4 "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05A225MQ5NNNC/3887127" 425 500 60 H I C CNN "Vendor Link"
+F5 "1276-1469-1-ND" 0 700 50 H I C CNN "Vendor #"
+F6 "Digi-Key" 0 800 50 H I C CNN "Vendor"
+$FPLIST
+ C?
+ C_????_*
+ C_????
+ SMD*_c
+ Capacitor*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 20 80 20 N
+P 2 0 1 20 -80 80 80 80 N
+X ~ 1 0 200 110 D 50 50 1 1 P
+X ~ 2 0 -100 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_0402_20pF
+#
+DEF capacitor_0402_20pF C 0 10 N Y 1 F N
+F0 "C" 25 150 50 H V L CNN
+F1 "capacitor_0402_20pF" 25 -50 50 H V L CNN
+F2 "luke-footprints:C_0402_1005Metric" 38 600 50 H I C CNN
+F3 "" 25 850 50 H I C CNN
+F4 "https://www.digikey.com/en/products/detail/yageo/CC0402JRNPO9BN200/2833582" 425 500 60 H I C CNN "Vendor Link"
+F5 "311-1417-1-ND" 0 700 50 H I C CNN "Vendor #"
+F6 "Digi-Key" 0 800 50 H I C CNN "Vendor"
+$FPLIST
+ C?
+ C_????_*
+ C_????
+ SMD*_c
+ Capacitor*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 20 80 20 N
+P 2 0 1 20 -80 80 80 80 N
+X ~ 1 0 200 110 D 50 50 1 1 P
+X ~ 2 0 -100 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_0402_4.7uF
+#
+DEF capacitor_0402_4.7uF C 0 10 N Y 1 F N
+F0 "C" 25 150 50 H V L CNN
+F1 "capacitor_0402_4.7uF" 25 -50 50 H V L CNN
+F2 "luke-footprints:C_0402_1005Metric" 38 600 50 H I C CNN
+F3 "" 25 850 50 H I C CNN
+F4 "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05A475MP5NRNC/3887140" 425 500 60 H I C CNN "Vendor Link"
+F5 "1276-1482-1-ND" 0 700 50 H I C CNN "Vendor #"
+F6 "Digi-Key" 0 800 50 H I C CNN "Vendor"
+$FPLIST
+ C?
+ C_????_*
+ C_????
+ SMD*_c
+ Capacitor*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 20 80 20 N
+P 2 0 1 20 -80 80 80 80 N
+X ~ 1 0 200 110 D 50 50 1 1 P
+X ~ 2 0 -100 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# inductor_10uH
+#
+DEF inductor_10uH L 0 40 N N 1 F N
+F0 "L" 0 -50 50 H V C CNN
+F1 "inductor_10uH" 0 100 50 H V C CNN
+F2 "luke-footprints:L_1812_4532Metric" -100 -200 50 H I C CNN
+F3 "" -100 -150 50 H I C CNN
+F4 "https://www.digikey.com/product-detail/en/murata-electronics/LQH43CN100K03L/490-2519-1-ND/599992" 300 200 50 H I C CNN "Vendor Link"
+F5 " 490-2519-1-ND" 0 -300 50 H I C CNN "Vendor #"
+F6 "Digi-Key" 0 300 50 H I C CNN "Vendor"
+DRAW
+A -60 0 20 1 1799 1 1 0 N -40 0 -80 0
+A -20 0 20 1 1799 1 1 0 N 0 0 -40 0
+A 20 0 20 1 1799 1 1 0 N 40 0 0 0
+A 60 0 20 1 1799 1 1 0 N 80 0 40 0
+X ~ 1 -100 0 20 R 50 50 1 1 P
+X ~ 2 100 0 20 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# inductor_22uH
+#
+DEF inductor_22uH L 0 40 N N 1 F N
+F0 "L" 0 -50 50 H V C CNN
+F1 "inductor_22uH" 0 100 50 H V C CNN
+F2 "luke-footprints:L_Wuerth_WE-TPC-3816" -100 -200 50 H I C CNN
+F3 "" -100 -150 50 H I C CNN
+F4 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/744031220/732-1012-1-ND/1639073" 0 -400 50 H I C CNN "Vendor Link"
+F5 "732-1012-1-ND" 0 -300 50 H I C CNN "Vendor #"
+F6 "Digi-Key" 0 -500 50 H I C CNN "Vendor"
+DRAW
+A -60 0 20 1 1799 1 1 0 N -40 0 -80 0
+A -20 0 20 1 1799 1 1 0 N 0 0 -40 0
+A 20 0 20 1 1799 1 1 0 N 40 0 0 0
+A 60 0 20 1 1799 1 1 0 N 80 0 40 0
+X ~ 1 -100 0 20 R 50 50 1 1 P
+X ~ 2 100 0 20 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# integrated_circuits_MCU_STM32L051K8U6
+#
+DEF integrated_circuits_MCU_STM32L051K8U6 U 0 20 Y Y 1 F N
+F0 "U" -500 850 50 H V L CNN
+F1 "integrated_circuits_MCU_STM32L051K8U6" 200 850 50 H V L CNN
+F2 "luke-footprints:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm" -500 -900 50 H I R CNN
+F3 "" 0 0 50 H I R CNN
+F4 "Digi-Key" -500 -1100 50 H I R CNN "Vendor"
+F5 "497-17490-ND" -500 -1200 50 H I R CNN "Vendor #"
+F6 "https://www.digikey.com/en/products/detail/stmicroelectronics/STM32L051K8U6/5051352" -500 -1000 50 H I R CNN "Vendor Link"
+$FPLIST
+ QFN*1EP*5x5mm*P0.5mm*
+$ENDFPLIST
+DRAW
+S -500 -900 400 800 0 1 10 f
+X VDD 1 -100 900 100 D 50 50 1 1 W
+X PA4 10 500 300 100 L 50 50 1 1 B
+X PA5 11 500 200 100 L 50 50 1 1 B
+X PA6 12 500 100 100 L 50 50 1 1 B
+X PA7 13 500 0 100 L 50 50 1 1 B
+X PB0 14 -600 0 100 R 50 50 1 1 B
+X PB1 15 -600 -100 100 R 50 50 1 1 B
+X PB2 16 -600 -200 100 R 50 50 1 1 B
+X VDD 17 0 900 100 D 50 50 1 1 W
+X PA8 18 500 -100 100 L 50 50 1 1 B
+X PA9 19 500 -200 100 L 50 50 1 1 B
+X PC14 2 -600 300 100 R 50 50 1 1 B
+X PA10 20 500 -300 100 L 50 50 1 1 B
+X PA11 21 500 -400 100 L 50 50 1 1 B
+X PA12 22 500 -500 100 L 50 50 1 1 B
+X PA13 23 500 -600 100 L 50 50 1 1 B
+X PA14 24 500 -700 100 L 50 50 1 1 B
+X PA15 25 500 -800 100 L 50 50 1 1 B
+X PB3 26 -600 -300 100 R 50 50 1 1 B
+X PB4 27 -600 -400 100 R 50 50 1 1 B
+X PB5 28 -600 -500 100 R 50 50 1 1 B
+X PB6 29 -600 -600 100 R 50 50 1 1 B
+X PC15 3 -600 200 100 R 50 50 1 1 B
+X PB7 30 -600 -700 100 R 50 50 1 1 B
+X BOOT0 31 -600 500 100 R 50 50 1 1 I
+X PB8 32 -600 -800 100 R 50 50 1 1 B
+X VSS 33 0 -1000 100 U 50 50 1 1 W
+X NRST 4 -600 700 100 R 50 50 1 1 I
+X VDDA 5 100 900 100 D 50 50 1 1 W
+X PA0 6 500 700 100 L 50 50 1 1 B
+X PA1 7 500 600 100 L 50 50 1 1 B
+X PA2 8 500 500 100 L 50 50 1 1 B
+X PA3 9 500 400 100 L 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# integrated_circuits_Regulator_BQ25504
+#
+DEF integrated_circuits_Regulator_BQ25504 U 0 40 Y Y 1 F N
+F0 "U" -600 600 50 H V R CNN
+F1 "integrated_circuits_Regulator_BQ25504" -550 500 50 H V R CNN
+F2 "luke-footprints:VQFN-16-1EP_3x3mm_P0.5mm_EP1.8x1.8mm_ThermalVias" 0 -1300 50 H I C CNN
+F3 "" -300 800 50 H I C CNN
+F4 "https://www.digikey.com/product-detail/en/texas-instruments/BQ25504RGTT/296-29741-1-ND/2766003" 0 -1400 50 H I C CNN "Vendor Link"
+F5 "296-29741-1-ND" 0 -1500 50 H I C CNN "Vendor #"
+F6 "Digi-Key" 0 -1600 50 H I C CNN "Vendor"
+$FPLIST
+ *QFN*3x3mm*P0.5mm*
+$ENDFPLIST
+DRAW
+S -500 700 500 -700 0 1 10 f
+X VSS 1 -150 -800 100 U 50 50 1 1 W
+X OK_PROG 10 -600 -200 100 R 50 50 1 1 I
+X VBAT_OK 11 600 300 100 L 50 50 1 1 O
+X AVSS 12 -350 -800 100 U 50 50 1 1 W
+X VSS 13 -250 -800 100 U 50 50 1 1 P
+X VBAT 14 400 800 100 D 50 50 1 1 w
+X VSTOR 15 600 -300 100 L 50 50 1 1 B
+X LBST 16 100 800 100 D 50 50 1 1 B
+X PAD 17 250 -800 100 U 50 50 1 1 P
+X VIN_DC 2 -400 800 100 D 50 50 1 1 W
+X VOC_SAMP 3 -600 300 100 R 50 50 1 1 I
+X VREF_SAMP 4 -600 -300 100 R 50 50 1 1 B
+X OT_PROG 5 -600 -400 100 R 50 50 1 1 I
+X VBAT_OV 6 -600 100 100 R 50 50 1 1 I
+X VRDIV 7 -600 200 100 R 50 50 1 1 O
+X VBAT_UV 8 -600 0 100 R 50 50 1 1 I
+X OK_HYST 9 -600 -100 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# integrated_circuits_Regulator_LTC3531-3.3
+#
+DEF integrated_circuits_Regulator_LTC3531-3.3 U 0 10 Y Y 1 F N
+F0 "U" 0 500 50 H V C CNN
+F1 "integrated_circuits_Regulator_LTC3531-3.3" 0 400 50 H V C CNN
+F2 "luke-footprints:DFN-8-1EP_3x3mm_P0.65mm_EP1.7x2.05mm" 0 -1200 50 H I C CNN
+F3 "" 0 -1150 50 H I C CNN
+F4 "LTC3531EDD-3.3#PBF-ND" 0 -1050 50 H I C CNN "Vendor #"
+F5 "https://www.digikey.com/en/products/detail/analog-devices-inc/LTC3531EDD-3-3-PBF/1620258" 0 -1300 50 H I C CNN "Vendor Link"
+F6 "Digi-Key" 0 -1400 50 H I C CNN "Vendor"
+$FPLIST
+ *SC?70*
+ SOT?363*
+$ENDFPLIST
+DRAW
+S -300 350 300 -350 0 1 0 f
+X SW1 1 -400 250 100 R 50 50 1 1 P
+X VIN 2 -400 100 100 R 50 50 1 1 W
+X GND 3 0 -450 100 U 50 50 1 1 w
+X ~SHDN 4 -400 -50 100 R 50 50 1 1 w
+X FB 5 400 -50 100 L 50 50 1 1 N
+X VOUT 6 400 100 100 L 50 50 1 1 W
+X SW2 7 400 250 100 L 50 50 1 1 P
+X PGND 8 -150 -450 100 U 50 50 1 1 w
+X GND 9 150 -450 100 U 50 50 1 1 w
+ENDDRAW
+ENDDEF
+#
+# integrated_circuits_Transistor_NX3020NAKV
+#
+DEF integrated_circuits_Transistor_NX3020NAKV Q 0 40 Y Y 1 F N
+F0 "Q" 0 400 50 H V C CNN
+F1 "integrated_circuits_Transistor_NX3020NAKV" 0 300 50 H V C CNN
+F2 "" 0 -350 50 H I C CNN
+F3 "" 0 -350 50 H I C CNN
+F4 "Digi-Key" 0 -300 50 H I C CNN "Vendor"
+F5 "1727-1287-1-ND" 0 -400 50 H I C CNN "Vendor #"
+F6 "https://www.digikey.com/en/products/detail/nexperia-usa-inc/NX3020NAKV-115/3679427" 0 -500 50 H I C CNN "Vendor Link"
+DRAW
+S 300 -250 -300 250 0 1 0 f
+X S1 1 -400 -150 100 R 50 50 1 1 P
+X G1 2 -400 0 100 R 50 50 1 1 I
+X D2 3 -400 150 100 R 50 50 1 1 P
+X S2 4 400 -150 100 L 50 50 1 1 P
+X G2 5 400 0 100 L 50 50 1 1 I
+X D1 6 400 150 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# luke_Buzzer_PB9.9-3V
+#
+DEF luke_Buzzer_PB9.9-3V BZ 0 1 Y N 1 F N
+F0 "BZ" 150 50 50 H V L CNN
+F1 "luke_Buzzer_PB9.9-3V" 150 -50 50 H V L CNN
+F2 "" -25 100 50 V I C CNN
+F3 "" -25 100 50 V I C CNN
+F4 "https://www.digikey.com/product-detail/en/visaton-gmbh-co-kg/PB-9-9-3-V/2056-PB9-9-3V-ND/10650372" 0 0 50 H I C CNN "Purchasing Link"
+$FPLIST
+ *Buzzer*
+$ENDFPLIST
+DRAW
+A 0 0 125 -899 899 0 1 0 N 0 -125 0 125
+P 2 0 1 0 -65 75 -45 75 N
+P 2 0 1 0 -55 85 -55 65 N
+P 2 0 1 0 0 125 0 -125 N
+X - 1 -100 100 100 R 50 50 1 1 P
+X + 2 -100 -100 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# power_+3.3V
+#
+DEF power_+3.3V #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_+3.3V" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+ALIAS +3.3V
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +3V3 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_GND
+#
+DEF power_GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_PWR_FLAG
+#
+DEF power_PWR_FLAG #FLG 0 0 N N 1 F P
+F0 "#FLG" 0 75 50 H I C CNN
+F1 "power_PWR_FLAG" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 50 -40 75 0 100 40 75 0 50 N
+X pwr 1 0 0 0 U 50 50 0 0 w
+ENDDRAW
+ENDDEF
+#
+# resistor_0402_1.82M
+#
+DEF resistor_0402_1.82M R 0 0 N Y 1 F N
+F0 "R" 100 0 50 V V C CNN
+F1 "resistor_0402_1.82M" -100 0 50 V V C CNN
+F2 "luke-footprints:R_0402_1005Metric" 150 -200 50 H I L CNN
+F3 "" -1100 400 50 H I L CNN
+F4 "https://www.digikey.com/en/products/detail/yageo/RC0402FR-071M82L/5917580" 150 -500 60 H I L CNN "Vendor Link"
+F5 "Digi-Key" 150 -300 50 H I L CNN "Vendor"
+F6 "13-RC0402FR-071M82LCT-ND" 150 -400 50 H I L CNN "Vendor #"
+$FPLIST
+ R_*
+ Resistor_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# resistor_0402_10M
+#
+DEF resistor_0402_10M R 0 0 N Y 1 F N
+F0 "R" 100 0 50 V V C CNN
+F1 "resistor_0402_10M" -100 0 50 V V C CNN
+F2 "luke-footprints:R_0402_1005Metric" 150 -200 50 H I L CNN
+F3 "" -1100 400 50 H I L CNN
+F4 "https://www.digikey.com/en/products/detail/yageo/RC0402FR-0710ML/2827572" 150 -500 60 H I L CNN "Vendor Link"
+F5 "Digi-Key" 150 -300 50 H I L CNN "Vendor"
+F6 "311-10.0MLRCT-ND" 150 -400 50 H I L CNN "Vendor #"
+$FPLIST
+ R_*
+ Resistor_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# resistor_0402_3.83M
+#
+DEF resistor_0402_3.83M R 0 0 N Y 1 F N
+F0 "R" 100 0 50 V V C CNN
+F1 "resistor_0402_3.83M" -100 0 50 V V C CNN
+F2 "luke-footprints:R_0402_1005Metric" 150 -200 50 H I L CNN
+F3 "" -1100 400 50 H I L CNN
+F4 "https://www.digikey.com/en/products/detail/vishay-dale/CRCW04023M83FKED/1178414" 150 -500 60 H I L CNN "Vendor Link"
+F5 "Digi-Key" 150 -300 50 H I L CNN "Vendor"
+F6 "541-3.83MLCT-ND" 150 -400 50 H I L CNN "Vendor #"
+$FPLIST
+ R_*
+ Resistor_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# resistor_0402_4.02M
+#
+DEF resistor_0402_4.02M R 0 0 N Y 1 F N
+F0 "R" 100 0 50 V V C CNN
+F1 "resistor_0402_4.02M" -100 0 50 V V C CNN
+F2 "luke-footprints:R_0402_1005Metric" 150 -200 50 H I L CNN
+F3 "" -1100 400 50 H I L CNN
+F4 "https://www.digikey.com/en/products/detail/vishay-dale/CRCW04024M02FKED/1178417" 150 -500 60 H I L CNN "Vendor Link"
+F5 "Digi-Key" 150 -300 50 H I L CNN "Vendor"
+F6 "541-4.02MLCT-ND" 150 -400 50 H I L CNN "Vendor #"
+$FPLIST
+ R_*
+ Resistor_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# resistor_0402_4.42M
+#
+DEF resistor_0402_4.42M R 0 0 N Y 1 F N
+F0 "R" 100 0 50 V V C CNN
+F1 "resistor_0402_4.42M" -100 0 50 V V C CNN
+F2 "luke-footprints:R_0402_1005Metric" 150 -200 50 H I L CNN
+F3 "" -1100 400 50 H I L CNN
+F4 "https://www.digikey.com/en/products/detail/vishay-dale/CRCW04024M42FKED/1178422" 150 -500 60 H I L CNN "Vendor Link"
+F5 "Digi-Key" 150 -300 50 H I L CNN "Vendor"
+F6 "541-4.42MLCT-ND" 150 -400 50 H I L CNN "Vendor #"
+$FPLIST
+ R_*
+ Resistor_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# resistor_0402_4.53M
+#
+DEF resistor_0402_4.53M R 0 0 N Y 1 F N
+F0 "R" 100 0 50 V V C CNN
+F1 "resistor_0402_4.53M" -100 0 50 V V C CNN
+F2 "luke-footprints:R_0402_1005Metric" 150 -200 50 H I L CNN
+F3 "" -1100 400 50 H I L CNN
+F4 "https://www.digikey.com/en/products/detail/vishay-dale/CRCW04024M53FKED/1178423" 150 -500 60 H I L CNN "Vendor Link"
+F5 "Digi-Key" 150 -300 50 H I L CNN "Vendor"
+F6 "541-4.53MLCT-ND" 150 -400 50 H I L CNN "Vendor #"
+$FPLIST
+ R_*
+ Resistor_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# resistor_0402_5.76M
+#
+DEF resistor_0402_5.76M R 0 0 N Y 1 F N
+F0 "R" 100 0 50 V V C CNN
+F1 "resistor_0402_5.76M" -100 0 50 V V C CNN
+F2 "luke-footprints:R_0402_1005Metric" 150 -200 50 H I L CNN
+F3 "" -1100 400 50 H I L CNN
+F4 "https://www.digikey.com/en/products/detail/vishay-dale/CRCW04025M76FKED/2555940?s=N4IgjCBcpgbFoDGUBmBDANgZwKYBoQB7KAbRAGYBOMAVgA4QBdAgBwBcoQBlNgJwEsAdgHMQAXwIAmAAx0aCEO04BVQfzYB5FAFkcaLAFdeOEAQOdtGgBYBbLKZA2hnGgDoA7PAI20ADxce8BIgALSSCsiQfAb4RKQg8gSUTKwckCDiYmJAA" 150 -500 60 H I L CNN "Vendor Link"
+F5 "Digi-Key" 150 -300 50 H I L CNN "Vendor"
+F6 "541-CRCW04025M76FKEDCT-ND" 150 -400 50 H I L CNN "Vendor #"
+$FPLIST
+ R_*
+ Resistor_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# resistor_0402_6.04M
+#
+DEF resistor_0402_6.04M R 0 0 N Y 1 F N
+F0 "R" 100 0 50 V V C CNN
+F1 "resistor_0402_6.04M" -100 0 50 V V C CNN
+F2 "luke-footprints:R_0402_1005Metric" 150 -200 50 H I L CNN
+F3 "" -1100 400 50 H I L CNN
+F4 "https://www.digikey.com/en/products/detail/yageo/RC0402FR-076M04L/5917730" 150 -500 60 H I L CNN "Vendor Link"
+F5 "Digi-Key" 150 -300 50 H I L CNN "Vendor"
+F6 "13-RC0402FR-076M04LCT-ND" 150 -400 50 H I L CNN "Vendor #"
+$FPLIST
+ R_*
+ Resistor_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# resistor_0402_6.2M
+#
+DEF resistor_0402_6.2M R 0 0 N Y 1 F N
+F0 "R" 100 0 50 V V C CNN
+F1 "resistor_0402_6.2M" -100 0 50 V V C CNN
+F2 "luke-footprints:R_0402_1005Metric" 150 -200 50 H I L CNN
+F3 "" -1100 400 50 H I L CNN
+F4 "https://www.digikey.com/en/products/detail/yageo/RC0402FR-076M2L/5917732" 150 -500 60 H I L CNN "Vendor Link"
+F5 "Digi-Key" 150 -300 50 H I L CNN "Vendor"
+F6 "13-RC0402FR-076M2LCT-ND" 150 -400 50 H I L CNN "Vendor #"
+$FPLIST
+ R_*
+ Resistor_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# resistor_0603_10K
+#
+DEF resistor_0603_10K R 0 0 N Y 1 F N
+F0 "R" 100 0 50 V V C CNN
+F1 "resistor_0603_10K" -100 0 50 V V C CNN
+F2 "luke-footprints:R_0603_1608Metric" 150 -200 50 H I L CNN
+F3 "" -1100 400 50 H I L CNN
+F4 "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RNCP0603FTD10K0/2240139" 150 -500 60 H I L CNN "Vendor Link"
+F5 "Digi-Key" 150 -300 50 H I L CNN "Vendor"
+F6 "RNCP0603FTD10K0CT-ND" 150 -400 50 H I L CNN "Vendor #"
+$FPLIST
+ R_*
+ Resistor_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# resistor_0603_604
+#
+DEF resistor_0603_604 R 0 0 N Y 1 F N
+F0 "R" 100 0 50 V V C CNN
+F1 "resistor_0603_604" -100 0 50 V V C CNN
+F2 "luke-footprints:R_0603_1608Metric" 150 -200 50 H I L CNN
+F3 "" -1100 400 50 H I L CNN
+F4 "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0603FT604R/1714163" 150 -500 60 H I L CNN "Vendor Link"
+F5 "Digi-Key" 150 -300 50 H I L CNN "Vendor"
+F6 "RMCF0603FT604RCT-ND" 150 -400 50 H I L CNN "Vendor #"
+$FPLIST
+ R_*
+ Resistor_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# resistor_0603_JUMPER
+#
+DEF resistor_0603_JUMPER R 0 0 N Y 1 F N
+F0 "R" 100 0 50 V V C CNN
+F1 "resistor_0603_JUMPER" -100 0 50 V V C CNN
+F2 "luke-footprints:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" 150 -200 50 H I L CNN
+F3 "" -1100 400 50 H I L CNN
+F4 "https://www.digikey.com/en/products/detail/vishay-dale/CRCW06030000Z0EA/1174156" 150 -500 60 H I L CNN "Vendor Link"
+F5 "Digi-Key" 150 -300 50 H I L CNN "Vendor"
+F6 "541-0.0GCT-ND" 150 -400 50 H I L CNN "Vendor #"
+$FPLIST
+ R_*
+ Resistor_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# resistor_0805_JUMPER
+#
+DEF resistor_0805_JUMPER R 0 0 N Y 1 F N
+F0 "R" 100 0 50 V V C CNN
+F1 "resistor_0805_JUMPER" -100 0 50 V V C CNN
+F2 "luke-footprints:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" 150 -200 50 H I L CNN
+F3 "" -1100 400 50 H I L CNN
+F4 "https://www.digikey.com/en/products/detail/yageo/RC0805JR-070RL/728216" 150 -500 60 H I L CNN "Vendor Link"
+F5 "Digi-Key" 150 -300 50 H I L CNN "Vendor"
+F6 "311-0.0ARCT-ND" 150 -400 50 H I L CNN "Vendor #"
+$FPLIST
+ R_*
+ Resistor_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# resistor_special_Photo_27-60K
+#
+DEF resistor_special_Photo_27-60K R 0 0 N Y 1 F N
+F0 "R" 50 50 50 H V L CNN
+F1 "resistor_special_Photo_27-60K" 50 0 50 H V L TNN
+F2 "luke-footprints:R_LDR_5.1x4.3mm_P3.4mm_Vertical" 750 0 50 H I L CNN
+F3 "" 0 -50 50 H I C CNN
+F4 "https://www.digikey.com/en/products/detail/advanced-photonix/PDV-P8104/480611" 0 -550 50 H I C CNN "Vendor Link"
+F5 "PDV-P8104-ND" 0 -650 50 H I C CNN "Vendor #"
+F6 "Digi-Key" 0 -450 50 H I C CNN "Vendor"
+$FPLIST
+ *LDR*
+ R?LDR*
+$ENDFPLIST
+DRAW
+S -40 100 40 -100 0 1 10 N
+P 2 0 1 0 -60 -90 -160 10 N
+P 2 0 1 0 -60 -90 -90 -90 N
+P 2 0 1 0 -60 -90 -60 -60 N
+P 2 0 1 0 -60 -30 -160 70 N
+P 2 0 1 0 -60 -30 -90 -30 N
+P 2 0 1 0 -60 -30 -60 0 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# special_BAT_ML2020
+#
+DEF special_BAT_ML2020 BT 0 0 N N 1 F N
+F0 "BT" 100 100 50 H V L CNN
+F1 "special_BAT_ML2020" 100 0 50 H V L CNN
+F2 "luke-footprints:Battery_Panasonic_ML2020_F1AN" 100 -350 50 H I L CNN
+F3 "" 0 60 50 V I L CNN
+F4 "https://www.digikey.com/product-detail/en/panasonic-bsg/ML-2020-F1AN/P664-ND/2404069" 100 -450 50 H I L CNN "Vendor Link"
+F5 "P664-ND" 100 -250 50 H I L CNN "Vendor #"
+F6 "https://industrial.panasonic.com/cdbs/www-data/pdf/AAF4000/AAF4000COL8.pdf" 100 -550 50 H I L CNN "Charging Datasheet"
+F7 "Digi-Key" 100 -150 50 H I L CNN "Vendor"
+DRAW
+S -90 70 90 60 0 1 0 F
+S -62 47 58 27 0 1 0 F
+P 2 0 1 0 0 30 0 0 N
+P 2 0 1 0 0 70 0 100 N
+P 2 0 1 10 20 135 60 135 N
+P 2 0 1 10 40 155 40 115 N
+X - Neg 0 -100 100 U 50 50 1 1 P
+X + Pos 0 200 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# special_Crystals_32.768-SMD
+#
+DEF special_Crystals_32.768-SMD XTAL 0 40 Y Y 1 F N
+F0 "XTAL" 0 150 50 H V C CNN
+F1 "special_Crystals_32.768-SMD" 0 -150 50 H V C CNN
+F2 "luke-footprints:SMD-2_3.2x1.5mm" 200 200 60 H I L CNN
+F3 "" 200 300 60 H I L CNN
+F4 "XC1617CT-ND" 200 400 60 H I L CNN "Vendor #"
+F5 "ECS-.327-12.5-34B-TR" 200 500 60 H I L CNN "MFR#"
+F6 "Crystals" 200 700 60 H I L CNN "Type"
+F7 "https://www.digikey.com/product-detail/en/ecs-inc/ECS-327-12-5-34B-TR/XC1617CT-ND/1693786" 200 900 60 H I L CNN "Vendor Link"
+F8 "ECS Inc." 200 1100 60 H I L CNN "MFR"
+DRAW
+S -25 75 25 -75 1 1 0 F
+P 2 1 1 0 -50 75 -50 -75 N
+P 2 1 1 0 50 75 50 -75 N
+X ~ 1 -150 0 100 R 50 50 1 1 B
+X ~ 2 150 0 100 L 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# special_Solar-Cells_KXOB25-05X3F
+#
+DEF special_Solar-Cells_KXOB25-05X3F SC 0 0 N N 1 F N
+F0 "SC" 100 100 50 H V L CNN
+F1 "special_Solar-Cells_KXOB25-05X3F" 100 0 50 H V L CNN
+F2 "luke-footprints:Solar-Cells_KXOB25" 100 -400 50 H I L CNN
+F3 "" 0 60 50 V I L CNN
+F4 "KXOB25-05X3FCT-ND" 100 -100 50 H I L CNN "Vendor #"
+F5 "https://www.digikey.com/product-detail/en/ixys/KXOB25-05X3F-TR/KXOB25-05X3FCT-ND/9990481" 100 -200 50 H I L CNN "Vendor Link"
+F6 "Digi-Key" 100 -300 50 H I L CNN "Vendor"
+DRAW
+S -80 -55 80 -65 0 1 0 F
+S -80 70 80 60 0 1 0 F
+S -52 -78 50 -98 0 1 0 F
+S -52 47 50 27 0 1 0 F
+P 2 0 1 0 -100 10 -160 70 N
+P 2 0 1 0 -100 90 -160 150 N
+P 2 0 1 0 0 -60 0 -50 N
+P 2 0 1 0 0 -40 0 -30 N
+P 2 0 1 0 0 -20 0 -10 N
+P 2 0 1 0 0 0 0 10 N
+P 2 0 1 0 0 20 0 30 N
+P 2 0 1 0 0 70 0 100 N
+P 2 0 1 10 10 105 50 105 N
+P 2 0 1 10 30 125 30 85 N
+P 3 0 1 0 -100 40 -100 10 -130 10 N
+P 3 0 1 0 -100 120 -100 90 -130 90 N
+X + 1 0 200 100 D 50 50 1 1 P
+X - 2 0 -200 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# special_Switch_1767
+#
+DEF special_Switch_1767 S 0 40 Y Y 1 F N
+F0 "S" -150 150 50 H V C CNN
+F1 "special_Switch_1767" 0 -100 50 H V C CNN
+F2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" 200 200 50 H I L CNN
+F3 "" 200 300 60 H I L CNN
+F4 "1528-2159-ND" 200 400 60 H I L CNN "Vendor #"
+F5 "https://www.digikey.com/product-detail/en/adafruit-industries-llc/1767/1528-2159-ND/7244945" 200 300 50 H I L CNN "Vendor Link"
+F6 "Digi-Key" 350 500 50 H I C CNN "Vendor"
+DRAW
+C -60 0 10 0 1 0 N
+C 60 0 10 0 1 0 N
+P 2 0 1 0 -100 0 -70 0 N
+P 2 0 1 0 -70 50 70 50 N
+P 2 0 1 0 -40 110 40 110 N
+P 2 0 1 0 0 50 0 110 N
+P 2 0 1 0 100 0 70 0 N
+X ~ 1 -200 0 100 R 50 50 1 1 P
+X ~ 2 200 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

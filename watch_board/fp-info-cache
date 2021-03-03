@@ -1,0 +1,155 @@
+35514413771590
+luke-footprints
+Battery_Panasonic_ML2020_F1AN
+
+
+0
+2
+2
+luke-footprints
+C_0402_1005Metric
+Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+luke-footprints
+C_0603_1608Metric
+Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+luke-footprints
+C_0805_2012Metric
+Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+luke-footprints
+DFN-8-1EP_3x3mm_P0.65mm_EP1.7x2.05mm
+DFN, 8 Pin (http://www.ixysic.com/home/pdfs.nsf/www/IX4426-27-28.pdf/$file/IX4426-27-28.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+DFN NoLead
+0
+13
+9
+luke-footprints
+LED_2-SMD_No_Lead_1.7x0.8mm
+
+
+0
+2
+2
+luke-footprints
+L_1812_4532Metric
+Inductor SMD 1812 (4532 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.nikhef.nl/pub/departments/mt/projects/detectorR_D/dtddice/ERJ2G.pdf), generated with kicad-footprint-generator
+inductor
+0
+2
+2
+luke-footprints
+L_Wuerth_WE-TPC-3816
+L_Wuerth_WE-TPC-3816 StepUp generated footprint, http://katalog.we-online.de/pbs/datasheet/7440310047.pdf
+wurth wuerth smd inductor
+0
+2
+2
+luke-footprints
+PinSocket_1x02_P2.54mm_Vertical
+Through hole straight socket strip, 1x02, 2.54mm pitch, single row (from Kicad 4.0.7), script generated
+Through hole socket strip THT 1x02 2.54mm single row
+0
+2
+2
+luke-footprints
+QFN-32-1EP_5x5mm_P0.5mm_EP3.3x3.3mm
+QFN, 32 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/00002164B.pdf#page=68), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
+0
+42
+33
+luke-footprints
+QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm
+QFN, 32 Pin (http://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-qfn/QFN_32_05-08-1693.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
+0
+42
+33
+luke-footprints
+R_0402_1005Metric
+Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+resistor
+0
+2
+2
+luke-footprints
+R_0603_1608Metric
+Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+resistor
+0
+2
+2
+luke-footprints
+R_0603_1608Metric_Pad0.98x0.95mm_HandSolder
+Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+resistor handsolder
+0
+2
+2
+luke-footprints
+R_0805_2012Metric
+Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+resistor
+0
+2
+2
+luke-footprints
+R_0805_2012Metric_Pad1.20x1.40mm_HandSolder
+Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+resistor handsolder
+0
+2
+2
+luke-footprints
+R_LDR_5.1x4.3mm_P3.4mm_Vertical
+Resistor, LDR 5.1x3.4mm, see http://yourduino.com/docs/Photoresistor-5516-datasheet.pdf
+Resistor LDR5.1x3.4mm
+0
+2
+2
+luke-footprints
+SMD-2_3.2x1.5mm
+http://www.ecsxtal.com/store/pdf/ecx-31b.pdf
+
+0
+2
+2
+luke-footprints
+Solar-Cells_KXOB25
+
+
+0
+2
+2
+luke-footprints
+TSOT-23-6
+6-pin TSOT23 package, http://cds.linear.com/docs/en/packaging/SOT_6_05-08-1636.pdf
+TSOT-23-6 MK06A TSOT-6
+0
+6
+6
+luke-footprints
+TestPoint_2Pads_Pitch5.08mm_Drill1.3mm
+Test point with 2 pads, pitch 5.08mm, hole diameter 1.3mm, wire diameter 1.0mm
+CONN DEV
+0
+2
+2
+luke-footprints
+VQFN-16-1EP_3x3mm_P0.5mm_EP1.8x1.8mm_ThermalVias
+VQFN, 16 Pin (https://www.st.com/resource/en/datasheet/stspin220.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+VQFN NoLead
+0
+26
+17
